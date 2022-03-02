@@ -1,0 +1,226 @@
+<?xml version="1.0"?>
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+]>
+
+<owlx:Ontology owlx:name="https://github.com/arup-group/digital-assurance-process.git"
+  xmlns:owlx="http://www.w3.org/2003/05/owl-xml">
+
+  <owlx:Class owlx:name="features" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">features</owlx:Label>
+      <owlx:Documentation xml:lang="en">A digital feature</owlx:Documentation>
+    </owlx:Annotation>
+
+    <owlx:ObjectRestriction owlx:property="#hasValue">
+        <owlx:Individual owlx:class="#life"/>
+        <owlx:Individual owlx:class="#alarm"/>
+        <owlx:Individual owlx:class="#private"/>
+        <owlx:Individual owlx:class="#sensitive"/>
+        <owlx:Individual owlx:class="#identification"/>
+        <owlx:Individual owlx:class="#remote"/>
+        <owlx:Individual owlx:class="#awareness"/>
+    </owlx:ObjectRestriction>
+
+  </owlx:Class>
+
+  <owlx:Class owlx:name="life" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Life</owlx:Label>
+      <owlx:Documentation xml:lang="en">Minimum decency</owlx:Documentation>
+    </owlx:Annotation>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="alarm" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Alarm</owlx:Label>
+      <owlx:Documentation xml:lang="en">Edge intelligence</owlx:Documentation>
+    </owlx:Annotation>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="private" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Private</owlx:Label>
+      <owlx:Documentation xml:lang="en">Sensitive personal information</owlx:Documentation>
+    </owlx:Annotation>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="sensitive" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">sensitive</owlx:Label>
+      <owlx:Documentation xml:lang="en">Sensitive commercial information</owlx:Documentation>
+    </owlx:Annotation>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="identification" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">identity</owlx:Label>
+      <owlx:Documentation xml:lang="en">Personally identifiable information</owlx:Documentation>
+    </owlx:Annotation>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="remote" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">remote</owlx:Label>
+      <owlx:Documentation xml:lang="en">Federated authentication</owlx:Documentation>
+    </owlx:Annotation>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="awareness" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">awareness</owlx:Label>
+      <owlx:Documentation xml:lang="en">Information about the situational context</owlx:Documentation>
+    </owlx:Annotation>
+
+  </owlx:Class>
+
+  <owlx:Class owlx:name="stage" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">stage</owlx:Label>
+      <owlx:Documentation xml:lang="en">A test stage</owlx:Documentation>
+    </owlx:Annotation>
+
+    <owlx:ObjectRestriction owlx:property="#hasValue">
+        <owlx:Individual owlx:class="#use"/>
+        <owlx:Individual owlx:class="#architecture"/>
+        <owlx:Individual owlx:class="#framework"/>
+        <owlx:Individual owlx:class="#device"/>
+        <owlx:Individual owlx:class="#system"/>
+        <owlx:Individual owlx:class="#integration"/>
+        <owlx:Individual owlx:class="#acceptance"/>
+        <owlx:Individual owlx:class="#penetration"/>
+        <owlx:Individual owlx:class="#market"/>
+    </owlx:ObjectRestriction>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="use" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Use test</owlx:Label>
+      <owlx:Documentation xml:lang="en">Evaluation of user journey interventions</owlx:Documentation>
+    </owlx:Annotation>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="architecture" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Solutions architecture</owlx:Label>
+      <owlx:Documentation xml:lang="en">Solutions architecture design process</owlx:Documentation>
+    </owlx:Annotation>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="framework" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">framework</owlx:Label>
+      <owlx:Documentation xml:lang="en">Systems definitions and dependencies</owlx:Documentation>
+    </owlx:Annotation>
+
+  </owlx:Class>
+
+  <owlx:Class owlx:name="device" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">device</owlx:Label>
+      <owlx:Documentation xml:lang="en">A tool that may automate a function</owlx:Documentation>
+    </owlx:Annotation>
+
+  </owlx:Class>
+
+  <owlx:Class owlx:name="systems" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">systems</owlx:Label>
+      <owlx:Documentation xml:lang="en">A collection of devices working together to automate a domain</owlx:Documentation>
+    </owlx:Annotation>
+
+  </owlx:Class>
+
+  <owlx:Class owlx:name="integration" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">integration</owlx:Label>
+      <owlx:Documentation xml:lang="en">Multiple domains working in partnership</owlx:Documentation>
+    </owlx:Annotation>
+
+  </owlx:Class>
+
+  <owlx:Class owlx:name="acceptance" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">acceptance</owlx:Label>
+      <owlx:Documentation xml:lang="en">Witnessed satisfaction with a product</owlx:Documentation>
+    </owlx:Annotation>
+
+  </owlx:Class>
+
+  <owlx:Class owlx:name="awareness" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">awareness</owlx:Label>
+      <owlx:Documentation xml:lang="en">New market-led insight</owlx:Documentation>
+    </owlx:Annotation>
+
+  </owlx:Class>
+
+  <owlx:Class owlx:name="terms" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">features</owlx:Label>
+      <owlx:Documentation xml:lang="en">A digital feature</owlx:Documentation>
+    </owlx:Annotation>
+
+    <owlx:ObjectRestriction owlx:property="#hasValue">
+        <owlx:Individual owlx:class="#guidance"/>
+        <owlx:Individual owlx:class="#standards"/>
+        <owlx:Individual owlx:class="#review"/>
+    </owlx:ObjectRestriction>
+
+  </owlx:Class>
+
+  <owlx:Class owlx:name="guidance" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">guidance</owlx:Label>
+      <owlx:Documentation xml:lang="en">Optional guidance for learning practitioners</owlx:Documentation>
+    </owlx:Annotation>
+
+  </owlx:Class>
+
+  <owlx:Class owlx:name="standards" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">standards</owlx:Label>
+      <owlx:Documentation xml:lang="en">Mandatory minimum standards for compliance</owlx:Documentation>
+    </owlx:Annotation>
+
+  </owlx:Class>
+
+  <owlx:Class owlx:name="review" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">review</owlx:Label>
+      <owlx:Documentation xml:lang="en">Review by competent officer or professional</owlx:Documentation>
+    </owlx:Annotation>
+
+  </owlx:Class>
+
+</owlx:Ontology>
