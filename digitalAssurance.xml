@@ -282,5 +282,24 @@
     </owlx:Annotation>
 
   </owlx:Class>
+    
+    <owlx:Class owlx:name="common-social-cost-of-carbon" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Common Social Cost of Carbon</owlx:Label>
+      <owlx:Documentation xml:lang="en">A standard for calculation of the Common Social Cost of Carbon</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#life" /> 
+      <owlx:Individual owlx:name="#market" />
+      <owlx:Individual owlx:name="#standards" />
+    </owlx:IntersectionOf>
+    
+    <hasValue>
+      Content: ( DOI: 10.13140/RG.2.2.28456.49927 )
+    </hasValue>
+
+  </owlx:Class>
 
 </owlx:Ontology>
