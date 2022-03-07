@@ -172,11 +172,29 @@
 
   </owlx:Class>
 
-  <owlx:Class owlx:name="awareness" owlx:complete="false">
+    <owlx:Class owlx:name="awareness" owlx:complete="false">
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">awareness</owlx:Label>
       <owlx:Documentation xml:lang="en">New market-led insight</owlx:Documentation>
+    </owlx:Annotation>
+
+  </owlx:Class>
+
+  <owlx:Class owlx:name="penetration" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">penetration</owlx:Label>
+      <owlx:Documentation xml:lang="en">Initial assurance processes from without domain</owlx:Documentation>
+    </owlx:Annotation>
+
+  </owlx:Class>
+
+  <owlx:Class owlx:name="market" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">market</owlx:Label>
+      <owlx:Documentation xml:lang="en">End-use customer demand-led feedback</owlx:Documentation>
     </owlx:Annotation>
 
   </owlx:Class>
