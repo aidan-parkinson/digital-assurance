@@ -283,7 +283,7 @@
 
   </owlx:Class>
     
-    <owlx:Class owlx:name="common-social-cost-of-carbon" owlx:complete="false">
+  <owlx:Class owlx:name="common-social-cost-of-carbon" owlx:complete="false">
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Common Social Cost of Carbon</owlx:Label>
@@ -298,6 +298,25 @@
     
     <hasValue>
       Content: ( DOI: 10.13140/RG.2.2.28456.49927 )
+    </hasValue>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="executive-function" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">An Executive Function</owlx:Label>
+      <owlx:Documentation xml:lang="en">A common-sense extension of John Rawls Theory of Justice</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#life" /> 
+      <owlx:Individual owlx:name="#market" />
+      <owlx:Individual owlx:name="#review" />
+    </owlx:IntersectionOf>
+    
+    <hasValue>
+      Content: ( DOI: 10.13140/RG.2.2.24262.19523/1 )
     </hasValue>
 
   </owlx:Class>
