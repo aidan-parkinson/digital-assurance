@@ -3,7 +3,7 @@
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
 ]>
 
-<owlx:Ontology owlx:name="https://github.com/arup-group/digital-assurance-process.git"
+<owlx:Ontology owlx:name="https://github.com/aidan-parkinson/digital-assurance.git"
   xmlns:owlx="http://www.w3.org/2003/05/owl-xml">
 
   <owlx:Class owlx:name="features" owlx:complete="false">
