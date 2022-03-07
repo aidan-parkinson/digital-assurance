@@ -55,7 +55,7 @@
   <owlx:Class owlx:name="sensitive" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">sensitive</owlx:Label>
+      <owlx:Label xml:lang="en">Sensitive</owlx:Label>
       <owlx:Documentation xml:lang="en">Sensitive commercial information</owlx:Documentation>
     </owlx:Annotation>
 
@@ -64,7 +64,7 @@
   <owlx:Class owlx:name="identification" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">identity</owlx:Label>
+      <owlx:Label xml:lang="en">Identity</owlx:Label>
       <owlx:Documentation xml:lang="en">Personally identifiable information</owlx:Documentation>
     </owlx:Annotation>
 
@@ -73,7 +73,7 @@
   <owlx:Class owlx:name="remote" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">remote</owlx:Label>
+      <owlx:Label xml:lang="en">Remote</owlx:Label>
       <owlx:Documentation xml:lang="en">Federated authentication</owlx:Documentation>
     </owlx:Annotation>
 
@@ -82,7 +82,7 @@
   <owlx:Class owlx:name="awareness" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">awareness</owlx:Label>
+      <owlx:Label xml:lang="en">Awareness</owlx:Label>
       <owlx:Documentation xml:lang="en">Information about the situational context</owlx:Documentation>
     </owlx:Annotation>
 
@@ -91,7 +91,7 @@
   <owlx:Class owlx:name="stage" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">stage</owlx:Label>
+      <owlx:Label xml:lang="en">Stage</owlx:Label>
       <owlx:Documentation xml:lang="en">A test stage</owlx:Documentation>
     </owlx:Annotation>
 
@@ -130,7 +130,7 @@
   <owlx:Class owlx:name="framework" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">framework</owlx:Label>
+      <owlx:Label xml:lang="en">Framework</owlx:Label>
       <owlx:Documentation xml:lang="en">Systems definitions and dependencies</owlx:Documentation>
     </owlx:Annotation>
 
@@ -139,7 +139,7 @@
   <owlx:Class owlx:name="device" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">device</owlx:Label>
+      <owlx:Label xml:lang="en">Device</owlx:Label>
       <owlx:Documentation xml:lang="en">A tool that may automate a function</owlx:Documentation>
     </owlx:Annotation>
 
@@ -148,7 +148,7 @@
   <owlx:Class owlx:name="systems" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">systems</owlx:Label>
+      <owlx:Label xml:lang="en">Systems</owlx:Label>
       <owlx:Documentation xml:lang="en">A collection of devices working together to automate a domain</owlx:Documentation>
     </owlx:Annotation>
 
@@ -157,7 +157,7 @@
   <owlx:Class owlx:name="integration" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">integration</owlx:Label>
+      <owlx:Label xml:lang="en">Integration</owlx:Label>
       <owlx:Documentation xml:lang="en">Multiple domains working in partnership</owlx:Documentation>
     </owlx:Annotation>
 
@@ -166,7 +166,7 @@
   <owlx:Class owlx:name="acceptance" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">acceptance</owlx:Label>
+      <owlx:Label xml:lang="en">Acceptance</owlx:Label>
       <owlx:Documentation xml:lang="en">Witnessed satisfaction with a product</owlx:Documentation>
     </owlx:Annotation>
 
@@ -175,7 +175,7 @@
     <owlx:Class owlx:name="awareness" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">awareness</owlx:Label>
+      <owlx:Label xml:lang="en">Awareness</owlx:Label>
       <owlx:Documentation xml:lang="en">New market-led insight</owlx:Documentation>
     </owlx:Annotation>
 
@@ -184,7 +184,7 @@
   <owlx:Class owlx:name="penetration" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">penetration</owlx:Label>
+      <owlx:Label xml:lang="en">Penetration</owlx:Label>
       <owlx:Documentation xml:lang="en">Initial assurance processes from without domain</owlx:Documentation>
     </owlx:Annotation>
 
@@ -193,7 +193,7 @@
   <owlx:Class owlx:name="market" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">market</owlx:Label>
+      <owlx:Label xml:lang="en">Market</owlx:Label>
       <owlx:Documentation xml:lang="en">End-use customer demand-led feedback</owlx:Documentation>
     </owlx:Annotation>
 
@@ -202,7 +202,7 @@
   <owlx:Class owlx:name="terms" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">features</owlx:Label>
+      <owlx:Label xml:lang="en">Features</owlx:Label>
       <owlx:Documentation xml:lang="en">A digital feature</owlx:Documentation>
     </owlx:Annotation>
 
@@ -217,7 +217,7 @@
   <owlx:Class owlx:name="guidance" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">guidance</owlx:Label>
+      <owlx:Label xml:lang="en">Guidance</owlx:Label>
       <owlx:Documentation xml:lang="en">Optional guidance for learning practitioners</owlx:Documentation>
     </owlx:Annotation>
 
@@ -226,7 +226,7 @@
   <owlx:Class owlx:name="standards" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">standards</owlx:Label>
+      <owlx:Label xml:lang="en">Standards</owlx:Label>
       <owlx:Documentation xml:lang="en">Mandatory minimum standards for compliance</owlx:Documentation>
     </owlx:Annotation>
 
@@ -235,7 +235,7 @@
   <owlx:Class owlx:name="review" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">review</owlx:Label>
+      <owlx:Label xml:lang="en">Review</owlx:Label>
       <owlx:Documentation xml:lang="en">Review by competent officer or professional</owlx:Documentation>
     </owlx:Annotation>
 
