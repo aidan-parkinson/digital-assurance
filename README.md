@@ -1,4 +1,5 @@
-# digital-assurance-process
+# digital-assurance
 An assurance process for signalling project development risks at various stages
 
-`digitalAssurance.xml` is a domain ontology
+## ontology
+Please refer to `digitalAssurance.xml` for a definition of terms.
