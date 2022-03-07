@@ -31,6 +31,12 @@
       <owlx:Label xml:lang="en">Life</owlx:Label>
       <owlx:Documentation xml:lang="en">Minimum decency</owlx:Documentation>
     </owlx:Annotation>
+      
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#hasValue" />
+      <owl:someValuesFrom rdf:resource="#stage" />
+      <owl:someValuesFrom rdf:resource="#terms" />
+    </owl:Restriction>
 
   </owlx:Class>
   
@@ -40,6 +46,12 @@
       <owlx:Label xml:lang="en">Alarm</owlx:Label>
       <owlx:Documentation xml:lang="en">Edge intelligence</owlx:Documentation>
     </owlx:Annotation>
+    
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#hasValue" />
+      <owl:someValuesFrom rdf:resource="#stage" />
+      <owl:someValuesFrom rdf:resource="#terms" />
+    </owl:Restriction>
 
   </owlx:Class>
   
@@ -49,6 +61,12 @@
       <owlx:Label xml:lang="en">Private</owlx:Label>
       <owlx:Documentation xml:lang="en">Sensitive personal information</owlx:Documentation>
     </owlx:Annotation>
+    
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#hasValue" />
+      <owl:someValuesFrom rdf:resource="#stage" />
+      <owl:someValuesFrom rdf:resource="#terms" />
+    </owl:Restriction>
 
   </owlx:Class>
   
@@ -58,6 +76,12 @@
       <owlx:Label xml:lang="en">Sensitive</owlx:Label>
       <owlx:Documentation xml:lang="en">Sensitive commercial information</owlx:Documentation>
     </owlx:Annotation>
+    
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#hasValue" />
+      <owl:someValuesFrom rdf:resource="#stage" />
+      <owl:someValuesFrom rdf:resource="#terms" />
+    </owl:Restriction>
 
   </owlx:Class>
   
@@ -67,6 +91,12 @@
       <owlx:Label xml:lang="en">Identity</owlx:Label>
       <owlx:Documentation xml:lang="en">Personally identifiable information</owlx:Documentation>
     </owlx:Annotation>
+    
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#hasValue" />
+      <owl:someValuesFrom rdf:resource="#stage" />
+      <owl:someValuesFrom rdf:resource="#terms" />
+    </owl:Restriction>
 
   </owlx:Class>
   
@@ -76,6 +106,12 @@
       <owlx:Label xml:lang="en">Remote</owlx:Label>
       <owlx:Documentation xml:lang="en">Federated authentication</owlx:Documentation>
     </owlx:Annotation>
+    
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#hasValue" />
+      <owl:someValuesFrom rdf:resource="#stage" />
+      <owl:someValuesFrom rdf:resource="#terms" />
+    </owl:Restriction>
 
   </owlx:Class>
   
@@ -85,6 +121,12 @@
       <owlx:Label xml:lang="en">Awareness</owlx:Label>
       <owlx:Documentation xml:lang="en">Information about the situational context</owlx:Documentation>
     </owlx:Annotation>
+    
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#hasValue" />
+      <owl:someValuesFrom rdf:resource="#stage" />
+      <owl:someValuesFrom rdf:resource="#terms" />
+    </owl:Restriction>
 
   </owlx:Class>
 
