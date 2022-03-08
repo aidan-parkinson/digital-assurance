@@ -559,7 +559,7 @@
       
     <hasValue>
       <xsd:documentation
-        mlns:owlx="https://github.com/">
+        mlns:owlx="https://git-scm.com/">
       </xsd:documentation>
     </hasValue>
 
