@@ -422,7 +422,7 @@
   <owlx:Class owlx:name="rawls-framework" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">rawls-framework</owlx:Label>
+      <owlx:Label xml:lang="en">Rawlsian framework</owlx:Label>
       <owlx:Documentation xml:lang="en">John Rawls, A Theory of Justice</owlx:Documentation>
     </owlx:Annotation>
     
@@ -441,7 +441,7 @@
   <owlx:Class owlx:name="hobbes-framework" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">hobbes-framework</owlx:Label>
+      <owlx:Label xml:lang="en">Hobbesian framework</owlx:Label>
       <owlx:Documentation xml:lang="en">Thomas Hobbes, Leviathan</owlx:Documentation>
     </owlx:Annotation>
     
@@ -469,6 +469,62 @@
       <owlx:Individual owlx:name="#market" />
       <owlx:Individual owlx:name="#review" />
     </owlx:IntersectionOf>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="english-law" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">English law</owlx:Label>
+      <owlx:Documentation xml:lang="en">English law</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#identification" /> 
+      <owlx:Individual owlx:name="#framework" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#sensitive" /> 
+      <owlx:Individual owlx:name="#framework" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#private" /> 
+      <owlx:Individual owlx:name="#framework" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      Content: ( url: 	https://www.legislation.gov.uk/ )
+    </hasValue>
+
+  </owlx:Class>
+    
+  <owlx:Class owlx:name="english-data-protection" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Data protection act</owlx:Label>
+      <owlx:Documentation xml:lang="en">Data protection act 2018</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#identification" /> 
+      <owlx:Individual owlx:name="#framework" />
+      <owlx:Individual owlx:name="#standards" />
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#sensitive" /> 
+      <owlx:Individual owlx:name="#framework" />
+      <owlx:Individual owlx:name="#standards" />
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      Content: ( url: 	https://www.legislation.gov.uk/ukpga/2018/12/contents )
+    </hasValue>
 
   </owlx:Class>
 
