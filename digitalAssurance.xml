@@ -287,7 +287,7 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Common Social Cost of Carbon</owlx:Label>
-      <owlx:Documentation xml:lang="en">A test for the Common Social Cost of Carbon under a Rawlsian framework</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">A test for the Common Social Cost of Carbon under a Hobbesian framework</owlx:Documentation>
     </owlx:Annotation>
     
     <owlx:IntersectionOf>
@@ -427,7 +427,7 @@
     </owlx:Annotation>
     
     <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#life" /> 
+      <owlx:Individual owlx:name="#alarm" /> 
       <owlx:Individual owlx:name="#framework" />
       <owlx:Individual owlx:name="#guidance" />
     </owlx:IntersectionOf>
@@ -435,6 +435,40 @@
     <hasValue>
       Content: ( isbn: 	978-0-674-00078-0 )
     </hasValue>
+
+  </owlx:Class>
+    
+  <owlx:Class owlx:name="hobbes-framework" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">hobbes-framework</owlx:Label>
+      <owlx:Documentation xml:lang="en">Thomas Hobbes, Leviathan</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#life" /> 
+      <owlx:Individual owlx:name="#framework" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      Content: ( isbn: 	978-1439297254 )
+    </hasValue>
+
+  </owlx:Class>
+    
+  <owlx:Class owlx:name="sovereign" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Sovereign</owlx:Label>
+      <owlx:Documentation xml:lang="en">Sovereign of State</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#life" /> 
+      <owlx:Individual owlx:name="#market" />
+      <owlx:Individual owlx:name="#review" />
+    </owlx:IntersectionOf>
 
   </owlx:Class>
 
