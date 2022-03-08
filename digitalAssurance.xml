@@ -339,5 +339,20 @@
     </hasValue>
 
   </owlx:Class>
+  
+  <owlx:Class owlx:name="demonstration" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Demonstration</owlx:Label>
+      <owlx:Documentation xml:lang="en">A demonstration of interests</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm" /> 
+      <owlx:Individual owlx:name="#market" />
+      <owlx:Individual owlx:name="#standards" />
+    </owlx:IntersectionOf>
+
+  </owlx:Class>
 
 </owlx:Ontology>
