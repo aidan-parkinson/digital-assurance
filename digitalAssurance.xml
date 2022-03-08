@@ -354,5 +354,20 @@
     </owlx:IntersectionOf>
 
   </owlx:Class>
+  
+  <owlx:Class owlx:name="difference-principle" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Difference principle</owlx:Label>
+      <owlx:Documentation xml:lang="en">A different interest</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm" /> 
+      <owlx:Individual owlx:name="#market" />
+      <owlx:Individual owlx:name="#review" />
+    </owlx:IntersectionOf>
+
+  </owlx:Class>
 
 </owlx:Ontology>
