@@ -543,5 +543,26 @@
     </hasValue>
 
   </owlx:Class>
+    
+  <owlx:Class owlx:name="version-control-system" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Version control system</owlx:Label>
+      <owlx:Documentation xml:lang="en">Version control system for intellectual property</owlx:Documentation>
+    </owlx:Annotation>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#private" /> 
+      <owlx:Individual owlx:name="#framework" />
+      <owlx:Individual owlx:name="#standards" />
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://github.com/">
+      </xsd:documentation>
+    </hasValue>
+
+  </owlx:Class>
 
 </owlx:Ontology>
