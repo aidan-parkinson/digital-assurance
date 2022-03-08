@@ -287,7 +287,7 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Common Social Cost of Carbon</owlx:Label>
-      <owlx:Documentation xml:lang="en">A test for a Common Social Cost of Carbon</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">A test for the Common Social Cost of Carbon under a Rawlsian framework</owlx:Documentation>
     </owlx:Annotation>
     
     <owlx:IntersectionOf>
