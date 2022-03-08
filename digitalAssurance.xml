@@ -297,7 +297,9 @@
     </owlx:IntersectionOf>
     
     <hasValue>
-      Content: ( DOI: 10.13140/RG.2.2.28456.49927 )
+      <xsd: documentation>
+        mlns:owlx="doi:10.13140/RG.2.2.28456.49927"
+      </xsd: documentation>
     </hasValue>
 
   </owlx:Class>
@@ -316,7 +318,9 @@
     </owlx:IntersectionOf>
     
     <hasValue>
-      Content: ( url: http://www.w3.org/2001/XMLSchema )
+      <xsd: documentation>
+        mlns:owlx="http://www.w3.org/2001/XMLSchema"
+      </xsd: documentation>
     </hasValue>
 
   </owlx:Class>
@@ -335,7 +339,9 @@
     </owlx:IntersectionOf>
     
     <hasValue>
-      Content: ( DOI: 10.13140/RG.2.2.24262.19523/1 )
+      <xsd: documentation>
+        mlns:owlx="doi:10.13140/RG.2.2.24262.19523/1"
+      </xsd: documentation>
     </hasValue>
 
   </owlx:Class>
@@ -384,7 +390,9 @@
     </owlx:IntersectionOf>
       
     <hasValue>
-      Content: ( url: https://github.com/faucetsdn/daq )
+      <xsd: documentation>
+        mlns:owlx="https://github.com/faucetsdn/daq"
+      </xsd: documentation>
     </hasValue>
 
   </owlx:Class>
@@ -433,7 +441,9 @@
     </owlx:IntersectionOf>
       
     <hasValue>
-      Content: ( isbn: 	978-0-674-00078-0 )
+      <xsd: documentation>
+        mlns:owlx="isbn:978-0-674-00078-0"
+      </xsd: documentation>
     </hasValue>
 
   </owlx:Class>
@@ -452,7 +462,9 @@
     </owlx:IntersectionOf>
       
     <hasValue>
-      Content: ( isbn: 	978-1439297254 )
+      <xsd: documentation>
+        mlns:owlx="isbn:978-1439297254"
+      </xsd: documentation>
     </hasValue>
 
   </owlx:Class>
@@ -498,7 +510,9 @@
     </owlx:IntersectionOf>
       
     <hasValue>
-      Content: ( url: 	https://www.legislation.gov.uk/ )
+      <xsd: documentation>
+        mlns:owlx="https://www.legislation.gov.uk/"
+      </xsd: documentation>
     </hasValue>
 
   </owlx:Class>
@@ -523,7 +537,9 @@
     </owlx:IntersectionOf>
       
     <hasValue>
-      Content: ( url: 	https://www.legislation.gov.uk/ukpga/2018/12/contents )
+      <xsd: documentation>
+        mlns:owlx="https://www.legislation.gov.uk/ukpga/2018/12/contents"
+      </xsd: documentation>
     </hasValue>
 
   </owlx:Class>
