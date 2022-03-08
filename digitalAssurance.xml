@@ -461,7 +461,7 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Sovereign</owlx:Label>
-      <owlx:Documentation xml:lang="en">Sovereign of State</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">Sovereign of State under Hobbes framework</owlx:Documentation>
     </owlx:Annotation>
     
     <owlx:IntersectionOf>
