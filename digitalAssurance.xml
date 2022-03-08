@@ -369,5 +369,50 @@
     </owlx:IntersectionOf>
 
   </owlx:Class>
+  
+  <owlx:Class owlx:name="daq-test" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Device Automatic Qualification framework test</owlx:Label>
+      <owlx:Documentation xml:lang="en">A test for the Device Automatic Qualification framework</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#awareness" /> 
+      <owlx:Individual owlx:name="#device" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="android-test" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Android framework test</owlx:Label>
+      <owlx:Documentation xml:lang="en">Android Studio</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#remote" /> 
+      <owlx:Individual owlx:name="#device" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+
+  </owlx:Class>
+    
+  <owlx:Class owlx:name="xcode-test" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Xcode framework test</owlx:Label>
+      <owlx:Documentation xml:lang="en">XCode</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#remote" /> 
+      <owlx:Individual owlx:name="#device" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+
+  </owlx:Class>
 
 </owlx:Ontology>
