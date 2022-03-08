@@ -302,16 +302,35 @@
 
   </owlx:Class>
   
-  <owlx:Class owlx:name="executive-function" owlx:complete="false">
+  <owlx:Class owlx:name="ontology" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">An Executive Function</owlx:Label>
-      <owlx:Documentation xml:lang="en">A common-sense extension of John Rawls Theory of Justice</owlx:Documentation>
+      <owlx:Label xml:lang="en">An ontology</owlx:Label>
+      <owlx:Documentation xml:lang="en">A knowledge graph</owlx:Documentation>
     </owlx:Annotation>
     
     <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#life" /> 
-      <owlx:Individual owlx:name="#market" />
+      <owlx:Individual owlx:name="#alarm" /> 
+      <owlx:Individual owlx:name="#penetration" />
+      <owlx:Individual owlx:name="#standards" />
+    </owlx:IntersectionOf>
+    
+    <hasValue>
+      Content: ( url: http://www.w3.org/2001/XMLSchema )
+    </hasValue>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="peer-review" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Peer review</owlx:Label>
+      <owlx:Documentation xml:lang="en">An expert review be a diverse selection of peers</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm" /> 
+      <owlx:Individual owlx:name="#penetration" />
       <owlx:Individual owlx:name="#review" />
     </owlx:IntersectionOf>
     
