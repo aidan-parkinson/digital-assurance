@@ -418,5 +418,24 @@
     </owlx:IntersectionOf>
 
   </owlx:Class>
+    
+  <owlx:Class owlx:name="rawls-framework" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">rawls-framework</owlx:Label>
+      <owlx:Documentation xml:lang="en">John Rawls, A Theory of Justice</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#life" /> 
+      <owlx:Individual owlx:name="#framework" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      Content: ( isbn: 	978-0-674-00078-0 )
+    </hasValue>
+
+  </owlx:Class>
 
 </owlx:Ontology>
