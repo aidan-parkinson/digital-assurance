@@ -382,6 +382,10 @@
       <owlx:Individual owlx:name="#device" />
       <owlx:Individual owlx:name="#guidance" />
     </owlx:IntersectionOf>
+      
+    <hasValue>
+      Content: ( url: https://github.com/faucetsdn/daq )
+    </hasValue>
 
   </owlx:Class>
   
