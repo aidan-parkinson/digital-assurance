@@ -344,7 +344,7 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Demonstration</owlx:Label>
-      <owlx:Documentation xml:lang="en">A demonstration of interests</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">A demonstration of interest</owlx:Documentation>
     </owlx:Annotation>
     
     <owlx:IntersectionOf>
