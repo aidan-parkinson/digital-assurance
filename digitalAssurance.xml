@@ -506,8 +506,8 @@
   <owlx:Class owlx:name="english-data-protection" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">Data protection act</owlx:Label>
-      <owlx:Documentation xml:lang="en">Data protection act 2018</owlx:Documentation>
+      <owlx:Label xml:lang="en">English data protection act</owlx:Label>
+      <owlx:Documentation xml:lang="en">Data Protection Act 2018</owlx:Documentation>
     </owlx:Annotation>
     
     <owlx:IntersectionOf>
