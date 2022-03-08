@@ -325,7 +325,7 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Peer review</owlx:Label>
-      <owlx:Documentation xml:lang="en">An expert review be a diverse selection of peers</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">An expert review be a diverse selection of peers under Rawls framework</owlx:Documentation>
     </owlx:Annotation>
     
     <owlx:IntersectionOf>
