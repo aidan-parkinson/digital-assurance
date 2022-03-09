@@ -564,5 +564,50 @@
     </hasValue>
 
   </owlx:Class>
+  
+  <owlx:Class owlx:name="ipv6" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">IPv6</owlx:Label>
+      <owlx:Documentation xml:lang="en">Internet protocol version 6</owlx:Documentation>
+    </owlx:Annotation>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#private" /> 
+      <owlx:Individual owlx:name="#integration" />
+      <owlx:Individual owlx:name="#standards" />
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#sensitive" /> 
+      <owlx:Individual owlx:name="#integration" />
+      <owlx:Individual owlx:name="#standards" />
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#identification" /> 
+      <owlx:Individual owlx:name="#integration" />
+      <owlx:Individual owlx:name="#standards" />
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#remote" /> 
+      <owlx:Individual owlx:name="#integration" />
+      <owlx:Individual owlx:name="#standards" />
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#awareness" /> 
+      <owlx:Individual owlx:name="#integration" />
+      <owlx:Individual owlx:name="#standards" />
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://datatracker.ietf.org/doc/html/rfc2460">
+      </xsd:documentation>
+    </hasValue>
+
+  </owlx:Class>
 
 </owlx:Ontology>
