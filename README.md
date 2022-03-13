@@ -1,5 +1,5 @@
 # digital-assurance
-An assurance process for signalling project development risks at various stages.
+A digital assurance framework of professional standard at each stage of project risk for integrated systems.
 
 ## ontology
 Please refer to `digitalAssurance.xml` for a definition of terms.
