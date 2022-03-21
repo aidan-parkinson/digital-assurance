@@ -19,7 +19,7 @@
         <owlx:Individual owlx:class="#private"/>
         <owlx:Individual owlx:class="#sensitive"/>
         <owlx:Individual owlx:class="#identification"/>
-        <owlx:Individual owlx:class="#remote"/>
+        <owlx:Individual owlx:class="#client"/>
         <owlx:Individual owlx:class="#awareness"/>
     </owlx:ObjectRestriction>
 
@@ -100,11 +100,11 @@
 
   </owlx:Class>
   
-  <owlx:Class owlx:name="remote" owlx:complete="false">
+  <owlx:Class owlx:name="client" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">Remote</owlx:Label>
-      <owlx:Documentation xml:lang="en">Federated authentication</owlx:Documentation>
+      <owlx:Label xml:lang="en">Client</owlx:Label>
+      <owlx:Documentation xml:lang="en">User interface on remote device</owlx:Documentation>
     </owlx:Annotation>
     
     <owl:Restriction>
@@ -134,7 +134,7 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Stage</owlx:Label>
-      <owlx:Documentation xml:lang="en">A test stage</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">A development stage</owlx:Documentation>
     </owlx:Annotation>
 
     <owlx:ObjectRestriction owlx:property="#hasValue">
@@ -154,7 +154,7 @@
   <owlx:Class owlx:name="use" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">Use test</owlx:Label>
+      <owlx:Label xml:lang="en">Identification of use for a digital feature</owlx:Label>
       <owlx:Documentation xml:lang="en">Evaluation of user journey interventions</owlx:Documentation>
     </owlx:Annotation>
 
@@ -164,7 +164,7 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Solutions architecture</owlx:Label>
-      <owlx:Documentation xml:lang="en">Solutions architecture design process</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">Identification of a solution to deliver a feature</owlx:Documentation>
     </owlx:Annotation>
 
   </owlx:Class>
@@ -210,15 +210,6 @@
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Acceptance</owlx:Label>
       <owlx:Documentation xml:lang="en">Witnessed satisfaction with a product</owlx:Documentation>
-    </owlx:Annotation>
-
-  </owlx:Class>
-
-    <owlx:Class owlx:name="awareness" owlx:complete="false">
-
-    <owlx:Annotation>
-      <owlx:Label xml:lang="en">Awareness</owlx:Label>
-      <owlx:Documentation xml:lang="en">New market-led insight</owlx:Documentation>
     </owlx:Annotation>
 
   </owlx:Class>
@@ -329,7 +320,7 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Peer review</owlx:Label>
-      <owlx:Documentation xml:lang="en">An expert review be a diverse selection of peers under Rawls framework</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">An expert review be a diverse sample of peers under Rawls framework</owlx:Documentation>
     </owlx:Annotation>
     
     <owlx:IntersectionOf>
@@ -376,16 +367,16 @@
 
   </owlx:Class>
   
-  <owlx:Class owlx:name="daq-test" owlx:complete="false">
+  <owlx:Class owlx:name="daq" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">Device Automatic Qualification framework test</owlx:Label>
-      <owlx:Documentation xml:lang="en">A test for the Device Automatic Qualification framework</owlx:Documentation>
+      <owlx:Label xml:lang="en">Device Automatic Qualification framework</owlx:Label>
+      <owlx:Documentation xml:lang="en">Device Automatic Qualification framework</owlx:Documentation>
     </owlx:Annotation>
     
     <owlx:IntersectionOf>
       <owlx:Individual owlx:name="#awareness" /> 
-      <owlx:Individual owlx:name="#device" />
+      <owlx:Individual owlx:name="#framework" />
       <owlx:Individual owlx:name="#guidance" />
     </owlx:IntersectionOf>
       
@@ -397,40 +388,40 @@
 
   </owlx:Class>
   
-  <owlx:Class owlx:name="android-test" owlx:complete="false">
+  <owlx:Class owlx:name="android" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">Android framework test</owlx:Label>
-      <owlx:Documentation xml:lang="en">Android Studio</owlx:Documentation>
+      <owlx:Label xml:lang="en">Android framework</owlx:Label>
+      <owlx:Documentation xml:lang="en">Android Studio for client mobile applications</owlx:Documentation>
     </owlx:Annotation>
     
     <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#remote" /> 
-      <owlx:Individual owlx:name="#device" />
+      <owlx:Individual owlx:name="#client" /> 
+      <owlx:Individual owlx:name="#framework" />
       <owlx:Individual owlx:name="#guidance" />
     </owlx:IntersectionOf>
 
   </owlx:Class>
     
-  <owlx:Class owlx:name="xcode-test" owlx:complete="false">
+  <owlx:Class owlx:name="xcode" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">iOS framework test</owlx:Label>
-      <owlx:Documentation xml:lang="en">XCode</owlx:Documentation>
+      <owlx:Label xml:lang="en">iOS framework</owlx:Label>
+      <owlx:Documentation xml:lang="en">XCode for client mobile applications</owlx:Documentation>
     </owlx:Annotation>
     
     <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#remote" /> 
-      <owlx:Individual owlx:name="#device" />
+      <owlx:Individual owlx:name="#client" /> 
+      <owlx:Individual owlx:name="#framework" />
       <owlx:Individual owlx:name="#guidance" />
     </owlx:IntersectionOf>
 
   </owlx:Class>
     
-  <owlx:Class owlx:name="rawls-framework" owlx:complete="false">
+  <owlx:Class owlx:name="rawls-justice" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">Rawlsian framework</owlx:Label>
+      <owlx:Label xml:lang="en">Rawlsian framework for justice</owlx:Label>
       <owlx:Documentation xml:lang="en">John Rawls, A Theory of Justice</owlx:Documentation>
     </owlx:Annotation>
     
@@ -448,10 +439,10 @@
 
   </owlx:Class>
     
-  <owlx:Class owlx:name="hobbes-framework" owlx:complete="false">
+  <owlx:Class owlx:name="hobbes-leviathan" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">Hobbesian framework</owlx:Label>
+      <owlx:Label xml:lang="en">Hobbesian framework for life-safety</owlx:Label>
       <owlx:Documentation xml:lang="en">Thomas Hobbes, Leviathan</owlx:Documentation>
     </owlx:Annotation>
     
@@ -473,7 +464,7 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Sovereign</owlx:Label>
-      <owlx:Documentation xml:lang="en">Sovereign of State under Hobbes framework</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">Sovereign of State</owlx:Documentation>
     </owlx:Annotation>
     
     <owlx:IntersectionOf>
@@ -591,7 +582,7 @@
     </owlx:IntersectionOf>
       
     <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#remote" /> 
+      <owlx:Individual owlx:name="#client" /> 
       <owlx:Individual owlx:name="#integration" />
       <owlx:Individual owlx:name="#standards" />
     </owlx:IntersectionOf>
@@ -607,6 +598,51 @@
         mlns:owlx="https://datatracker.ietf.org/doc/html/rfc2460">
       </xsd:documentation>
     </hasValue>
+
+  </owlx:Class>
+    
+  <owlx:Class owlx:name="node" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Node.js framework</owlx:Label>
+      <owlx:Documentation xml:lang="en">Node.js framework for cross-platform client applications</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#client" /> 
+      <owlx:Individual owlx:name="#framework" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+
+  </owlx:Class>
+    
+  <owlx:Class owlx:name="flutter" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Flutter framework</owlx:Label>
+      <owlx:Documentation xml:lang="en">Flutter framework for cross-platform client applications</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#client" /> 
+      <owlx:Individual owlx:name="#framework" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="flask" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Flask framework</owlx:Label>
+      <owlx:Documentation xml:lang="en">Flask framework for web applications</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#client" /> 
+      <owlx:Individual owlx:name="#framework" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
 
   </owlx:Class>
 
