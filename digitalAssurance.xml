@@ -278,7 +278,7 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Common Social Cost of Carbon</owlx:Label>
-      <owlx:Documentation xml:lang="en">A test for the Common Social Cost of Carbon under a Hobbesian framework</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">A quality of life standard under a Hobbesian framework</owlx:Documentation>
     </owlx:Annotation>
     
     <owlx:IntersectionOf>
@@ -320,7 +320,7 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Peer review</owlx:Label>
-      <owlx:Documentation xml:lang="en">An expert review be a diverse sample of peers under Rawls framework</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">An expert review by a diverse sample of peers under Rawls framework</owlx:Documentation>
     </owlx:Annotation>
     
     <owlx:IntersectionOf>
