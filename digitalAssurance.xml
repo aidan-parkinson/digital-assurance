@@ -371,7 +371,7 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Device Automatic Qualification</owlx:Label>
-      <owlx:Documentation xml:lang="en">Device Automatic Qualification framework</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">Device Automatic Qualification framework for field instruments</owlx:Documentation>
     </owlx:Annotation>
     
     <owlx:IntersectionOf>
