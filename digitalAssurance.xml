@@ -400,6 +400,12 @@
       <owlx:Individual owlx:name="#framework" />
       <owlx:Individual owlx:name="#guidance" />
     </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://developer.android.com/studio">
+      </xsd:documentation>
+    </hasValue>
 
   </owlx:Class>
     
@@ -415,6 +421,12 @@
       <owlx:Individual owlx:name="#framework" />
       <owlx:Individual owlx:name="#guidance" />
     </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://developer.apple.com/xcode/">
+      </xsd:documentation>
+    </hasValue>
 
   </owlx:Class>
     
@@ -613,6 +625,12 @@
       <owlx:Individual owlx:name="#framework" />
       <owlx:Individual owlx:name="#guidance" />
     </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://nodejs.org/en/">
+      </xsd:documentation>
+    </hasValue>
 
   </owlx:Class>
     
@@ -628,6 +646,12 @@
       <owlx:Individual owlx:name="#framework" />
       <owlx:Individual owlx:name="#guidance" />
     </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://flutter.dev/">
+      </xsd:documentation>
+    </hasValue>
 
   </owlx:Class>
   
@@ -643,6 +667,12 @@
       <owlx:Individual owlx:name="#framework" />
       <owlx:Individual owlx:name="#guidance" />
     </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://flask.palletsprojects.com/en/2.0.x/">
+      </xsd:documentation>
+    </hasValue>
 
   </owlx:Class>
 
