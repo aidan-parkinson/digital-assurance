@@ -675,5 +675,47 @@
     </hasValue>
 
   </owlx:Class>
+    
+  <owlx:Class owlx:name="travis-ci" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Travis CI</owlx:Label>
+      <owlx:Documentation xml:lang="en"Continuous integration tool</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm" /> 
+      <owlx:Individual owlx:name="#device" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://www.travis-ci.com/">
+      </xsd:documentation>
+    </hasValue>
+
+  </owlx:Class>
+    
+  <owlx:Class owlx:name="jenkins" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Jenkins</owlx:Label>
+      <owlx:Documentation xml:lang="en"Continuous integration server</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm" /> 
+      <owlx:Individual owlx:name="#device" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://www.jenkins.io/">
+      </xsd:documentation>
+    </hasValue>
+
+  </owlx:Class>
 
 </owlx:Ontology>
