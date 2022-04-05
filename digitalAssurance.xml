@@ -684,6 +684,12 @@
     </owlx:Annotation>
     
     <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#client" /> 
+      <owlx:Individual owlx:name="#device" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+    
+    <owlx:IntersectionOf>
       <owlx:Individual owlx:name="#alarm" /> 
       <owlx:Individual owlx:name="#device" />
       <owlx:Individual owlx:name="#guidance" />
@@ -703,6 +709,12 @@
       <owlx:Label xml:lang="en">Jenkins</owlx:Label>
       <owlx:Documentation xml:lang="en"Continuous integration server</owlx:Documentation>
     </owlx:Annotation>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#client" /> 
+      <owlx:Individual owlx:name="#device" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
     
     <owlx:IntersectionOf>
       <owlx:Individual owlx:name="#alarm" /> 
