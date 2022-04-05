@@ -680,7 +680,7 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Travis CI</owlx:Label>
-      <owlx:Documentation xml:lang="en"Continuous integration tool</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">Continuous integration tool</owlx:Documentation>
     </owlx:Annotation>
     
     <owlx:IntersectionOf>
@@ -707,7 +707,7 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Jenkins</owlx:Label>
-      <owlx:Documentation xml:lang="en"Continuous integration server</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">Continuous integration server</owlx:Documentation>
     </owlx:Annotation>
       
     <owlx:IntersectionOf>
@@ -727,6 +727,162 @@
         mlns:owlx="https://www.jenkins.io/">
       </xsd:documentation>
     </hasValue>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="p1" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">P1</owlx:Label>
+      <owlx:Documentation xml:lang="en">Immediate action</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm" /> 
+      <owlx:Individual owlx:name="#system" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm" /> 
+      <owlx:Individual owlx:name="#integration" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm" /> 
+      <owlx:Individual owlx:name="#acceptance" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm" /> 
+      <owlx:Individual owlx:name="#penetration" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm" /> 
+      <owlx:Individual owlx:name="#market" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="p2" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">P2</owlx:Label>
+      <owlx:Documentation xml:lang="en">Urgent action</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm" /> 
+      <owlx:Individual owlx:name="#system" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm" /> 
+      <owlx:Individual owlx:name="#integration" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm" /> 
+      <owlx:Individual owlx:name="#acceptance" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm" /> 
+      <owlx:Individual owlx:name="#penetration" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm" /> 
+      <owlx:Individual owlx:name="#market" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+
+  </owlx:Class>
+    
+  <owlx:Class owlx:name="p3" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">P3</owlx:Label>
+      <owlx:Documentation xml:lang="en">Pressing action</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm" /> 
+      <owlx:Individual owlx:name="#system" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm" /> 
+      <owlx:Individual owlx:name="#integration" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm" /> 
+      <owlx:Individual owlx:name="#acceptance" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm" /> 
+      <owlx:Individual owlx:name="#penetration" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm" /> 
+      <owlx:Individual owlx:name="#market" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+
+  </owlx:Class>
+    
+  <owlx:Class owlx:name="p4" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">P4</owlx:Label>
+      <owlx:Documentation xml:lang="en">Optimisation action</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm" /> 
+      <owlx:Individual owlx:name="#system" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm" /> 
+      <owlx:Individual owlx:name="#integration" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm" /> 
+      <owlx:Individual owlx:name="#acceptance" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm" /> 
+      <owlx:Individual owlx:name="#penetration" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm" /> 
+      <owlx:Individual owlx:name="#market" />
+      <owlx:Individual owlx:name="#guidance" />
+    </owlx:IntersectionOf>
 
   </owlx:Class>
 
