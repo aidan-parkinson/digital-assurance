@@ -305,7 +305,7 @@
     <owlx:IntersectionOf>
       <owlx:Individual owlx:name="#alarm"/> 
       <owlx:Individual owlx:name="#penetration"/>
-      <owlx:Individual owlx:name="#standards"/>
+      <owlx:Individual owlx:name="#guidance"/>
     </owlx:IntersectionOf>
     
     <hasValue>
