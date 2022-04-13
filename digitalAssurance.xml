@@ -19,7 +19,7 @@
         <owlx:Individual owlx:class="#private"/>
         <owlx:Individual owlx:class="#sensitive"/>
         <owlx:Individual owlx:class="#identification"/>
-        <owlx:Individual owlx:class="#remote"/>
+        <owlx:Individual owlx:class="#client"/>
         <owlx:Individual owlx:class="#awareness"/>
     </owlx:ObjectRestriction>
 
@@ -100,11 +100,11 @@
 
   </owlx:Class>
   
-  <owlx:Class owlx:name="remote" owlx:complete="false">
+  <owlx:Class owlx:name="client" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">Remote</owlx:Label>
-      <owlx:Documentation xml:lang="en">Federated authentication</owlx:Documentation>
+      <owlx:Label xml:lang="en">Client</owlx:Label>
+      <owlx:Documentation xml:lang="en">User interface on remote device</owlx:Documentation>
     </owlx:Annotation>
 
     <owl:Restriction>
@@ -134,7 +134,7 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Stage</owlx:Label>
-      <owlx:Documentation xml:lang="en">A test stage</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">A development stage</owlx:Documentation>
     </owlx:Annotation>
 
     <owlx:ObjectRestriction owlx:property="#hasValue">
@@ -154,7 +154,7 @@
   <owlx:Class owlx:name="use" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">Use test</owlx:Label>
+      <owlx:Label xml:lang="en">Identification of use for a digital feature</owlx:Label>
       <owlx:Documentation xml:lang="en">Evaluation of user journey interventions</owlx:Documentation>
     </owlx:Annotation>
 
@@ -164,7 +164,7 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Solutions architecture</owlx:Label>
-      <owlx:Documentation xml:lang="en">Solutions architecture design process</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">Identification of a solution to deliver a feature</owlx:Documentation>
     </owlx:Annotation>
 
   </owlx:Class>
@@ -210,15 +210,6 @@
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Acceptance</owlx:Label>
       <owlx:Documentation xml:lang="en">Witnessed satisfaction with a product</owlx:Documentation>
-    </owlx:Annotation>
-
-  </owlx:Class>
-
-    <owlx:Class owlx:name="awareness" owlx:complete="false">
-
-    <owlx:Annotation>
-      <owlx:Label xml:lang="en">Awareness</owlx:Label>
-      <owlx:Documentation xml:lang="en">New market-led insight</owlx:Documentation>
     </owlx:Annotation>
 
   </owlx:Class>
@@ -280,6 +271,696 @@
       <owlx:Label xml:lang="en">Review</owlx:Label>
       <owlx:Documentation xml:lang="en">Review by competent officer or professional</owlx:Documentation>
     </owlx:Annotation>
+
+  </owlx:Class>
+    
+  <owlx:Class owlx:name="common-social-cost-of-carbon" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Common Social Cost of Carbon</owlx:Label>
+      <owlx:Documentation xml:lang="en">A quality of life standard under a Hobbesian framework</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#life"/> 
+      <owlx:Individual owlx:name="#market"/>
+      <owlx:Individual owlx:name="#standards"/>
+    </owlx:IntersectionOf>
+    
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="doi:10.13140/RG.2.2.28456.49927">
+      </xsd:documentation>
+    </hasValue>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="ontology" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">An ontology</owlx:Label>
+      <owlx:Documentation xml:lang="en">A knowledge graph</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#penetration"/>
+      <owlx:Individual owlx:name="#standards"/>
+    </owlx:IntersectionOf>
+    
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="http://www.w3.org/2001/XMLSchema">
+      </xsd:documentation>
+    </hasValue>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="peer-review" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Peer review</owlx:Label>
+      <owlx:Documentation xml:lang="en">An expert review by a diverse sample of peers under Rawls framework</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#penetration"/>
+      <owlx:Individual owlx:name="#review"/>
+    </owlx:IntersectionOf>
+    
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="doi:10.13140/RG.2.2.24262.19523/1">
+      </xsd:documentation>
+    </hasValue>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="demonstration" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Demonstration</owlx:Label>
+      <owlx:Documentation xml:lang="en">A demonstration of interest</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#market"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="difference-principle" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Difference principle</owlx:Label>
+      <owlx:Documentation xml:lang="en">A different interest</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#market"/>
+      <owlx:Individual owlx:name="#review"/>
+    </owlx:IntersectionOf>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="daq" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Device Automatic Qualification</owlx:Label>
+      <owlx:Documentation xml:lang="en">Device Automatic Qualification framework for field instruments</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#awareness"/> 
+      <owlx:Individual owlx:name="#framework"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://github.com/faucetsdn/daq">
+      </xsd:documentation>
+    </hasValue>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="android" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Android Studio</owlx:Label>
+      <owlx:Documentation xml:lang="en">Android framework for client mobile applications</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#client"/> 
+      <owlx:Individual owlx:name="#framework"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://developer.android.com/studio">
+      </xsd:documentation>
+    </hasValue>
+
+  </owlx:Class>
+    
+  <owlx:Class owlx:name="iOS" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">iOS XCode framework</owlx:Label>
+      <owlx:Documentation xml:lang="en">XCode framework for client mobile applications</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#client"/> 
+      <owlx:Individual owlx:name="#framework"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://developer.apple.com/xcode/">
+      </xsd:documentation>
+    </hasValue>
+
+  </owlx:Class>
+    
+  <owlx:Class owlx:name="rawls-justice" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Rawlsian framework for justice</owlx:Label>
+      <owlx:Documentation xml:lang="en">John Rawls, A Theory of Justice</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#framework"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="isbn:978-0-674-00078-0">
+      </xsd:documentation>
+    </hasValue>
+
+  </owlx:Class>
+    
+  <owlx:Class owlx:name="hobbes-leviathan" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Hobbesian framework for life-safety</owlx:Label>
+      <owlx:Documentation xml:lang="en">Thomas Hobbes, Leviathan</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#life"/> 
+      <owlx:Individual owlx:name="#framework"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="isbn:978-1439297254">
+      </xsd:documentation>
+    </hasValue>
+
+  </owlx:Class>
+    
+  <owlx:Class owlx:name="sovereign" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Sovereign</owlx:Label>
+      <owlx:Documentation xml:lang="en">Sovereign of State</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#life"/> 
+      <owlx:Individual owlx:name="#market"/>
+      <owlx:Individual owlx:name="#review"/>
+    </owlx:IntersectionOf>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="english-law" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">English law</owlx:Label>
+      <owlx:Documentation xml:lang="en">English law</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#identification"/> 
+      <owlx:Individual owlx:name="#framework"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#sensitive"/> 
+      <owlx:Individual owlx:name="#framework"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#private"/> 
+      <owlx:Individual owlx:name="#framework"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://www.legislation.gov.uk/">
+      </xsd:documentation>
+    </hasValue>
+
+  </owlx:Class>
+    
+  <owlx:Class owlx:name="english-data-protection" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">English data protection act</owlx:Label>
+      <owlx:Documentation xml:lang="en">English Data Protection Act 2018</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#identification"/> 
+      <owlx:Individual owlx:name="#framework"/>
+      <owlx:Individual owlx:name="#standards"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#sensitive"/> 
+      <owlx:Individual owlx:name="#framework"/>
+      <owlx:Individual owlx:name="#standards"/>
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://www.legislation.gov.uk/ukpga/2018/12/contents">
+      </xsd:documentation>
+    </hasValue>
+
+  </owlx:Class>
+    
+  <owlx:Class owlx:name="version-control-system" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Version control system</owlx:Label>
+      <owlx:Documentation xml:lang="en">Version control system for intellectual property</owlx:Documentation>
+    </owlx:Annotation>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#private"/> 
+      <owlx:Individual owlx:name="#framework"/>
+      <owlx:Individual owlx:name="#standards"/>
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://git-scm.com/">
+      </xsd:documentation>
+    </hasValue>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="ipv6" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">IPv6</owlx:Label>
+      <owlx:Documentation xml:lang="en">Internet protocol version 6</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#life"/> 
+      <owlx:Individual owlx:name="#integration"/>
+      <owlx:Individual owlx:name="#standards"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#integration"/>
+      <owlx:Individual owlx:name="#standards"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#private"/> 
+      <owlx:Individual owlx:name="#integration"/>
+      <owlx:Individual owlx:name="#standards"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#sensitive"/> 
+      <owlx:Individual owlx:name="#integration"/>
+      <owlx:Individual owlx:name="#standards"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#identification"/> 
+      <owlx:Individual owlx:name="#integration"/>
+      <owlx:Individual owlx:name="#standards"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#client"/> 
+      <owlx:Individual owlx:name="#integration"/>
+      <owlx:Individual owlx:name="#standards"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#awareness" /> 
+      <owlx:Individual owlx:name="#integration" />
+      <owlx:Individual owlx:name="#standards" />
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://datatracker.ietf.org/doc/html/rfc2460">
+      </xsd:documentation>
+    </hasValue>
+
+  </owlx:Class>
+    
+  <owlx:Class owlx:name="node" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Node.js framework</owlx:Label>
+      <owlx:Documentation xml:lang="en">Node.js framework for cross-platform client applications</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#client"/> 
+      <owlx:Individual owlx:name="#framework"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://nodejs.org/en/">
+      </xsd:documentation>
+    </hasValue>
+
+  </owlx:Class>
+    
+  <owlx:Class owlx:name="flutter" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Flutter framework</owlx:Label>
+      <owlx:Documentation xml:lang="en">Flutter framework for cross-platform client applications</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#client"/> 
+      <owlx:Individual owlx:name="#framework"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://flutter.dev/">
+      </xsd:documentation>
+    </hasValue>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="flask" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Flask framework</owlx:Label>
+      <owlx:Documentation xml:lang="en">Flask framework for web applications</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#client"/> 
+      <owlx:Individual owlx:name="#framework"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://flask.palletsprojects.com/en/2.0.x/">
+      </xsd:documentation>
+    </hasValue>
+
+  </owlx:Class>
+    
+  <owlx:Class owlx:name="travis-ci" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Travis CI</owlx:Label>
+      <owlx:Documentation xml:lang="en">Continuous integration tool</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#client"/> 
+      <owlx:Individual owlx:name="#device"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#device"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://www.travis-ci.com/">
+      </xsd:documentation>
+    </hasValue>
+
+  </owlx:Class>
+    
+  <owlx:Class owlx:name="jenkins" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Jenkins</owlx:Label>
+      <owlx:Documentation xml:lang="en">Continuous integration server</owlx:Documentation>
+    </owlx:Annotation>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#client"/> 
+      <owlx:Individual owlx:name="#device"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#device"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://www.jenkins.io/">
+      </xsd:documentation>
+    </hasValue>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="p1" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">P1</owlx:Label>
+      <owlx:Documentation xml:lang="en">Immediate action</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#integration"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#acceptance"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#penetration"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#market"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="p2" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">P2</owlx:Label>
+      <owlx:Documentation xml:lang="en">Urgent action</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#integration"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#acceptance"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#penetration"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#market"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+
+  </owlx:Class>
+    
+  <owlx:Class owlx:name="p3" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">P3</owlx:Label>
+      <owlx:Documentation xml:lang="en">Pressing action</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#integration"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#acceptance"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#penetration"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#market"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+
+  </owlx:Class>
+    
+  <owlx:Class owlx:name="p4" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">P4</owlx:Label>
+      <owlx:Documentation xml:lang="en">Optimisation action</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#integration"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#acceptance"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#penetration"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#market"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="rsa-encryption" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">RSA data encryption</owlx:Label>
+      <owlx:Documentation xml:lang="en">Rivest-Shamir-Adleman encryption to standard IEEE P1363</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#private"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#sensitive"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#standards"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#identification"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://standards.ieee.org/ieee/1363/2049/">
+      </xsd:documentation>
+    </hasValue>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="aes-encryption" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">AES data encryption</owlx:Label>
+      <owlx:Documentation xml:lang="en">Advanced Encryption Standard to ISO/IEC 18033-3:2010</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#private"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#sensitive"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#standards"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#identification"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://www.iso.org/standard/54531.html">
+      </xsd:documentation>
+    </hasValue>
 
   </owlx:Class>
 
