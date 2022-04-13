@@ -1,5 +1,8 @@
 # digital-assurance
-A digital assurance framework of professional standard at each stage of project risk for integrated systems.
+A Digital Assurance Framework for Developing Core Strategic Features to Support a Stable Platform of Integrated Systems.
 
 ## ontology
 Please refer to `digitalAssurance.xml` for a definition of terms.
+
+## article
+An explanatary working paper for submission to a scientific journal
