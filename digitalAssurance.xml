@@ -914,7 +914,7 @@
     <owlx:IntersectionOf>
       <owlx:Individual owlx:name="#sensitive"/> 
       <owlx:Individual owlx:name="#system"/>
-      <owlx:Individual owlx:name="#standards"/>
+      <owlx:Individual owlx:name="#guidance"/>
     </owlx:IntersectionOf>
       
     <owlx:IntersectionOf>
@@ -947,7 +947,7 @@
     <owlx:IntersectionOf>
       <owlx:Individual owlx:name="#sensitive"/> 
       <owlx:Individual owlx:name="#system"/>
-      <owlx:Individual owlx:name="#standards"/>
+      <owlx:Individual owlx:name="#guidance"/>
     </owlx:IntersectionOf>
       
     <owlx:IntersectionOf>
