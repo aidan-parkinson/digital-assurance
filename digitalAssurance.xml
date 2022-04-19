@@ -611,9 +611,96 @@
       <owlx:Individual owlx:name="#standards" />
     </owlx:IntersectionOf>
       
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#private"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#sensitive"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#identification"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#client"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#awareness" /> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
     <hasValue>
       <xsd:documentation
         mlns:owlx="https://datatracker.ietf.org/doc/html/rfc2460">
+      </xsd:documentation>
+    </hasValue>
+
+  </owlx:Class>
+    
+  <owlx:Class owlx:name="ipv4" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">IPv4</owlx:Label>
+      <owlx:Documentation xml:lang="en">Internet protocol version 4</owlx:Documentation>
+    </owlx:Annotation>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#private"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#sensitive"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#identification"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#client"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#awareness" /> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://datatracker.ietf.org/doc/html/rfc791">
       </xsd:documentation>
     </hasValue>
 
@@ -623,13 +710,100 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Digital Input</owlx:Label>
-      <owlx:Documentation xml:lang="en">A hard-wired digital input transmitting a binary signal</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">A hard-wired digital input receiving a binary signal from a device</owlx:Documentation>
     </owlx:Annotation>
       
     <owlx:IntersectionOf>
       <owlx:Individual owlx:name="#life"/> 
       <owlx:Individual owlx:name="#integration"/>
       <owlx:Individual owlx:name="#standards"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#life"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#awareness"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+
+  </owlx:Class>
+    
+  <owlx:Class owlx:name="digital-output" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Digital Output</owlx:Label>
+      <owlx:Documentation xml:lang="en">A hard-wired digital output sending a binary signal to a device</owlx:Documentation>
+    </owlx:Annotation>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#life"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+
+  </owlx:Class>
+    
+  <owlx:Class owlx:name="analogue-input" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Analogue Input</owlx:Label>
+      <owlx:Documentation xml:lang="en">A hard-wired analogue input receiving a proportional signal from a device</owlx:Documentation>
+    </owlx:Annotation>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#life"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#awareness"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+
+  </owlx:Class>
+    
+  <owlx:Class owlx:name="analogue-output" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Analogue Output</owlx:Label>
+      <owlx:Documentation xml:lang="en">A hard-wired analogue output sending a proportional signal to a device</owlx:Documentation>
+    </owlx:Annotation>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#life"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
     </owlx:IntersectionOf>
 
   </owlx:Class>
