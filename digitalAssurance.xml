@@ -612,6 +612,12 @@
     </owlx:IntersectionOf>
       
     <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#life"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
       <owlx:Individual owlx:name="#alarm"/> 
       <owlx:Individual owlx:name="#system"/>
       <owlx:Individual owlx:name="#guidance"/>
@@ -661,6 +667,12 @@
       <owlx:Label xml:lang="en">IPv4</owlx:Label>
       <owlx:Documentation xml:lang="en">Internet protocol version 4</owlx:Documentation>
     </owlx:Annotation>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#life"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
       
     <owlx:IntersectionOf>
       <owlx:Individual owlx:name="#alarm"/> 
