@@ -764,7 +764,7 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Analogue Input</owlx:Label>
-      <owlx:Documentation xml:lang="en">A hard-wired analogue input receiving a proportional signal from a device</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">A hard-wired analogue input receiving a continuous scalar signal from a device</owlx:Documentation>
     </owlx:Annotation>
       
     <owlx:IntersectionOf>
@@ -791,7 +791,7 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Analogue Output</owlx:Label>
-      <owlx:Documentation xml:lang="en">A hard-wired analogue output sending a proportional signal to a device</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">A hard-wired analogue output sending a continuous scalar signal to a device</owlx:Documentation>
     </owlx:Annotation>
       
     <owlx:IntersectionOf>
