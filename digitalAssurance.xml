@@ -574,12 +574,6 @@
       <owlx:Label xml:lang="en">IPv6</owlx:Label>
       <owlx:Documentation xml:lang="en">Internet protocol version 6</owlx:Documentation>
     </owlx:Annotation>
-    
-    <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#life"/> 
-      <owlx:Individual owlx:name="#integration"/>
-      <owlx:Individual owlx:name="#standards"/>
-    </owlx:IntersectionOf>
       
     <owlx:IntersectionOf>
       <owlx:Individual owlx:name="#alarm"/> 
@@ -622,6 +616,21 @@
         mlns:owlx="https://datatracker.ietf.org/doc/html/rfc2460">
       </xsd:documentation>
     </hasValue>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="digital-input" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Digital Input</owlx:Label>
+      <owlx:Documentation xml:lang="en">A hard-wired digital input transmitting a binary signal</owlx:Documentation>
+    </owlx:Annotation>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#life"/> 
+      <owlx:Individual owlx:name="#integration"/>
+      <owlx:Individual owlx:name="#standards"/>
+    </owlx:IntersectionOf>
 
   </owlx:Class>
     
