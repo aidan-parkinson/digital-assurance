@@ -371,11 +371,17 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Device Automatic Qualification</owlx:Label>
-      <owlx:Documentation xml:lang="en">Device Automatic Qualification framework for field instruments</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">Device Automatic Qualification framework for instruments and outstations situated in the field</owlx:Documentation>
     </owlx:Annotation>
     
     <owlx:IntersectionOf>
       <owlx:Individual owlx:name="#awareness"/> 
+      <owlx:Individual owlx:name="#framework"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#alarm"/> 
       <owlx:Individual owlx:name="#framework"/>
       <owlx:Individual owlx:name="#guidance"/>
     </owlx:IntersectionOf>
