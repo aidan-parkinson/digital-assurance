@@ -1168,8 +1168,8 @@
   <owlx:Class owlx:name="rs232" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">RS232</owlx:Label>
-      <owlx:Documentation xml:lang="en">Recommended Standard 232</owlx:Documentation>
+      <owlx:Label xml:lang="en">EIA RS232</owlx:Label>
+      <owlx:Documentation xml:lang="en">Electronic Industries Association Recommended Standard 232</owlx:Documentation>
     </owlx:Annotation>
       
     <owlx:IntersectionOf>
@@ -1213,20 +1213,14 @@
       <owlx:Individual owlx:name="#system"/>
       <owlx:Individual owlx:name="#guidance"/>
     </owlx:IntersectionOf>
-      
-    <hasValue>
-      <xsd:documentation
-        mlns:owlx="https://docslib.org/doc/10371887/electronic-industries-association-eia-rs-232-c-interface-standard">
-      </xsd:documentation>
-    </hasValue>
 
   </owlx:Class>
 
   <owlx:Class owlx:name="rs485" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">RS485</owlx:Label>
-      <owlx:Documentation xml:lang="en">Recommended Standard 485</owlx:Documentation>
+      <owlx:Label xml:lang="en">EIA RS485</owlx:Label>
+      <owlx:Documentation xml:lang="en">Electronic Industries Assoication Recommended Standard 485</owlx:Documentation>
     </owlx:Annotation>
       
     <owlx:IntersectionOf>
@@ -1306,12 +1300,6 @@
       <owlx:Individual owlx:name="#system"/>
       <owlx:Individual owlx:name="#integration"/>
     </owlx:IntersectionOf>
-      
-    <hasValue>
-      <xsd:documentation
-        mlns:owlx="https://docslib.org/doc/10371887/electronic-industries-association-eia-rs-232-c-interface-standard">
-      </xsd:documentation>
-    </hasValue>
 
   </owlx:Class>
 
