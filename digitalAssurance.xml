@@ -20,7 +20,7 @@
         <owlx:Individual owlx:class="#sensitive"/>
         <owlx:Individual owlx:class="#identification"/>
         <owlx:Individual owlx:class="#client"/>
-        <owlx:Individual owlx:class="#awareness"/>
+        <owlx:Individual owlx:class="#public"/>
     </owlx:ObjectRestriction>
 
   </owlx:Class>
@@ -115,11 +115,11 @@
 
   </owlx:Class>
   
-  <owlx:Class owlx:name="awareness" owlx:complete="false">
+  <owlx:Class owlx:name="public" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">Awareness</owlx:Label>
-      <owlx:Documentation xml:lang="en">Information about the situational context</owlx:Documentation>
+      <owlx:Label xml:lang="en">Public</owlx:Label>
+      <owlx:Documentation xml:lang="en">Resources addressible by the public</owlx:Documentation>
     </owlx:Annotation>
 
     <owl:Restriction>
@@ -371,17 +371,11 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Device Automatic Qualification</owlx:Label>
-      <owlx:Documentation xml:lang="en">Device Automatic Qualification framework for instruments and outstations situated in the field</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">Device Automatic Qualification framework for public devices</owlx:Documentation>
     </owlx:Annotation>
     
     <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#awareness"/> 
-      <owlx:Individual owlx:name="#framework"/>
-      <owlx:Individual owlx:name="#guidance"/>
-    </owlx:IntersectionOf>
-      
-    <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#alarm"/> 
+      <owlx:Individual owlx:name="#public"/> 
       <owlx:Individual owlx:name="#framework"/>
       <owlx:Individual owlx:name="#guidance"/>
     </owlx:IntersectionOf>
@@ -612,7 +606,7 @@
     </owlx:IntersectionOf>
       
     <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#awareness" /> 
+      <owlx:Individual owlx:name="#public" /> 
       <owlx:Individual owlx:name="#integration" />
       <owlx:Individual owlx:name="#guidance" />
     </owlx:IntersectionOf>
@@ -648,7 +642,7 @@
     </owlx:IntersectionOf>
       
     <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#awareness" /> 
+      <owlx:Individual owlx:name="#public" /> 
       <owlx:Individual owlx:name="#system"/>
       <owlx:Individual owlx:name="#guidance"/>
     </owlx:IntersectionOf>
@@ -698,12 +692,6 @@
       <owlx:Individual owlx:name="#guidance"/>
     </owlx:IntersectionOf>
       
-    <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#awareness" /> 
-      <owlx:Individual owlx:name="#system"/>
-      <owlx:Individual owlx:name="#guidance"/>
-    </owlx:IntersectionOf>
-      
     <hasValue>
       <xsd:documentation
         mlns:owlx="https://datatracker.ietf.org/doc/html/rfc791">
@@ -733,12 +721,6 @@
       
     <owlx:IntersectionOf>
       <owlx:Individual owlx:name="#alarm"/> 
-      <owlx:Individual owlx:name="#system"/>
-      <owlx:Individual owlx:name="#guidance"/>
-    </owlx:IntersectionOf>
-      
-    <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#awareness"/> 
       <owlx:Individual owlx:name="#system"/>
       <owlx:Individual owlx:name="#guidance"/>
     </owlx:IntersectionOf>
@@ -781,12 +763,6 @@
       
     <owlx:IntersectionOf>
       <owlx:Individual owlx:name="#alarm"/> 
-      <owlx:Individual owlx:name="#system"/>
-      <owlx:Individual owlx:name="#guidance"/>
-    </owlx:IntersectionOf>
-      
-    <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#awareness"/> 
       <owlx:Individual owlx:name="#system"/>
       <owlx:Individual owlx:name="#guidance"/>
     </owlx:IntersectionOf>
@@ -1195,12 +1171,6 @@
       <owlx:Individual owlx:name="#system"/>
       <owlx:Individual owlx:name="#guidance"/>
     </owlx:IntersectionOf>
-      
-    <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#awareness" /> 
-      <owlx:Individual owlx:name="#system"/>
-      <owlx:Individual owlx:name="#guidance"/>
-    </owlx:IntersectionOf>
 
   </owlx:Class>
 
@@ -1248,12 +1218,6 @@
     </owlx:IntersectionOf>
       
     <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#awareness" /> 
-      <owlx:Individual owlx:name="#system"/>
-      <owlx:Individual owlx:name="#guidance"/>
-    </owlx:IntersectionOf>
-      
-    <owlx:IntersectionOf>
       <owlx:Individual owlx:name="#alarm"/> 
       <owlx:Individual owlx:name="#integration"/>
       <owlx:Individual owlx:name="#guidance"/>
@@ -1279,12 +1243,6 @@
       
     <owlx:IntersectionOf>
       <owlx:Individual owlx:name="#client"/> 
-      <owlx:Individual owlx:name="#integration"/>
-      <owlx:Individual owlx:name="#guidance"/>
-    </owlx:IntersectionOf>
-      
-    <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#awareness" /> 
       <owlx:Individual owlx:name="#integration"/>
       <owlx:Individual owlx:name="#guidance"/>
     </owlx:IntersectionOf>
