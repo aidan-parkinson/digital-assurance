@@ -3,7 +3,7 @@
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
 ]>
 
-<owlx:Ontology owlx:name="https://github.com/aidan-parkinson/digital-assurance.git"
+<owlx:Ontology owlx:name="https://github.com/aidan-parkinson/digital-assurance.git/digitalAssurance.xml"
   xmlns:owlx="http://www.w3.org/2003/05/owl-xml">
 
   <owlx:Class owlx:name="features" owlx:complete="false">
@@ -44,7 +44,7 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Alarm</owlx:Label>
-      <owlx:Documentation xml:lang="en">Edge intelligence</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">Discharged demands</owlx:Documentation>
     </owlx:Annotation>
 
     <owl:Restriction>
@@ -74,7 +74,7 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Sensitive</owlx:Label>
-      <owlx:Documentation xml:lang="en">Sensitive commercial information</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">Sensitive private information</owlx:Documentation>
     </owlx:Annotation>
 
     <owl:Restriction>
@@ -104,7 +104,7 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Client</owlx:Label>
-      <owlx:Documentation xml:lang="en">User interface on remote device</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">Consumer interface on remote device</owlx:Documentation>
     </owlx:Annotation>
 
     <owl:Restriction>
@@ -501,12 +501,6 @@
     </owlx:IntersectionOf>
       
     <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#sensitive"/> 
-      <owlx:Individual owlx:name="#framework"/>
-      <owlx:Individual owlx:name="#guidance"/>
-    </owlx:IntersectionOf>
-      
-    <owlx:IntersectionOf>
       <owlx:Individual owlx:name="property"/> 
       <owlx:Individual owlx:name="#framework"/>
       <owlx:Individual owlx:name="#guidance"/>
@@ -529,12 +523,6 @@
     
     <owlx:IntersectionOf>
       <owlx:Individual owlx:name="#identification"/> 
-      <owlx:Individual owlx:name="#framework"/>
-      <owlx:Individual owlx:name="#standards"/>
-    </owlx:IntersectionOf>
-      
-    <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#sensitive"/> 
       <owlx:Individual owlx:name="#framework"/>
       <owlx:Individual owlx:name="#standards"/>
     </owlx:IntersectionOf>
@@ -667,7 +655,7 @@
       <owlx:Individual owlx:name="#system"/>
       <owlx:Individual owlx:name="#guidance"/>
     </owlx:IntersectionOf>
-      
+
     <owlx:IntersectionOf>
       <owlx:Individual owlx:name="#property"/> 
       <owlx:Individual owlx:name="#system"/>
@@ -1149,12 +1137,6 @@
     </owlx:IntersectionOf>
       
     <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#property"/> 
-      <owlx:Individual owlx:name="#system"/>
-      <owlx:Individual owlx:name="#guidance"/>
-    </owlx:IntersectionOf>
-      
-    <owlx:IntersectionOf>
       <owlx:Individual owlx:name="#sensitive"/> 
       <owlx:Individual owlx:name="#system"/>
       <owlx:Individual owlx:name="#guidance"/>
@@ -1189,12 +1171,6 @@
       
     <owlx:IntersectionOf>
       <owlx:Individual owlx:name="#alarm"/> 
-      <owlx:Individual owlx:name="#system"/>
-      <owlx:Individual owlx:name="#guidance"/>
-    </owlx:IntersectionOf>
-      
-    <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#property"/> 
       <owlx:Individual owlx:name="#system"/>
       <owlx:Individual owlx:name="#guidance"/>
     </owlx:IntersectionOf>
