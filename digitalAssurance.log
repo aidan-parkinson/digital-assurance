@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.14)  13 JUL 2022 14:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.14)  13 JUL 2022 14:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -305,6 +305,7 @@ Package pdftex.def Info: acceptablePublicNetwork.jpg  used on input line 486.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [17 <./typicalPrivateNetwork.jpg>] [18 <./acceptablePublicNetwork.jpg>]
+[19]
 Underfull \hbox (badness 3128) in paragraph at lines 603--607
 []\OT1/cmr/m/n/10.95 Press As-so-ci-a-tion (2007) \OT1/cmr/m/it/10.95 Peer-age 
 for cli-mate change economist\OT1/cmr/m/n/10.95 , Ac-cessed
@@ -316,7 +317,7 @@ Underfull \hbox (badness 2547) in paragraph at lines 603--607
  / / www . theguardian . com / environment /
  []
 
-[19]
+
 Underfull \hbox (badness 10000) in paragraph at lines 608--612
 []\OT1/cmr/m/n/10.95 Jacobs-S. Rogers T.N. (2019) \OT1/cmr/m/it/10.95 Just 26 o
 f the world's rich-est men
@@ -334,7 +335,7 @@ Underfull \hbox (badness 5231) in paragraph at lines 608--612
 https : / / www . businessinsider . com /
  []
 
-
+[20]
 Underfull \hbox (badness 10000) in paragraph at lines 653--657
 []\OT1/cmr/m/n/10.95 European Com-mis-sion (2020) \OT1/cmr/m/it/10.95 World mil
 -i-tary ex-pen-di-ture and weapons
@@ -352,7 +353,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 653--657
 []paradigm /
  []
 
-[20] [21] (./digitalAssurance.aux)
+[21] (./digitalAssurance.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -380,7 +381,7 @@ live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
 ve/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texliv
 e/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive
 /2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on digitalAssurance.pdf (21 pages, 1024919 bytes).
+Output written on digitalAssurance.pdf (21 pages, 1024982 bytes).
 PDF statistics:
  136 PDF objects out of 1000 (max. 8388607)
  92 compressed objects within 1 object stream
