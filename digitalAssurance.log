@@ -159,31 +159,35 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 )
 (./digitalAssurance.aux
 
-LaTeX Warning: Label `Social contributions table' multiply defined.
+./digitalAssurance.aux:16: LaTeX Error: Missing \begin{document}.
 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 a
+      ble}{{1}{8}}
+? 
+./digitalAssurance.aux:16: Emergency stop.
+ ...                                              
+                                                  
+l.16 a
+      ble}{{1}{8}}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-LaTeX Warning: Label `pd2' multiply defined.
-
-)
-\openout1 = `digitalAssurance.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+ 
+Here is how much of TeX's memory you used:
+ 2496 strings out of 480608
+ 32591 string characters out of 5903630
+ 271182 words of memory out of 5000000
+ 18412 multiletter control sequences out of 15000+600000
+ 532638 words of font info for 25 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,0n,31p,235b,36s stack positions out of 5000i,500n,10000p,200000b,80000s
+./digitalAssurance.aux:16:  ==> Fatal error occurred, no output PDF file produc
+ed!
+: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
 * paper: a4paper
