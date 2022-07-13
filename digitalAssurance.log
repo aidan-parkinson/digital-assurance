@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.14)  13 JUL 2022 10:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.14)  13 JUL 2022 10:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -286,7 +286,7 @@ File: productiveAssetTaxonomy.png Graphic file (type png)
 <use productiveAssetTaxonomy.png>
 Package pdftex.def Info: productiveAssetTaxonomy.png  used on input line 342.
 (pdftex.def)             Requested size: 313.69025pt x 139.2781pt.
- [13 <./productiveAssetTaxonomy.png>] [14] [15]
+ [13 <./productiveAssetTaxonomy.png>] [14] [15] [16]
 Underfull \hbox (badness 3128) in paragraph at lines 493--497
 []\OT1/cmr/m/n/10.95 Press As-so-ci-a-tion (2007) \OT1/cmr/m/it/10.95 Peer-age 
 for cli-mate change economist\OT1/cmr/m/n/10.95 , Ac-cessed
@@ -316,7 +316,7 @@ Underfull \hbox (badness 5231) in paragraph at lines 498--502
 https : / / www . businessinsider . com /
  []
 
-[16]
+
 Underfull \hbox (badness 10000) in paragraph at lines 543--547
 []\OT1/cmr/m/n/10.95 European Com-mis-sion (2020) \OT1/cmr/m/it/10.95 World mil
 -i-tary ex-pen-di-ture and weapons
@@ -362,7 +362,7 @@ live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
 ve/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texliv
 e/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive
 /2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on digitalAssurance.pdf (18 pages, 709698 bytes).
+Output written on digitalAssurance.pdf (18 pages, 709513 bytes).
 PDF statistics:
  124 PDF objects out of 1000 (max. 8388607)
  85 compressed objects within 1 object stream
