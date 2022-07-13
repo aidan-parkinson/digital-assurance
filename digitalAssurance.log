@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.14)  13 JUL 2022 10:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.14)  13 JUL 2022 10:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -287,54 +287,54 @@ File: productiveAssetTaxonomy.png Graphic file (type png)
 Package pdftex.def Info: productiveAssetTaxonomy.png  used on input line 342.
 (pdftex.def)             Requested size: 313.69025pt x 139.2781pt.
  [13 <./productiveAssetTaxonomy.png>] [14] [15] [16]
-Underfull \hbox (badness 3128) in paragraph at lines 493--497
+Underfull \hbox (badness 3128) in paragraph at lines 520--524
 []\OT1/cmr/m/n/10.95 Press As-so-ci-a-tion (2007) \OT1/cmr/m/it/10.95 Peer-age 
 for cli-mate change economist\OT1/cmr/m/n/10.95 , Ac-cessed
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 493--497
+Underfull \hbox (badness 2547) in paragraph at lines 520--524
 \OT1/cmr/m/n/10.95 04/02/2021, avail-able on-line: $\OT1/cmtt/m/n/10.95 https :
  / / www . theguardian . com / environment /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 498--502
+Underfull \hbox (badness 10000) in paragraph at lines 525--529
 []\OT1/cmr/m/n/10.95 Jacobs-S. Rogers T.N. (2019) \OT1/cmr/m/it/10.95 Just 26 o
 f the world's rich-est men
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 498--502
+Underfull \hbox (badness 10000) in paragraph at lines 525--529
 \OT1/cmr/m/it/10.95 have more com-bined wealth than the poor-est 3.8 bil-lion p
 eo-ple\OT1/cmr/m/n/10.95 , Ac-
  []
 
 
-Underfull \hbox (badness 5231) in paragraph at lines 498--502
+Underfull \hbox (badness 5231) in paragraph at lines 525--529
 \OT1/cmr/m/n/10.95 cessed 15/03/2021, avail-able on-line: $\OT1/cmtt/m/n/10.95 
 https : / / www . businessinsider . com /
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 543--547
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 570--574
 []\OT1/cmr/m/n/10.95 European Com-mis-sion (2020) \OT1/cmr/m/it/10.95 World mil
 -i-tary ex-pen-di-ture and weapons
  []
 
 
-Underfull \hbox (badness 2035) in paragraph at lines 543--547
+Underfull \hbox (badness 2035) in paragraph at lines 570--574
 \OT1/cmr/m/it/10.95 trade\OT1/cmr/m/n/10.95 , Ac-cessed 26/12/2020, avail-able 
 on-line: $\OT1/cmtt/m/n/10.95 https : / / knowledge4policy .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 543--547
+Underfull \hbox (badness 10000) in paragraph at lines 570--574
 \OT1/cmtt/m/n/10.95 ec . europa . eu / foresight / topic / changing-[]security-
 []paradigm /
  []
 
-[17] [18] (./digitalAssurance.aux)
+[18] (./digitalAssurance.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -362,7 +362,7 @@ live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
 ve/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texliv
 e/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive
 /2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on digitalAssurance.pdf (18 pages, 709513 bytes).
+Output written on digitalAssurance.pdf (18 pages, 709915 bytes).
 PDF statistics:
  124 PDF objects out of 1000 (max. 8388607)
  85 compressed objects within 1 object stream
