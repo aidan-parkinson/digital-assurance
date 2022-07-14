@@ -1,5 +1,5 @@
 # digital-assurance
-A Digital Assurance Framework for Developing Core Strategic Features to Support a Stable Platform of Integrated Systems.
+Defining Ecosystem Boundaries within a Stable, Diverse and Extensive Alarm Management Platform.
 
 ## ontology
 Please refer to `digitalAssurance.xml` for a definition of terms.
