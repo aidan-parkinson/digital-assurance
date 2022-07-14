@@ -10,7 +10,7 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">features</owlx:Label>
-      <owlx:Documentation xml:lang="en">A digital feature</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">A distinctive attribute</owlx:Documentation>
     </owlx:Annotation>
 
     <owlx:ObjectRestriction owlx:property="#hasValue">
@@ -251,7 +251,7 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Guidance</owlx:Label>
-      <owlx:Documentation xml:lang="en">Optional guidance for learning practitioners</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">Suggested criteria for learning practitioners</owlx:Documentation>
     </owlx:Annotation>
 
   </owlx:Class>
@@ -260,7 +260,7 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Standards</owlx:Label>
-      <owlx:Documentation xml:lang="en">Mandatory minimum standards for compliance</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">Mandatory criteria</owlx:Documentation>
     </owlx:Annotation>
 
   </owlx:Class>
