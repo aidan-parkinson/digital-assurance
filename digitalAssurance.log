@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.14)  14 JUL 2022 13:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.14)  14 JUL 2022 13:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -241,38 +241,38 @@ e
 [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
 [2] [3] [4]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 149
+LaTeX Font Info:    Trying to load font information for U+msa on input line 162
 .
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 149
+LaTeX Font Info:    Trying to load font information for U+msb on input line 162
 .
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [5]
-Underfull \hbox (badness 10000) in paragraph at lines 170--184
+Underfull \hbox (badness 10000) in paragraph at lines 183--197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--184
+Underfull \hbox (badness 10000) in paragraph at lines 183--197
 
  []
 
 [6]
-Overfull \hbox (4.50507pt too wide) in paragraph at lines 189--190
+Overfull \hbox (4.50507pt too wide) in paragraph at lines 202--203
 []\OT1/cmr/m/n/10.95 Early con-tri-bu-tions to ad-dress this re-search ques-tio
 n were awarded the No-bel Prize [[]]
  []
@@ -281,13 +281,13 @@ n were awarded the No-bel Prize [[]]
 <scc.png, id=40, 987.69pt x 572.1375pt>
 File: scc.png Graphic file (type png)
 <use scc.png>
-Package pdftex.def Info: scc.png  used on input line 242.
+Package pdftex.def Info: scc.png  used on input line 255.
 (pdftex.def)             Requested size: 292.77629pt x 169.59099pt.
  [9 <./scc.png>] [10] [11] [12]
 <productiveAssetTaxonomy.png, id=56, 985.6825pt x 437.635pt>
 File: productiveAssetTaxonomy.png Graphic file (type png)
 <use productiveAssetTaxonomy.png>
-Package pdftex.def Info: productiveAssetTaxonomy.png  used on input line 375.
+Package pdftex.def Info: productiveAssetTaxonomy.png  used on input line 388.
 (pdftex.def)             Requested size: 313.69025pt x 139.2781pt.
 
 
@@ -301,73 +301,73 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <typicalPrivateNetwork.jpg, id=74, 963.6pt x 542.025pt>
 File: typicalPrivateNetwork.jpg Graphic file (type jpg)
 <use typicalPrivateNetwork.jpg>
-Package pdftex.def Info: typicalPrivateNetwork.jpg  used on input line 506.
+Package pdftex.def Info: typicalPrivateNetwork.jpg  used on input line 519.
 (pdftex.def)             Requested size: 313.69025pt x 176.4455pt.
 <acceptablePublicNetwork.jpg, id=75, 963.6pt x 542.025pt>
 File: acceptablePublicNetwork.jpg Graphic file (type jpg)
 <use acceptablePublicNetwork.jpg>
-Package pdftex.def Info: acceptablePublicNetwork.jpg  used on input line 517.
+Package pdftex.def Info: acceptablePublicNetwork.jpg  used on input line 530.
 (pdftex.def)             Requested size: 313.69025pt x 176.4455pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [18 <./typicalPrivateNetwork.jpg>] [19 <./acceptablePublicNetwork.jpg>]
-[20] [21]
-Underfull \hbox (badness 3128) in paragraph at lines 693--697
+[20] [21] [22]
+Underfull \hbox (badness 3128) in paragraph at lines 721--725
 []\OT1/cmr/m/n/10.95 Press As-so-ci-a-tion (2007) \OT1/cmr/m/it/10.95 Peer-age 
 for cli-mate change economist\OT1/cmr/m/n/10.95 , Ac-cessed
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 693--697
+Underfull \hbox (badness 2547) in paragraph at lines 721--725
 \OT1/cmr/m/n/10.95 04/02/2021, avail-able on-line: $\OT1/cmtt/m/n/10.95 https :
  / / www . theguardian . com / environment /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 698--702
+Underfull \hbox (badness 10000) in paragraph at lines 726--730
 []\OT1/cmr/m/n/10.95 Jacobs-S. Rogers T.N. (2019) \OT1/cmr/m/it/10.95 Just 26 o
 f the world's rich-est men
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 698--702
+Underfull \hbox (badness 10000) in paragraph at lines 726--730
 \OT1/cmr/m/it/10.95 have more com-bined wealth than the poor-est 3.8 bil-lion p
 eo-ple\OT1/cmr/m/n/10.95 , Ac-
  []
 
 
-Underfull \hbox (badness 5231) in paragraph at lines 698--702
+Underfull \hbox (badness 5231) in paragraph at lines 726--730
 \OT1/cmr/m/n/10.95 cessed 15/03/2021, avail-able on-line: $\OT1/cmtt/m/n/10.95 
 https : / / www . businessinsider . com /
  []
 
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 739--743
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 767--771
 []\OT1/cmr/m/n/10.95 European Com-mis-sion (2020) \OT1/cmr/m/it/10.95 World mil
 -i-tary ex-pen-di-ture and weapons
  []
 
 
-Underfull \hbox (badness 2035) in paragraph at lines 739--743
+Underfull \hbox (badness 2035) in paragraph at lines 767--771
 \OT1/cmr/m/it/10.95 trade\OT1/cmr/m/n/10.95 , Ac-cessed 26/12/2020, avail-able 
 on-line: $\OT1/cmtt/m/n/10.95 https : / / knowledge4policy .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 739--743
+Underfull \hbox (badness 10000) in paragraph at lines 767--771
 \OT1/cmtt/m/n/10.95 ec . europa . eu / foresight / topic / changing-[]security-
 []paradigm /
  []
 
-[23]
-Overfull \hbox (42.64134pt too wide) in paragraph at lines 833--834
+[24]
+Overfull \hbox (42.64134pt too wide) in paragraph at lines 861--862
 $\OT1/cmtt/m/n/10.95 https : / / github . com / aidan-[]parkinson / digital-[]a
 ssurance / blob / main / digitalAssurance .
  []
 
-[24] (./digitalAssurance.aux)
+[25] (./digitalAssurance.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -395,10 +395,10 @@ live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
 ve/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texliv
 e/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive
 /2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on digitalAssurance.pdf (24 pages, 1040902 bytes).
+Output written on digitalAssurance.pdf (25 pages, 1044555 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 98 compressed objects within 1 object stream
+ 150 PDF objects out of 1000 (max. 8388607)
+ 101 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
