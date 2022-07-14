@@ -74,7 +74,7 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Sensitive</owlx:Label>
-      <owlx:Documentation xml:lang="en">Sensitive private information</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">Sensitive information</owlx:Documentation>
     </owlx:Annotation>
 
     <owl:Restriction>
