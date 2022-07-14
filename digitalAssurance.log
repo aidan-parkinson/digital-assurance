@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.14)  13 JUL 2022 18:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.14)  13 JUL 2022 19:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -159,35 +159,31 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 )
 (./digitalAssurance.aux
 
-./digitalAssurance.aux:16: LaTeX Error: Missing \begin{document}.
+LaTeX Warning: Label `Social contributions table' multiply defined.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16 a
-      ble}{{1}{8}}
-? 
-./digitalAssurance.aux:16: Emergency stop.
- ...                                              
-                                                  
-l.16 a
-      ble}{{1}{8}}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
- 
-Here is how much of TeX's memory you used:
- 2496 strings out of 480608
- 32591 string characters out of 5903630
- 271182 words of memory out of 5000000
- 18412 multiletter control sequences out of 15000+600000
- 532638 words of font info for 25 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 30i,0n,31p,235b,36s stack positions out of 5000i,500n,10000p,200000b,80000s
-./digitalAssurance.aux:16:  ==> Fatal error occurred, no output PDF file produc
-ed!
-: pdftex
+LaTeX Warning: Label `pd2' multiply defined.
+
+)
+\openout1 = `digitalAssurance.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
 * paper: a4paper
@@ -305,7 +301,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <typicalPrivateNetwork.jpg, id=71, 963.6pt x 542.025pt>
 File: typicalPrivateNetwork.jpg Graphic file (type jpg)
 <use typicalPrivateNetwork.jpg>
-Package pdftex.def Info: typicalPrivateNetwork.jpg  used on input line 498.
+Package pdftex.def Info: typicalPrivateNetwork.jpg  used on input line 499.
 (pdftex.def)             Requested size: 313.69025pt x 176.4455pt.
 
 
@@ -314,67 +310,64 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <acceptablePublicNetwork.jpg, id=72, 963.6pt x 542.025pt>
 File: acceptablePublicNetwork.jpg Graphic file (type jpg)
 <use acceptablePublicNetwork.jpg>
-Package pdftex.def Info: acceptablePublicNetwork.jpg  used on input line 509.
+Package pdftex.def Info: acceptablePublicNetwork.jpg  used on input line 510.
 (pdftex.def)             Requested size: 313.69025pt x 176.4455pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[17] [18 <./typicalPrivateNetwork.jpg>] [19 <./acceptablePublicNetwork.jpg>]
-[20]
-Underfull \hbox (badness 3128) in paragraph at lines 665--669
+[17] [18 <./typicalPrivateNetwork.jpg> <./acceptablePublicNetwork.jpg>]
+[19] [20]
+Underfull \hbox (badness 3128) in paragraph at lines 666--670
 []\OT1/cmr/m/n/10.95 Press As-so-ci-a-tion (2007) \OT1/cmr/m/it/10.95 Peer-age 
 for cli-mate change economist\OT1/cmr/m/n/10.95 , Ac-cessed
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 665--669
+Underfull \hbox (badness 2547) in paragraph at lines 666--670
 \OT1/cmr/m/n/10.95 04/02/2021, avail-able on-line: $\OT1/cmtt/m/n/10.95 https :
  / / www . theguardian . com / environment /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--674
+Underfull \hbox (badness 10000) in paragraph at lines 671--675
 []\OT1/cmr/m/n/10.95 Jacobs-S. Rogers T.N. (2019) \OT1/cmr/m/it/10.95 Just 26 o
 f the world's rich-est men
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--674
+Underfull \hbox (badness 10000) in paragraph at lines 671--675
 \OT1/cmr/m/it/10.95 have more com-bined wealth than the poor-est 3.8 bil-lion p
 eo-ple\OT1/cmr/m/n/10.95 , Ac-
  []
 
 
-Underfull \hbox (badness 5231) in paragraph at lines 670--674
+Underfull \hbox (badness 5231) in paragraph at lines 671--675
 \OT1/cmr/m/n/10.95 cessed 15/03/2021, avail-able on-line: $\OT1/cmtt/m/n/10.95 
 https : / / www . businessinsider . com /
  []
 
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 711--715
+Underfull \hbox (badness 10000) in paragraph at lines 712--716
 []\OT1/cmr/m/n/10.95 European Com-mis-sion (2020) \OT1/cmr/m/it/10.95 World mil
 -i-tary ex-pen-di-ture and weapons
  []
 
 
-Underfull \hbox (badness 2035) in paragraph at lines 711--715
+Underfull \hbox (badness 2035) in paragraph at lines 712--716
 \OT1/cmr/m/it/10.95 trade\OT1/cmr/m/n/10.95 , Ac-cessed 26/12/2020, avail-able 
 on-line: $\OT1/cmtt/m/n/10.95 https : / / knowledge4policy .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 711--715
+Underfull \hbox (badness 10000) in paragraph at lines 712--716
 \OT1/cmtt/m/n/10.95 ec . europa . eu / foresight / topic / changing-[]security-
 []paradigm /
  []
 
-
-Overfull \hbox (42.64134pt too wide) in paragraph at lines 754--755
+[22]
+Overfull \hbox (42.64134pt too wide) in paragraph at lines 755--756
 $\OT1/cmtt/m/n/10.95 https : / / github . com / aidan-[]parkinson / digital-[]a
 ssurance / blob / main / digitalAssurance .
  []
 
-[22] [23] (./digitalAssurance.aux)
+[23] (./digitalAssurance.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -382,7 +375,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  3007 strings out of 480608
  39685 string characters out of 5903630
- 289950 words of memory out of 5000000
+ 289916 words of memory out of 5000000
  18877 multiletter control sequences out of 15000+600000
  539658 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -402,7 +395,7 @@ live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
 ve/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texliv
 e/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive
 /2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on digitalAssurance.pdf (23 pages, 1036066 bytes).
+Output written on digitalAssurance.pdf (23 pages, 1035713 bytes).
 PDF statistics:
  142 PDF objects out of 1000 (max. 8388607)
  96 compressed objects within 1 object stream
