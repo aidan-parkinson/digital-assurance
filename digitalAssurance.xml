@@ -9,7 +9,7 @@
   <owlx:Class owlx:name="features" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">features</owlx:Label>
+      <owlx:Label xml:lang="en">feature</owlx:Label>
       <owlx:Documentation xml:lang="en">A distinctive attribute</owlx:Documentation>
     </owlx:Annotation>
 
@@ -544,7 +544,7 @@
       
     <owlx:IntersectionOf>
       <owlx:Individual owlx:name="#property"/> 
-      <owlx:Individual owlx:name="#framework"/>
+      <owlx:Individual owlx:name="#system"/>
       <owlx:Individual owlx:name="#standards"/>
     </owlx:IntersectionOf>
       
