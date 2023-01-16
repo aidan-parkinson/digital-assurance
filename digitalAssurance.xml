@@ -274,10 +274,10 @@
 
   </owlx:Class>
     
-  <owlx:Class owlx:name="common-social-cost-of-carbon" owlx:complete="false">
+  <owlx:Class owlx:name="commonwealth-cost-of-carbon" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">Common Social Cost of Carbon</owlx:Label>
+      <owlx:Label xml:lang="en">Commonwealth Cost of Carbon</owlx:Label>
       <owlx:Documentation xml:lang="en">A quality of life standard under a Hobbesian framework</owlx:Documentation>
     </owlx:Annotation>
     
