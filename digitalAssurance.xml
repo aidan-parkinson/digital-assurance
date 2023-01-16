@@ -191,7 +191,7 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Systems</owlx:Label>
-      <owlx:Documentation xml:lang="en">A collection of devices working together to automate a domain</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">A collection of devices working together within a network</owlx:Documentation>
     </owlx:Annotation>
 
   </owlx:Class>
@@ -200,7 +200,7 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Integration</owlx:Label>
-      <owlx:Documentation xml:lang="en">Multiple domains working in partnership</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">Systems working together</owlx:Documentation>
     </owlx:Annotation>
 
   </owlx:Class>
@@ -209,7 +209,7 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Acceptance</owlx:Label>
-      <owlx:Documentation xml:lang="en">Witnessed satisfaction with a product</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">Witnessed satisfaction with outcomes</owlx:Documentation>
     </owlx:Annotation>
 
   </owlx:Class>
@@ -227,7 +227,7 @@
 
     <owlx:Annotation>
       <owlx:Label xml:lang="en">Market</owlx:Label>
-      <owlx:Documentation xml:lang="en">End-use customer demand-led feedback</owlx:Documentation>
+      <owlx:Documentation xml:lang="en">End-use customer demands</owlx:Documentation>
     </owlx:Annotation>
 
   </owlx:Class>
