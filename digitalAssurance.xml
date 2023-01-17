@@ -18,7 +18,7 @@
         <owlx:Individual owlx:class="#alarm"/>
         <owlx:Individual owlx:class="#property"/>
         <owlx:Individual owlx:class="#sensitive"/>
-        <owlx:Individual owlx:class="#identification"/>
+        <owlx:Individual owlx:class="#personal"/>
         <owlx:Individual owlx:class="#client"/>
         <owlx:Individual owlx:class="#public"/>
     </owlx:ObjectRestriction>
@@ -85,10 +85,10 @@
 
   </owlx:Class>
   
-  <owlx:Class owlx:name="identification" owlx:complete="false">
+  <owlx:Class owlx:name="personal" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">Identity</owlx:Label>
+      <owlx:Label xml:lang="en">Personal</owlx:Label>
       <owlx:Documentation xml:lang="en">Personally identifiable information</owlx:Documentation>
     </owlx:Annotation>
 
@@ -495,7 +495,7 @@
     </owlx:Annotation>
     
     <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#identification"/> 
+      <owlx:Individual owlx:name="#personal"/> 
       <owlx:Individual owlx:name="#framework"/>
       <owlx:Individual owlx:name="#guidance"/>
     </owlx:IntersectionOf>
@@ -522,7 +522,7 @@
     </owlx:Annotation>
     
     <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#identification"/> 
+      <owlx:Individual owlx:name="#personal"/> 
       <owlx:Individual owlx:name="#framework"/>
       <owlx:Individual owlx:name="#standards"/>
     </owlx:IntersectionOf>
@@ -582,7 +582,7 @@
     </owlx:IntersectionOf>
       
     <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#identification"/> 
+      <owlx:Individual owlx:name="#personal"/> 
       <owlx:Individual owlx:name="#integration"/>
       <owlx:Individual owlx:name="#guidance"/>
     </owlx:IntersectionOf>
@@ -618,7 +618,7 @@
     </owlx:IntersectionOf>
       
     <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#identification"/> 
+      <owlx:Individual owlx:name="#personal"/> 
       <owlx:Individual owlx:name="#system"/>
       <owlx:Individual owlx:name="#guidance"/>
     </owlx:IntersectionOf>
@@ -669,7 +669,7 @@
     </owlx:IntersectionOf>
       
     <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#identification"/> 
+      <owlx:Individual owlx:name="#personal"/> 
       <owlx:Individual owlx:name="#system"/>
       <owlx:Individual owlx:name="#guidance"/>
     </owlx:IntersectionOf>
@@ -1071,7 +1071,7 @@
     </owlx:IntersectionOf>
       
     <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#identification"/> 
+      <owlx:Individual owlx:name="#personal"/> 
       <owlx:Individual owlx:name="#system"/>
       <owlx:Individual owlx:name="#guidance"/>
     </owlx:IntersectionOf>
@@ -1104,7 +1104,7 @@
     </owlx:IntersectionOf>
       
     <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#identification"/> 
+      <owlx:Individual owlx:name="#personal"/> 
       <owlx:Individual owlx:name="#system"/>
       <owlx:Individual owlx:name="#guidance"/>
     </owlx:IntersectionOf>
@@ -1143,7 +1143,7 @@
     </owlx:IntersectionOf>
       
     <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#identification"/> 
+      <owlx:Individual owlx:name="#personal"/> 
       <owlx:Individual owlx:name="#system"/>
       <owlx:Individual owlx:name="#guidance"/>
     </owlx:IntersectionOf>
@@ -1182,7 +1182,7 @@
     </owlx:IntersectionOf>
       
     <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#identification"/> 
+      <owlx:Individual owlx:name="#personal"/> 
       <owlx:Individual owlx:name="#system"/>
       <owlx:Individual owlx:name="#guidance"/>
     </owlx:IntersectionOf>
@@ -1212,7 +1212,7 @@
     </owlx:IntersectionOf>
       
     <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#identification"/> 
+      <owlx:Individual owlx:name="#personal"/> 
       <owlx:Individual owlx:name="#integration"/>
       <owlx:Individual owlx:name="#guidance"/>
     </owlx:IntersectionOf>
