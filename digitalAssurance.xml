@@ -375,6 +375,12 @@
     </owlx:Annotation>
     
     <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#integration"/> 
+      <owlx:Individual owlx:name="#framework"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+    
+    <owlx:IntersectionOf>
       <owlx:Individual owlx:name="#public"/> 
       <owlx:Individual owlx:name="#framework"/>
       <owlx:Individual owlx:name="#guidance"/>
