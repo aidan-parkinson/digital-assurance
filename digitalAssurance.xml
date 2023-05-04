@@ -599,42 +599,6 @@
       <owlx:Individual owlx:name="#guidance" />
     </owlx:IntersectionOf>
       
-    <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#alarm"/> 
-      <owlx:Individual owlx:name="#system"/>
-      <owlx:Individual owlx:name="#guidance"/>
-    </owlx:IntersectionOf>
-      
-    <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#property"/> 
-      <owlx:Individual owlx:name="#system"/>
-      <owlx:Individual owlx:name="#guidance"/>
-    </owlx:IntersectionOf>
-      
-    <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#sensitive"/> 
-      <owlx:Individual owlx:name="#system"/>
-      <owlx:Individual owlx:name="#guidance"/>
-    </owlx:IntersectionOf>
-      
-    <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#personal"/> 
-      <owlx:Individual owlx:name="#system"/>
-      <owlx:Individual owlx:name="#guidance"/>
-    </owlx:IntersectionOf>
-      
-    <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#client"/> 
-      <owlx:Individual owlx:name="#system"/>
-      <owlx:Individual owlx:name="#guidance"/>
-    </owlx:IntersectionOf>
-      
-    <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#public" /> 
-      <owlx:Individual owlx:name="#system"/>
-      <owlx:Individual owlx:name="#guidance"/>
-    </owlx:IntersectionOf>
-      
     <hasValue>
       <xsd:documentation
         mlns:owlx="https://datatracker.ietf.org/doc/html/rfc2460">
@@ -649,6 +613,12 @@
       <owlx:Label xml:lang="en">IPv4</owlx:Label>
       <owlx:Documentation xml:lang="en">Internet protocol version 4</owlx:Documentation>
     </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#life"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
       
     <owlx:IntersectionOf>
       <owlx:Individual owlx:name="#alarm"/> 
@@ -1279,6 +1249,60 @@
       <owlx:Individual owlx:name="#market"/>
       <owlx:Individual owlx:name="#standard"/>
     </owlx:IntersectionOf>
+
+  </owlx:Class>
+  
+  <owlx:Class owlx:name="ipsec" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">IPSec</owlx:Label>
+      <owlx:Documentation xml:lang="en">Internet Protocol Security</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#client"/> 
+      <owlx:Individual owlx:name="#integration"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#public"/> 
+      <owlx:Individual owlx:name="#integration"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://ieeexplore.ieee.org/document/6168355">
+      </xsd:documentation>
+    </hasValue>
+
+  </owlx:Class>
+    
+  <owlx:Class owlx:name="tlsp" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">TLSP</owlx:Label>
+      <owlx:Documentation xml:lang="en">Transport Layer Security Protocol</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#client"/> 
+      <owlx:Individual owlx:name="#integration"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#public"/> 
+      <owlx:Individual owlx:name="#integration"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://datatracker.ietf.org/doc/html/rfc5246">
+      </xsd:documentation>
+    </hasValue>
 
   </owlx:Class>
 
