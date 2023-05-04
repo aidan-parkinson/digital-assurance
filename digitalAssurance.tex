@@ -511,8 +511,9 @@ The use of internet protocols is not recommended for the control of life systems
 System level protocols for many systems may be quite permissive to support an extensive range of options for development.
 Therefore, other private systems may allow for a diverse and risky mix of traffic that may include unencrypted broadcasts.
 In the interest of privacy, scalability and security public networks need only expose IPv6 protocols to the internet.
-IPv6 is a preferrable standard for exposure to the internet as IPSec industry security is mandatory and network addresses are allocated permanently~\cite{ipv6}.
-Public networks may be fitted with internet gateways that firewall anything but specific IPv6 addresses where edge devices may be deployed to connect securely to private networks.
+IPv6 is a preferrable standard for exposure to the public and IPSec security may be employed to encrypt traffic between permanently allocated network addresses~\cite{ipv6}.
+Public networks may be fitted with internet gateways that firewall anything but specific IPv6 addresses.
+Edge devices deployed on private networks may connect securely to publicly exposed devices using the transport layer security protocol over a Network Address Translation (NAT) gateway that restricts inbound connections.
 Network controllers can routinely test compliance of devices situated on public networks and manage network enrolment using a Framework such as FaucetSDN Device Automated Qualification~\cite{daq1}.\
 
 A typical network configuration for a private alarm management system is illustrated in Figure~\ref{Typical Network Configuration figure}.
