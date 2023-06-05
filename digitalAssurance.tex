@@ -42,11 +42,9 @@ Fringe Papers: Wedmore, Somerset, UK.\\
 
 \pagebreak
 
-{\fontsize{9pt}{10.8pt}\selectfont MIT License, }\\
+{\fontsize{8pt}{9.6pt}\selectfont MIT License\\
 
-\vfill
-
-{\fontsize{9pt}{10.8pt}\selectfontCopyright (c) 2023 Aidan Thomas Parkinson\\
+Copyright (c) 2023 Aidan Thomas Parkinson\\
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\\
 
@@ -54,17 +52,17 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\\
 
-https://github.com/realfeed/manifesto is in the public domain.\\
+\url{https://github.com/realfeed/manifesto} is in the public domain.\\
 \\
 First Edition 2023\\
 \\
 ISBN: [PUBLICATION ISBN NUMBER] (hardback)\\
 \\
-Visit the authors website at https://aidanparkinson.xyz\\
+Visit the authors website at \url{https://aidanparkinson.xyz}\\
 \\
 Fringe Papers is a registered trademark of Realfeed Ltd.\\
 \\
-, }
+}
 
 \pagebreak
 \pagenumbering{arabic}
@@ -514,29 +512,27 @@ An outline matrix for designating test criteria is shown in Table 2.
 
 \pagebreak
 
-\begin{landscape}
-	\begin{table}[h]
-		\caption{Outline matrix designating test criteria}
-		\begin{center}
-			\begin{tabular}{| l | c | c | c | c | c | c | c |}
-			\hline
-			System/Stage&life&alarm&property&sensitive&personal&client&public\\
-			\hline
-			use&&&&&&&\\
-			architecture&&&&&&&\\
-			framework&&&&&&&\\
-			device&&&&&&&\\
-			system&&&&&&&\\
-			integration&&&&&&&\\
-			acceptance&&&&&&&\\
-			penetration&&&&&&&\\
-			market&&&&&&&\\
-			\hline
-			\end{tabular}
-		\end{center}
-		\label{Test matrix}
-	\end{table}
-\end{landscape}
+\begin{sidewaystable}[h]
+	\caption{Outline matrix designating test criteria}
+	\begin{center}
+		\begin{tabular}{| l | c | c | c | c | c | c | c |}
+		\hline
+		System/Stage&life&alarm&property&sensitive&personal&client&public\\
+		\hline
+		use&&&&&&&\\
+		architecture&&&&&&&\\
+		framework&&&&&&&\\
+		device&&&&&&&\\
+		system&&&&&&&\\
+		integration&&&&&&&\\
+		acceptance&&&&&&&\\
+		penetration&&&&&&&\\
+		market&&&&&&&\\
+		\hline
+		\end{tabular}
+	\end{center}
+	\label{Test matrix}
+\end{sidewaystable}
 
 
 \pagebreak
@@ -646,7 +642,7 @@ Client devices are typically networked over internet or serial protocols.\
 The potential market of the platform ecosystem outlined here could be global.
 At this time, few organisations meet the criteria that define the boundaries of the platform ecosystem defined.
 This means there is considerable work to be done to signal failure to potential complimentors and initiate feedback to support an integration process.
-It is also understood that the originators of this document are unlikely to be aware of all relevant information in this domain, which may result in some further change.
+It is also understood that the originators of this document are unlikely to be aware of all relevant information in this domain, which may result in some further change~\cite{ontology}.
 Therefore, an operational model is necessary.\
 
 Within a particularly complex and generally disinterested political context, there appears a need to establish a stable and public auditable signal of thought that may be shared to establish mutual understanding.
@@ -915,12 +911,11 @@ Mountain View, CA: Google
 palletsprojects
 \url{https://flask.palletsprojects.com}
 
-\end{thebibliography}
-
-\pagebreak
-
-\section{Annex: Public Access to Digital Assurance Ontology}
-
+\bibitem{ontology} Parkinson A.T. (2023)
+\emph{Digital Assurance}
+Wedmore, Somerset: Realfeed Ltd.
 \url{https://github.com/realfeed/manifesto/blob/main/digitalAssurance.xml}
+
+\end{thebibliography}
 
 \end{document}  
