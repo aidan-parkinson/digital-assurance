@@ -1,9 +1,13 @@
 \documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
 \usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
-\geometry{a4paper}                   		% ... or a4paper or a5paper or ... 
-%\geometry{landscape}                		% Activate for rotated page geometry
+\geometry{
+	paperwidth=6in,
+	paperheight=9in
+	}                   		% ... or a4paper or a5paper or ... 
+%\geometry{portrait}                		% Activate for rotated page geometry
 %\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
-\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+\usepackage{graphicx}
+\usepackage{rotating}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
 								% TeX will automatically convert eps --> pdf in pdflatex		
 \usepackage{amssymb}
 \usepackage{amsmath}
@@ -11,18 +15,61 @@
 \usepackage{graphicx}
 
 \usepackage{url}
-%\usepackage{hyperref}
+\usepackage{breakurl}
+
+\usepackage{float}
 
 %SetFonts
-
-%SetFonts
-\title{Defining Ecosystem Boundaries within a Stable, Diverse and Extensive Alarm Management Platform}
-\author{Dr Aidan Thomas Parkinson\\ Realfeed Ltd., Sinsuran, West End, Wedmore, Somerset, BS28 4BW.\\ aidan.parkinson@gmail.com}
-\date{\today}							% Activate to display a given date or no date
+\title{Defining Ecosystem Boundaries within a Stable, Diverse and Extensive Alarm Management Platform\\
+A Manifesto for Systems Architecture}
+\author{Aidan Thomas Parkinson}	
+\date{}						% Activate to display a given date or no date
 
 \begin{document}
-\maketitle
+\pagenumbering{gobble}
 
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\newpage
+
+\maketitle
+\vfill
+\begin{center}
+Fringe Papers\\
+Wedmore, Somerset, UK.
+\end{center}
+
+\pagebreak
+\section*{}
+\begin{small}
+	MIT License\\
+	Copyright (c) 2023 Aidan Thomas Parkinson\\
+	Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\\
+	The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\\
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\\
+	\\
+	\url{https://github.com/realfeed/manifesto} is in the public domain.\\
+	\\
+	First Edition 2023\\
+	ISBN: [PUBLICATION ISBN NUMBER] (hardback)\\
+	\\
+	Visit the authors website at \url{https://aidanparkinson.xyz}\\
+	\\
+	Fringe Papers is a registered trademark of Realfeed Ltd.\\
+\end{small}
+
+\pagebreak
+
+For those passionate activists.
+
+\pagebreak
+
+\tableofcontents
+
+\pagebreak
+
+\pagenumbering{arabic}
 \section*{Abstract}
 It has been recognised the the prevailing discussion on the governance of platform ecosystems may have contributed to global ecosystem instability in alarming ways.
 The prioritisation of network effects to deliver a popular market share of consumers tends to be a common Feature.
@@ -70,6 +117,7 @@ In conclusion an Ontology that offers the authors perspective on this question i
 It is acknowledged that the problems faced are formidable and no solution can be perfect.
 However, it is intended that this article contributes common-sense that may inspire the sustainable development of new technologies going forward.\
 
+\pagebreak
 
 \section{Ethics}
 It is acknowledged that any ecosystem may include agents with different interests and potentially competing principles of what is Good.
@@ -234,7 +282,7 @@ In practical applications, $U (C_\tau)$ can be substituted for net cash-flow in 
 This complex process results in considerable disagreement amongst social cost of carbon estimates for a historic time period using this method.
 The assumptions for a global social discount rate used for three notable contributions are provided in Table 1. The global social discount rate for these three contributions ($\mu$) is similar. However Cline is outlying in estimation of the difference in utility the wealthy gain from a unit of consumption compared to the poor ($\sigma$). None of the three contributions agree on a long-term global growth rate ($g$). When considering impatience to consume in fear of extinction ($\delta$) it is Nordhaus that appears outlying. This yields very different values for the amount of surplus to be saved relative to that consumed amongst the three contributions ($S$). Clearly the worlds envisioned by just these three notable precedents are really quite different in nature and perhaps the reality is that the ethical positions of these contributors are in competition. Nobody has the power in reality to set a social discount rate in this way for all society. For most, the setting of these assumptions is of private preference only.
 
-\begin{table}[h]
+\begin{table}[ht]
 \caption{Notable precedents: assumptions in social discounting}
 \begin{center}
 \begin{tabular}{| l | c | c | c | c | c |}
@@ -289,7 +337,7 @@ Therefore, the penal machinery of State becomes ones security to another and is 
 Therefore, in order to optimise ones actions to assure \emph{faith in promise} one arrives at a quality-of-life indicator equivalent to a \emph{Commonwealth Cost of Carbon} for a given time-period we complete the following calculation:
 
 \begin{equation}
-Commonwealth\; Cost\; of\; Carbon = \frac{gross\; anthropogenic\; expenditure\; on\; enforcement}{gross\; anthropogenic\; greenhouse\; emissions}
+	\frac{gross\; anthropogenic\; expenditure\; on\; enforcement}{gross\; anthropogenic\; greenhouse\; emissions}
 \end{equation}
 
 It is evident that this calculation method requires relatively straightforward math, but the accounting is not trivial.
@@ -449,6 +497,8 @@ Professional best practice would be to add the Commonwealth Cost of Carbon to ex
 Any policies that stipulate objectively under-assured supply-chains runs risks of severe problems and challenge.
 The consequences of failing to perform to shared understanding are simply increased levels of enforcement by states, whether judicial, or ultimately through military intervention.\
 
+\pagebreak
+
 \section{Continuous Integration}
 To support a diverse market of complimentors platform ecosystems define boundaries for developers to integrate and offer new Features to consumers.
 The Guidance and Standards that constitute these boundaries provide criteria for failure to any developer and sets a feedback-loop for learning.
@@ -464,27 +514,32 @@ Test development is an important consideration of any \emph{Framework}, which se
 It is important that developers recognise the system typologies which are relevant to any Features.
 An outline matrix for designating test criteria is shown in Table 2.
 
-\begin{table}[h]
-\caption{Outline matrix designating test criteria}
-\begin{center}
-\begin{tabular}{| l | c | c | c | c | c | c | c |}
-\hline
-System/Stage&life&alarm&property&sensitive&personal&client&public\\
-\hline
-use&&&&&&&\\
-architecture&&&&&&&\\
-framework&&&&&&&\\
-device&&&&&&&\\
-system&&&&&&&\\
-integration&&&&&&&\\
-acceptance&&&&&&&\\
-penetration&&&&&&&\\
-market&&&&&&&\\
-\hline
-\end{tabular}
-\end{center}
-\label{Test matrix}
-\end{table}
+\pagebreak
+
+\begin{sidewaystable}[ht]
+	\caption{Outline matrix designating test criteria}
+	\begin{center}
+		\begin{tabular}{| l | c | c | c | c | c | c | c |}
+		\hline
+		System/Stage&life&alarm&property&sensitive&personal&client&public\\
+		\hline
+		use&&&&&&&\\
+		architecture&&&&&&&\\
+		framework&&&&&&&\\
+		device&&&&&&&\\
+		system&&&&&&&\\
+		integration&&&&&&&\\
+		acceptance&&&&&&&\\
+		penetration&&&&&&&\\
+		market&&&&&&&\\
+		\hline
+		\end{tabular}
+	\end{center}
+	\label{Test matrix}
+\end{sidewaystable}
+
+
+\pagebreak
 
 What follows is a brief summary of some key criteria that has been established for each system typology.
 The intention is that these criteria represent a pragmatic minimum for ecosystem development.
@@ -591,7 +646,7 @@ Client devices are typically networked over internet or serial protocols.\
 The potential market of the platform ecosystem outlined here could be global.
 At this time, few organisations meet the criteria that define the boundaries of the platform ecosystem defined.
 This means there is considerable work to be done to signal failure to potential complimentors and initiate feedback to support an integration process.
-It is also understood that the originators of this document are unlikely to be aware of all relevant information in this domain, which may result in some further change.
+It is also understood that the originators of this document are unlikely to be aware of all relevant information in this domain, which may result in some further change~\cite{ont1}.
 Therefore, an operational model is necessary.\
 
 Within a particularly complex and generally disinterested political context, there appears a need to establish a stable and public auditable signal of thought that may be shared to establish mutual understanding.
@@ -632,6 +687,8 @@ It's intentions are to share knowledge in concert with other Professionals to de
 Licensing of Property is highly permissive to support conditions of fair liberty and equality of opportunity.\
 A public commitment by the authors to this document has now been justified, made public and is fully auditable.
 Our knowledge exchange and learning process through failure continues.\
+
+\pagebreak
 
 \begin{thebibliography}{99}
 
@@ -858,10 +915,11 @@ Mountain View, CA: Google
 palletsprojects
 \url{https://flask.palletsprojects.com}
 
+\bibitem{ont1} Parkinson A.T. (2023)
+\emph{Digital Assurance}
+Wedmore, Somerset: Realfeed Ltd.
+\url{https://github.com/realfeed/manifesto/blob/main/digitalAssurance.xml}
+
 \end{thebibliography}
-
-\section{Annex: Public Access to Digital Assurance Ontology}
-
-\url{https://github.com/aidan-parkinson/digital-assurance/blob/main/digitalAssurance.xml}
 
 \end{document}  
