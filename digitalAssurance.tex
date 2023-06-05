@@ -1,7 +1,10 @@
 \documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
 \usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
-\geometry{a4paper}                   		% ... or a4paper or a5paper or ... 
-%\geometry{landscape}                		% Activate for rotated page geometry
+\geometry{
+	paperwidth=6in,
+	paperheight=9in
+	}                   		% ... or a4paper or a5paper or ... 
+%\geometry{portrait}                		% Activate for rotated page geometry
 %\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
 \usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
 								% TeX will automatically convert eps --> pdf in pdflatex		
@@ -14,14 +17,40 @@
 %\usepackage{hyperref}
 
 %SetFonts
-
+\newenvironment{defenseinfo}[1][10em]
+  {\noindent\begin{tabular}{@{}l@{~\makebox[#1]{\dotfill}}}}
+  {\end{tabular}}
 %SetFonts
-\title{Defining Ecosystem Boundaries within a Stable, Diverse and Extensive Alarm Management Platform}
-\author{Dr Aidan Thomas Parkinson\\ Realfeed Ltd., Sinsuran, West End, Wedmore, Somerset, BS28 4BW.\\ aidan.parkinson@gmail.com}
-\date{\today}							% Activate to display a given date or no date
+\title{Defining Ecosystem Boundaries within a Stable, Diverse and Extensive Alarm Management Platform\\
+A Manifesto in Systems Architecture}
+\author{A T Parkinson\\ Fringe Papers, Wedmore, Somerset, UK.}
+							% Activate to display a given date or no date
 
 \begin{document}
+\date{\today}
+
+\pagebreak
+\pagebreak
+
 \maketitle
+
+\pagebreak
+
+\begin{defenseinfo}
+
+https://github.com/realfeed/manifesto is in the public domain.\\
+
+First Edition 2023\\
+
+ISBN: [PUBLICATION ISBN NUMBER] (hardback)\\
+
+Visit the authors website at https://aidanparkinson.xyz\\
+
+Fringe Papers is a registered trademark of Realfeed Ltd.
+
+\end{defenseinfo}
+
+\pagebreak
 
 \section*{Abstract}
 It has been recognised the the prevailing discussion on the governance of platform ecosystems may have contributed to global ecosystem instability in alarming ways.
@@ -70,6 +99,7 @@ In conclusion an Ontology that offers the authors perspective on this question i
 It is acknowledged that the problems faced are formidable and no solution can be perfect.
 However, it is intended that this article contributes common-sense that may inspire the sustainable development of new technologies going forward.\
 
+\pagebreak
 
 \section{Ethics}
 It is acknowledged that any ecosystem may include agents with different interests and potentially competing principles of what is Good.
@@ -449,6 +479,8 @@ Professional best practice would be to add the Commonwealth Cost of Carbon to ex
 Any policies that stipulate objectively under-assured supply-chains runs risks of severe problems and challenge.
 The consequences of failing to perform to shared understanding are simply increased levels of enforcement by states, whether judicial, or ultimately through military intervention.\
 
+\pagebreak
+
 \section{Continuous Integration}
 To support a diverse market of complimentors platform ecosystems define boundaries for developers to integrate and offer new Features to consumers.
 The Guidance and Standards that constitute these boundaries provide criteria for failure to any developer and sets a feedback-loop for learning.
@@ -632,6 +664,8 @@ It's intentions are to share knowledge in concert with other Professionals to de
 Licensing of Property is highly permissive to support conditions of fair liberty and equality of opportunity.\
 A public commitment by the authors to this document has now been justified, made public and is fully auditable.
 Our knowledge exchange and learning process through failure continues.\
+
+\pagebreak
 
 \begin{thebibliography}{99}
 
@@ -860,8 +894,10 @@ palletsprojects
 
 \end{thebibliography}
 
+\pagebreak
+
 \section{Annex: Public Access to Digital Assurance Ontology}
 
-\url{https://github.com/aidan-parkinson/digital-assurance/blob/main/digitalAssurance.xml}
+\url{https://github.com/realfeed/manifesto/blob/main/digitalAssurance.tex}
 
 \end{document}  
