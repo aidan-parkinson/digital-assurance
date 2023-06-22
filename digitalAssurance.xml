@@ -1027,12 +1027,6 @@
       <owlx:Label xml:lang="en">RSA data encryption</owlx:Label>
       <owlx:Documentation xml:lang="en">Rivest-Shamir-Adleman encryption to standard IEEE P1363</owlx:Documentation>
     </owlx:Annotation>
-    
-    <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#property"/> 
-      <owlx:Individual owlx:name="#system"/>
-      <owlx:Individual owlx:name="#guidance"/>
-    </owlx:IntersectionOf>
       
     <owlx:IntersectionOf>
       <owlx:Individual owlx:name="#sensitive"/> 
@@ -1055,11 +1049,6 @@
   </owlx:Class>
   
   <owlx:Class owlx:name="aes-encryption" owlx:complete="false">
-
-    <owlx:Annotation>
-      <owlx:Label xml:lang="en">AES data encryption</owlx:Label>
-      <owlx:Documentation xml:lang="en">Advanced Encryption Standard to ISO/IEC 18033-3:2010</owlx:Documentation>
-    </owlx:Annotation>
     
     <owlx:IntersectionOf>
       <owlx:Individual owlx:name="#property"/> 
