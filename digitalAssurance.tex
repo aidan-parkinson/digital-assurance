@@ -679,8 +679,8 @@ RADIUS requires the following components:
 	\item a RADIUS client.
 \end{itemize}	
 RADIUS employs user credentials or certificates for role-based access control, which involves the checking that a user is authorized and granting an appropriate level of privilege to the network.
-The use of digital certificates for role-based authentication by RADIUS is considered more secure than user credentials (username and password).
-It is thought RADIUS is most successful when authenticating users with X.509 type digital certificates.\
+The use of digital certificates for IEEE 802.1X role-based authentication by RADIUS is considered more secure than user credentials (username and password)~\cite{8021X}.
+It is thought RADIUS is most successful when authenticating users with IEEE X.509 type digital certificates.~\cite{X509}\
 
 A bastion host is a server whose purpose is to provide access to a private network from an external network, such as the internet.
 Because of its exposure to potential attack, bastion hosts are designed to minimise chances of penetration.
@@ -698,7 +698,7 @@ The core of the MQTT protocol are clients and servers that send many-to-many com
 	\item Subscribers, include the devices that receive data related to pre-defined topics;
 	\item Brokers, which receive published messages and distribute to clients subscribed to the specific topic. These brokers may store a work queue awaiting distribution to subscribed clients.
 \end{itemize}
-Message brokers may be deployed on virtual machines or containerised (Docker/Kubernetes) environments.\
+Message brokers may be deployed on virtual machines or containerised (Docker/Kubernetes) environments~\cite{mqtt}.\
 
 An internet gateway allows communication between devices and the internet, if provided with public IPv4 or IPv6 addresses.
 Similarly, devices on the internet can initiate a connection to resources with public IPv4 and IPv6 addresses over an internet gateway.
@@ -739,13 +739,13 @@ Nmap is an open source utility for network discovery and auditing.
 Many systems and network adminstrators also find it useful for tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime.
 Nmap uses raw IP packets in novel ways to determine what hosts are available on the network, what services those hosts are using, what operating system they are running, what type of filters/firewalls are in use and dozens of other characteristics.
 Designed to rapidly scan large networks, Nmap may also be used to scan a single host.
-Nmap is distributed on GNU GPLv2 license and runs on all major computer operating systems.\
+Nmap is distributed on GNU GPLv2 license and runs on all major computer operating systems~\cite{nmap}.\
 
 Ncrack is a high-speed network authentication cracking tool.
 It has been built to help companies secure their networks by proactively testing all their hosts and networking devices for poor passwords.
 Ncrack's features include a very flexible interface granting the user full control of network operations, allowing for very sophisticated bruteforcing attackes, timing templates for ease of use and runtime interaction similar to Nmap.
 The software is distributed on GNU GPLv2 license and runs on all major computer operating systems.
-Ncrack supports many of the most widely used protocols, including:
+Ncrack supports many of the most widely used protocols, including~\cite{ncrack}:
 \begin{itemize}
 	\item Secure Shell (SSH);
 	\item Remote Desktop Protocol (RDP);
@@ -793,6 +793,8 @@ Alarms need be prioritised in a common-sense manner to direct attention:
 Sensitive information may be subject to assured promises that require individuals or associations to retain information in private.
 Such information would likely be subject to a Framework defined by a state.
 Sensitive information should be encrypted with either RSA or AES data encryption Standards at rest and in transit~\cite{rsa}~\cite{aes}.
+Encryption in transit can be achieved over private IPv4 networks through implementing Transport Layer Security Protocol (TLSP)~\cite{tlsp}.
+On public networks, encryption in transit may be provided by IPv6 tunnels.
 
 \subsection{Personal}
 Any information that may be used by organisations to identify individuals has particular relevance to personal privacy and security.
@@ -800,6 +802,8 @@ The collection, storage and use of personal information that may be used to iden
 Unless some sort of agreement has been made between states, there is no confidence of common requirements across legal Frameworks.
 Any personal information contained within this document is subject to a Framework defined in English Law.
 Personal information that is to be assured for private use only should be encrypted with either RSA or AES data encryption Standards at rest and in transit~\cite{rsa}~\cite{aes}.
+Encryption in transit can be achieved over private IPv4 networks through implementing Transport Layer Security Protocol (TLSP)~\cite{tlsp}.
+On public networks, encryption in transit may be provided by IPv6 tunnels.
 
 \subsection{Client}
 Client applications involve the release of consumer interfaces to remote devices.
@@ -1053,24 +1057,64 @@ Cambridge, MA: Harvard University Press
 The Internet Society
 \url{https://datatracker.ietf.org/doc/html/rfc2460}
 
+\bibitem{8021X} IEEE Standards Association (2010)
+\emph{802.1X-2020 - IEEE Standard for Local and Metropolitan Area Networks--Port-Based Network Access Control}
+IEEE Standards Association
+\url{https://ieeexplore.ieee.org/document/9018454}
+
+\bibitem{X509} IEEE Standards Association (2015)
+\emph{X.509 Check: A Tool to Check the Safety and Security of Digital Certificates}
+IEEE Standards Association
+\url{https://ieeexplore.ieee.org/document/7428340}
+
+\bibitem{mqtt} OASIS Standard (2019)
+\emph{MQTT Version 5}
+OASIS Message Queuing Telemetry Transport 
+\url{https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.pdf}
+
+\bibitem{oflo} Open Networking Foundation (2014)
+\emph{OpenFlow}
+Open Networking Foundation
+\url{https://opennetworking.org/wp-content/uploads/2014/10/openflow-switch-v1.5.1.pdf}
+
+\bibitem{switch} Linux Foundation (2023)
+\emph{What is Open vSwitch}
+Linux Foundation 
+\url{https://docs.openvswitch.org/en/latest/intro/what-is-ovs/}
+
 \bibitem{daq1} FaucetSDN Device Automated Qualifaction Community (2022)
 \emph{faucetSDN/daq}
 faucetsdn
 \url{https://github.com/faucetsdn/daq}
 
+\bibitem{nmap} nmap.org (2023)
+\emph{Nmap Reference Guide}
+nmap.org
+\url{https://nmap.org/book/man.html}
+
+\bibitem{ncrack} Chatnzis~I (2023)
+\emph{Ncrack Reference Guide}
+nmap.org
+\url{https://nmap.org/ncrack/man.html}
+
 \bibitem{git} git-scm Community (2022)
-\emph{faucetSDN/daq}
+\emph{git}
 git
 \url{https://git-scm.com/}
 
 \bibitem{rsa} IEEE Standards Association (2000)
 \emph{IEEE 1363-2000 IEEE Standard Specifications for Public-Key Cryptography}
 IEEE Standards Association
-\url{https://github.com/faucetsdn/daq}
+\url{https://standards.ieee.org/ieee/1363/2049/}
 
 \bibitem{aes} International Standards Organisation (2020)
 \emph{ISO/IEC 18033-3:2010 Infomration technology - Security techniques - Encryption algorithms - Part 3: Block ciphers}
 Geneva: International Standards Organisation
+\url{https://www.iso.org/standard/54531.html}
+
+\bibitem{tlsp} Dierks~T. Rescorla~E. (2008)
+\emph{The Transport Layer Security (TLS) Protocol Version 1.2}
+Internet Engineering Taskforce: Network Working Group
 \url{https://www.iso.org/standard/54531.html}
 
 \bibitem{jenkins} Jenkins Infrastructure Community (2022)
@@ -1099,7 +1143,7 @@ Mountain View, CA: Google
 palletsprojects
 \url{https://flask.palletsprojects.com}
 
-\bibitem{ont1} Parkinson A.T. (2023)
+\bibitem{ont1} Parkinson~A.T. (2023)
 \emph{Digital Assurance}
 Wedmore, Somerset: Realfeed Ltd.
 \url{https://github.com/aidan-parkinson/digital-assurance/blob/main/digitalAssurance.xml}

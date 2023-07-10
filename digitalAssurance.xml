@@ -564,36 +564,6 @@
     </owlx:Annotation>
       
     <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#alarm"/> 
-      <owlx:Individual owlx:name="#integration"/>
-      <owlx:Individual owlx:name="#guidance"/>
-    </owlx:IntersectionOf>
-      
-    <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#property"/> 
-      <owlx:Individual owlx:name="#integration"/>
-      <owlx:Individual owlx:name="#guidance"/>
-    </owlx:IntersectionOf>
-      
-    <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#sensitive"/> 
-      <owlx:Individual owlx:name="#integration"/>
-      <owlx:Individual owlx:name="#guidance"/>
-    </owlx:IntersectionOf>
-      
-    <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#personal"/> 
-      <owlx:Individual owlx:name="#integration"/>
-      <owlx:Individual owlx:name="#guidance"/>
-    </owlx:IntersectionOf>
-      
-    <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#client"/> 
-      <owlx:Individual owlx:name="#integration"/>
-      <owlx:Individual owlx:name="#guidance"/>
-    </owlx:IntersectionOf>
-      
-    <owlx:IntersectionOf>
       <owlx:Individual owlx:name="#public" /> 
       <owlx:Individual owlx:name="#integration" />
       <owlx:Individual owlx:name="#guidance" />
@@ -1049,12 +1019,6 @@
   </owlx:Class>
   
   <owlx:Class owlx:name="aes-encryption" owlx:complete="false">
-    
-    <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#property"/> 
-      <owlx:Individual owlx:name="#system"/>
-      <owlx:Individual owlx:name="#guidance"/>
-    </owlx:IntersectionOf>
       
     <owlx:IntersectionOf>
       <owlx:Individual owlx:name="#sensitive"/> 
@@ -1249,12 +1213,6 @@
     </owlx:Annotation>
     
     <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#client"/> 
-      <owlx:Individual owlx:name="#integration"/>
-      <owlx:Individual owlx:name="#guidance"/>
-    </owlx:IntersectionOf>
-    
-    <owlx:IntersectionOf>
       <owlx:Individual owlx:name="#public"/> 
       <owlx:Individual owlx:name="#integration"/>
       <owlx:Individual owlx:name="#guidance"/>
@@ -1276,10 +1234,31 @@
     </owlx:Annotation>
     
     <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#client"/> 
-      <owlx:Individual owlx:name="#integration"/>
+      <owlx:Individual owlx:name="#sensitive"/> 
+      <owlx:Individual owlx:name="#system"/>
       <owlx:Individual owlx:name="#guidance"/>
     </owlx:IntersectionOf>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#personal"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://datatracker.ietf.org/doc/html/rfc5246">
+      </xsd:documentation>
+    </hasValue>
+
+  </owlx:Class>
+
+  <owlx:Class owlx:name="802.1x" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">802.1X</owlx:Label>
+      <owlx:Documentation xml:lang="en">Port-Based Network Access Control</owlx:Documentation>
+    </owlx:Annotation>
     
     <owlx:IntersectionOf>
       <owlx:Individual owlx:name="#public"/> 
@@ -1289,7 +1268,126 @@
       
     <hasValue>
       <xsd:documentation
-        mlns:owlx="https://datatracker.ietf.org/doc/html/rfc5246">
+        mlns:owlx="https://ieeexplore.ieee.org/document/9018454">
+      </xsd:documentation>
+    </hasValue>
+
+  </owlx:Class>
+
+   <owlx:Class owlx:name="x.509" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">X.509</owlx:Label>
+      <owlx:Documentation xml:lang="en">A Tool to Check the Safety and Security of Digital Certificates</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#public"/> 
+      <owlx:Individual owlx:name="#integration"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://ieeexplore.ieee.org/document/7428340">
+      </xsd:documentation>
+    </hasValue>
+
+  </owlx:Class>
+
+   </owlx:Class>
+
+   <owlx:Class owlx:name="mqtt" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">mqtt</owlx:Label>
+      <owlx:Documentation xml:lang="en">Message Queueing Telemetry Transport</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#public"/> 
+      <owlx:Individual owlx:name="#integration"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.pdf">
+      </xsd:documentation>
+    </hasValue>
+
+  </owlx:Class>
+
+  <owlx:Class owlx:name="openflow" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">OpenFlow</owlx:Label>
+      <owlx:Documentation xml:lang="en">OpenFlow</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#public"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#public"/> 
+      <owlx:Individual owlx:name="#integration"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://opennetworking.org/wp-content/uploads/2014/10/openflow-switch-v1.5.1.pdf">
+      </xsd:documentation>
+    </hasValue>
+
+  </owlx:Class>
+
+  <owlx:Class owlx:name="nmap" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Nmap</owlx:Label>
+      <owlx:Documentation xml:lang="en">Nmap</owlx:Documentation>
+    </owlx:Annotation>
+    
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#public"/> 
+      <owlx:Individual owlx:name="#system"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#public"/> 
+      <owlx:Individual owlx:name="#integration"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://nmap.org/book/man.html">
+      </xsd:documentation>
+    </hasValue>
+
+  </owlx:Class>
+
+  <owlx:Class owlx:name="ncrack" owlx:complete="false">
+
+    <owlx:Annotation>
+      <owlx:Label xml:lang="en">Ncrack</owlx:Label>
+      <owlx:Documentation xml:lang="en">Ncrack</owlx:Documentation>
+    </owlx:Annotation>
+
+    <owlx:IntersectionOf>
+      <owlx:Individual owlx:name="#public"/> 
+      <owlx:Individual owlx:name="#penetration"/>
+      <owlx:Individual owlx:name="#guidance"/>
+    </owlx:IntersectionOf>
+      
+    <hasValue>
+      <xsd:documentation
+        mlns:owlx="https://nmap.org/ncrack/man.html">
       </xsd:documentation>
     </hasValue>
 
