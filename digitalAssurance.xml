@@ -1226,10 +1226,10 @@
 
   </owlx:Class>
     
-  <owlx:Class owlx:name="tlsp" owlx:complete="false">
+  <owlx:Class owlx:name="tls" owlx:complete="false">
 
     <owlx:Annotation>
-      <owlx:Label xml:lang="en">TLSP</owlx:Label>
+      <owlx:Label xml:lang="en">TLS</owlx:Label>
       <owlx:Documentation xml:lang="en">Transport Layer Security Protocol</owlx:Documentation>
     </owlx:Annotation>
     
