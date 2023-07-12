@@ -89,6 +89,36 @@ A minimal set of criteria has been identified for a publicly addressable alarm m
 In operation the platform is to share knowledge in concert with other Professionals to develop mutually assured approaches in Good faith.
 
 \newpage
+\thispagestyle{empty}
+\mbox{}
+\newpage
+
+\begin{table}[H]
+\caption{Abbreviations}
+\begin{center}
+\begin{tabular}{| l | l |}
+\hline
+DAQ&Device Automated Qualification\\
+FTP&File Transfer Protocol\\
+GPL&General Public License\\
+HTTP&Hypertext Transfer Protocol\\
+IP&Internet Protocol\\
+MQTT&Message Queued Telemetry Transport\\
+NAT&Network Address Translation\\
+PAT&Port Address Translation\\
+RADIUS&Remote Authentication Dial-In User Service\\
+RDP&Remote Desktop Protocol\\
+SDN&Software Defined Networks\\
+SSH&Secure Shell\\
+TCP&Transmission Control Protocol\\
+WAN&Wide Area Network\\
+\hline
+X&Y\\
+\hline
+\end{tabular}
+\end{center}
+\label{Abbreviations}
+\end{table}
 
 \tableofcontents
 
@@ -611,7 +641,7 @@ Therefore, private systems may allow for a diverse and risky mix of traffic that
 Network Address Translation (NAT) is a service that operates on a router to connect private networks to public networks like the internet.
 NAT is often implemented at the Wide Area Network (WAN) edge router to enable internet access in sites.
 With NAT, an organisation needs one IP address to represent an entire group of devices as they connect outside their network.
-Port Address Translation (PAT) enables one single IP address to be shared by multiple hosts using IP and port address translation.
+Port Address Translation (PAT) enables one single Internet Protocol (IP) address to be shared by multiple hosts using IP and port address translation.
 NAT is a networking feature that can help reduce organisational security risk by hiding internal networks from public networks.
 By default, outside public IPs cannot communicate to internal private IP devices if there is no pre-existing NAT translation.
 Connections between internal private devices and outside public devices must be initiated by outbound communication.
@@ -682,7 +712,7 @@ Because of its exposure to potential attack, bastion hosts are designed to minim
 Bastion hosts are a critical point of network security, hence, it is best practice to harden such instances.
 Examples of hardening might be to disable unnecessary applications or services, tuning the network, regular monitoring with audit tools and multi-factor authentication of users (by RADIUS, for example).\
 
-MQTT is the dominant standard used in IoT communications.
+Message Queued Telemetry Transport (MQTT) is the dominant standard used in IoT communications.
 Because of its simplicity, MQTT doesn’t require much processing or battery power from devices.
 With the ability to use very small message headers, MQTT doesn’t demand much bandwidth either.
 MQTT also make it possible to define different quality of service levels for messages that enable controls over how many times messages are sent and what handshakes are required to complete them.
@@ -747,7 +777,7 @@ Ncrack supports many of the most widely used protocols, including~\cite{ncrack}:
 	\item File Transfer Protocol (FTP);
 	\item Telnet;
 	\item Hypertext Transfer Protocol (HTTP);
-	\item Message Queue Telemetry Transport (MQTT);
+	\item MQTT;
 	\item MySQL;
 	\item MongoDB;
 \end{itemize}\
@@ -786,6 +816,10 @@ Alarms need be prioritised in a common-sense manner to direct attention:
 A prioritised agenda for systems engineering within the domain of civil infrastructure follows.
 
 \subsubsection{P1, unsupported supervisory control and data acquisition}
+
+Critical infrastructure often employs Supervisory Control and Data Acquisition (SCADA) tools to configure, monitor and analyse complex systems and processes.
+Many sites with critical roles in society exist with SCADA 
+
 Supported open communications protocols on LTS operating systems for critical infrastructure.
 
 \subsubsection{P1, compressor failures under minimum turndown}
