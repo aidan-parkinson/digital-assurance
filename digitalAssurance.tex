@@ -1,4 +1,4 @@
-\documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\documentclass[11pt, oneside]{book}   	% use "amsart" instead of "article" for AMSLaTeX format
 \usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
 \geometry{
 	paperwidth=5.5in,
@@ -19,6 +19,9 @@
 
 \usepackage{float}
 \usepackage{placeins}
+
+\usepackage[Sonny]{fncychap}
+
 
 %SetFonts
 \title{Ecosystem Alarm Management}
@@ -93,37 +96,6 @@ In operation the platform is to share knowledge in concert with other Profession
 \mbox{}
 \newpage
 
-\begin{table}[H]
-\caption{Abbreviations}
-\begin{center}
-\begin{tabular}{| l | l |}
-\hline
-Abbreviation&Description\\
-\hline
-DAQ&Device Automated Qualification\\
-FTP&File Transfer Protocol\\
-GPL&General Public License\\
-HTTP&Hypertext Transfer Protocol\\
-IP&Internet Protocol\\
-LTS&Long Term Support\\
-MQTT&Message Queued Telemetry Transport\\
-NAT&Network Address Translation\\
-PAT&Port Address Translation\\
-RADIUS&Remote Authentication Dial-In User Service\\
-RDP&Remote Desktop Protocol\\
-SCADA&Supervisory Control and Data Acquisition\\
-SDN&Software Defined Networks\\
-SSH&Secure Shell\\
-TCP&Transmission Control Protocol\\
-WAN&Wide Area Network\\
-\hline
-\end{tabular}
-\end{center}
-\label{Abbreviations}
-\end{table}
-
-\newpage
-
 \tableofcontents
 
 \newpage
@@ -132,7 +104,7 @@ WAN&Wide Area Network\\
 \newpage
 
 \pagenumbering{arabic}
-\section{Introduction}
+\chapter{Introduction}
 Digital platform governance involves thoughtful considerations towards the standardisation of interfaces to enable a diverse market of complimenters to find opportunity in developing Features for consumers.
 There has been much discussion about the creation of platforms that prioritise network effects to deliver a popular market share of consumers with compelling development opportunities for complimenters to offer proprietary tools to enhance personal utility.
 Such an approach has been very successful for exploiting new domains, such as the internet and personal client devices~\cite{bop1}.
@@ -163,7 +135,7 @@ However, it is intended that this paper contributes common-sense that may inspir
 
 \pagebreak
 
-\section{Ethics}
+\chapter{Ethics}
 Taking weighty responsibility, as this paper does through asking its opening question, a critical ethics statement must form the core of any platform governance.
 The issue being explored has relevance to the stability of the social contract and perspectives on the State of nature itself.
 What follows is a summary discussion of an ethical basis to be committed to by an assurance regime.
@@ -567,7 +539,7 @@ The consequences of failing to perform to shared understanding are simply increa
 
 \pagebreak
 
-\section{Continuous Integration}
+\chapter{Continuous Integration}
 To support a diverse market of complementors platform ecosystems define boundaries for developers to integrate and offer new Features to consumers.
 The Guidance and Standards that constitute these boundaries provide criteria for failure to any developer and sets a feedback-loop for learning.
 Whilst \emph{Guidance} criteria are suggested as Good practice for learning practitioners, \emph{Standards} represent mandatory criteria where it appears no other reasonable option is available.
@@ -843,7 +815,7 @@ Client devices are typically networked over internet or serial protocols.\
 
 \pagebreak
 
-\section{Operation}
+\chapter{Operation}
 The potential market of the platform ecosystem outlined here could be global.
 At this time, few organisations meet the criteria that define the boundaries of the platform ecosystem defined.
 This means there is considerable work to be done to signal failure to potential complementors and initiate feedback to support an integration process.
@@ -857,6 +829,8 @@ The following arrangements have been made to support operation of this platform 
 \subsection{Agenda}
 A prioritised agenda for systems engineering within the domain of civil infrastructure follows.
 The agenda includes a set of alarms which are believed to be reasonably focussed and have some universal relevance.
+Investigations of each alarm are note nearly exhaustive.
+The intentions of recommended actions are to apply practical solutions that could quickly mitigate the most severe or prevalent symptoms.
 Failure to action initiatives to mitigate these risks will contribute to greater ecosystem instability.
 
 \subsubsection{P1: technical support for supervisory control and data acquisition}
@@ -881,7 +855,7 @@ In doing so, constructive conversations can be maintained in private and more co
 
 \subsubsection{P1: compressor failures under minimum turndown}
 Hot and chilled water systems are a common means of distributing thermal energy to terminal devices that heat and/or cool occupied spaces.
-When considering larger buildings or energy centres it is popular to install equipment for evaporation and/or condensing of fluids that employ compressors to pressurise fluids.
+When considering larger buildings or heat networks it is popular to install equipment for evaporation and/or condensing of fluids that employ compressors to pressurise fluids.
 Heat pumps and air-cooled chillers are examples of such equipment.
 However, it is becoming common to witness such compressors failing within a few years due to frequent start/stop cycles during conditions of minimum turndown.
 This can be caused by temperature differentials between secondary flow and return temperatures narrowing under minimum turndown conditions if systems are poorly designed.\
@@ -934,6 +908,8 @@ This can be achieved by adding buffering to return pipework.\
 \subsubsection{P2: summertime domestic overheating}
 External shading and cross-ventilation.
 
+
+
 \subsubsection{P2: close control of domestic heating}
 Smart Pressure Independent Thermostatic Radiator Valves (PITRVs) for radiators.
 
@@ -982,7 +958,7 @@ Any popular attention paid to REALFEED would be purely a result of the companies
 
 \pagebreak
 
-\section{Conclusion}
+\chapter{Conclusion}
 It has been recognised the the prevailing discussion on the governance of platform ecosystems may have contributed to global ecosystem instability in alarming ways.
 The prioritisation of network effects to deliver a popular market share of consumers tends to be a common Feature.
 Therefore, this document has sought to diagnose causes of instability and define new platform ecosystem boundaries for more stable outcomes.
@@ -1003,6 +979,37 @@ It's intentions are to share knowledge in concert with other Professionals to de
 Licensing of Property is highly permissive to support conditions of fair liberty and equality of opportunity.
 A public commitment by the authors to this document has now been justified, made public and is fully auditable.
 Our knowledge exchange and learning process through failure continues.\
+
+\pagebreak
+
+\section*{Abbreviations}
+\begin{table}[H]
+	\begin{center}
+	\begin{tabular}{| l | l |}
+	\hline
+	Abbreviation&Description\\
+	\hline
+	DAQ&Device Automated Qualification\\
+	FTP&File Transfer Protocol\\
+	GPL&General Public License\\
+	HTTP&Hypertext Transfer Protocol\\
+	IP&Internet Protocol\\
+	LTS&Long Term Support\\
+	MQTT&Message Queued Telemetry Transport\\
+	NAT&Network Address Translation\\
+	PAT&Port Address Translation\\
+	RADIUS&Remote Authentication Dial-In User Service\\
+	RDP&Remote Desktop Protocol\\
+	SCADA&Supervisory Control and Data Acquisition\\
+	SDN&Software Defined Networks\\
+	SSH&Secure Shell\\
+	TCP&Transmission Control Protocol\\
+	WAN&Wide Area Network\\
+	\hline
+	\end{tabular}
+	\end{center}
+	\label{Abbreviations}
+\end{table}
 
 \pagebreak
 
