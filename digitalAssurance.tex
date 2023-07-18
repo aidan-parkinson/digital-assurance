@@ -21,13 +21,9 @@
 \usepackage{placeins}
 
 \usepackage[Sonny]{fncychap}
-
-
-%SetFonts
-\title{Ecosystem Alarm Management}
-\author{\Large A Manifesto for Systems Architecture\\
-\large A. T. Parkinson}	
-\date{}						% Activate to display a given date or no date
+\ChNameVar{\Large\fontfamily{cmr}}
+\ChNumVar{\Huge\fontfamily{cmr}}
+\ChTitleVar{\Large\fontfamily{cmr}}
 
 \begin{document}
 \pagenumbering{gobble}
@@ -56,12 +52,25 @@ ECOSYSTEM ALARM MANAGEMENT
 	Fringe Papers is a registered trademark of Realfeed Ltd.
 \end{small}
 
-\maketitle
-\vfill
-\begin{center}
-Fringe Papers\\
-Wedmore, UK.
-\end{center}
+\pagebreak
+
+\begin{titlepage}
+	\centering
+    \vspace*{20mm}
+	{\huge Ecosystem Alarm Management\par}
+    \vspace{0.5cm}
+    {\Large A Manifesto in Systems Architecture\par}
+    \vspace{0.5cm}
+	{\large A. T. Parkinson\par}
+	\vfill
+% Bottom of the page
+	{\large
+		\begin{center}
+		Fringe Papers\\
+		Wedmore, UK.
+		\end{center}
+	}
+\end{titlepage}
 
 \newpage
 \thispagestyle{empty}
@@ -78,7 +87,7 @@ For those passionate activists and disruptive technologists.
 \mbox{}
 \newpage
 
-\section*{Abstract}
+\chapter*{Abstract}
 It has been recognised the the prevailing discussion on the governance of platform ecosystems may have contributed to global ecosystem instability in alarming ways.
 The prioritisation of network effects to deliver a popular market share of consumers tends to be a common Feature.
 This investigation seeks to diagnose causes of instability and define new platform ecosystem boundaries for more stable outcomes.
@@ -96,7 +105,44 @@ In operation the platform is to share knowledge in concert with other Profession
 \mbox{}
 \newpage
 
+\chapter*{Abbreviations}
+\begin{table}[H]
+	\begin{center}
+	\begin{tabular}{ l  l }
+	DAQ&Device Automated Qualification\\
+	FTP&File Transfer Protocol\\
+	GPL&General Public License\\
+	HTTP&Hypertext Transfer Protocol\\
+	IP&Internet Protocol\\
+	LTS&Long Term Support\\
+	MQTT&Message Queued Telemetry Transport\\
+	NAT&Network Address Translation\\
+	PAT&Port Address Translation\\
+	RADIUS&Remote Authentication Dial-In User Service\\
+	RDP&Remote Desktop Protocol\\
+	SCADA&Supervisory Control and Data Acquisition\\
+	SDN&Software Defined Networks\\
+	SSH&Secure Shell\\
+	TCP&Transmission Control Protocol\\
+	WAN&Wide Area Network\\
+	\end{tabular}
+	\end{center}
+	\label{Abbreviations}
+\end{table}
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\newpage
+
+\newpage
+
 \tableofcontents
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\newpage
 
 \newpage
 \thispagestyle{empty}
@@ -979,37 +1025,6 @@ It's intentions are to share knowledge in concert with other Professionals to de
 Licensing of Property is highly permissive to support conditions of fair liberty and equality of opportunity.
 A public commitment by the authors to this document has now been justified, made public and is fully auditable.
 Our knowledge exchange and learning process through failure continues.\
-
-\pagebreak
-
-\section*{Abbreviations}
-\begin{table}[H]
-	\begin{center}
-	\begin{tabular}{| l | l |}
-	\hline
-	Abbreviation&Description\\
-	\hline
-	DAQ&Device Automated Qualification\\
-	FTP&File Transfer Protocol\\
-	GPL&General Public License\\
-	HTTP&Hypertext Transfer Protocol\\
-	IP&Internet Protocol\\
-	LTS&Long Term Support\\
-	MQTT&Message Queued Telemetry Transport\\
-	NAT&Network Address Translation\\
-	PAT&Port Address Translation\\
-	RADIUS&Remote Authentication Dial-In User Service\\
-	RDP&Remote Desktop Protocol\\
-	SCADA&Supervisory Control and Data Acquisition\\
-	SDN&Software Defined Networks\\
-	SSH&Secure Shell\\
-	TCP&Transmission Control Protocol\\
-	WAN&Wide Area Network\\
-	\hline
-	\end{tabular}
-	\end{center}
-	\label{Abbreviations}
-\end{table}
 
 \pagebreak
 
