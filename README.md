@@ -1,5 +1,5 @@
 # digital-assurance
-Defining Ecosystem Boundaries within a Stable, Diverse and Extensive Alarm Management Platform.
+Ecosystem Alarm Management.
 
 ## ontology
 Please refer to `digitalAssurance.xml` for a definition of terms.
