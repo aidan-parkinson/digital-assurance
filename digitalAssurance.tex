@@ -1010,13 +1010,39 @@ Whilst renewable generation tends to fluctuate with the weather, quick-response 
 CCGT energy generation is particularly useful for meeting momentary differences between forecast demand for electricity and available supply, for instance during hot still summer working hours.
 In order for renewable energy to satisfy a larger proportion of overall end-uses, there is an urgent need to increase capacity of energy storage and manipulate energy demands.\
 
-National Grid have released delivered electricity carbon factors through an Application Programming Interface (API) to support dynamic load manipulation by customers.
-The API provides regional forecasts of delivered electricity carbon factors up to 24-hours in advance.
-Illustrations of regional and temporal variations in delivered electricity carbon factors are shown in [FIGUREX] and [FIGUREY].
+National Grid have released delivered electricity carbon intensity factors through an Application Programming Interface (API) to support dynamic load manipulation by customers.
+The API provides regional forecasts of delivered electricity carbon intensity up to 24-hours in advance.
+Illustrations of temporal and regional variations in delivered electricity carbon intensity are shown in Figure~\ref{Carbon Intensity Forecast figure} and Figure~\ref{Regional Carbon Intensity figure}.
 With such innovation, there is an opportunity for energy centres to condition thermal stores or charge batteries according to expected times when regional distribution conditions are most favourible.
 This requires system controls to be exposed publicly to the WAN, requiring skill and care.
 There is also an opportunity to procure transport and equipment according to regional characteristics of electricity distribution, rather than considering entire nation states as being similar.
-For example, at the time of writing there is a stronger business case for the installation of heat pumps to provide thermal comfort in Scotland than London.\
+For example, at the time of writing there is a stronger business case for the installation of heat pumps to provide thermal comfort in Scotland than in Cornwall.\
+
+\pagebreak
+
+\FloatBarrier
+\begin{sidewaysfigure}[h]
+\begin{center}
+\includegraphics[width=1\textwidth]{carbonIntensityForecast.png}
+\caption{Carbon intensity forecast}
+\label{Carbon Intensity Forecast figure}
+\end{center}
+\end{sidewaysfigure}
+\FloatBarrier
+
+\pagebreak
+
+\FloatBarrier
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=1\textwidth]{regionalCarbonIntensity.png}
+\caption{Regional carbon intensity}
+\label{Regional Carbon Intensity figure}
+\end{center}
+\end{sidewaysfigure}
+\FloatBarrier
+
+\pagebreak
 
 \subsubsection{P2: air handling unit coil failure during frosts}
 Frost protection routines and off-coil capillary frost stats.
