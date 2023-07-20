@@ -1,8 +1,8 @@
-\documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\documentclass[11pt, oneside]{book}   	% use "amsart" instead of "article" for AMSLaTeX format
 \usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
 \geometry{
-	paperwidth=6in,
-	paperheight=9in
+	paperwidth=5.5in,
+	paperheight=8.5in
 	}                   		% ... or a4paper or a5paper or ... 
 %\geometry{portrait}                		% Activate for rotated page geometry
 %\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
@@ -20,18 +20,17 @@
 \usepackage{float}
 \usepackage{placeins}
 
-%SetFonts
-\title{Defining Ecosystem Boundaries Within a Stable, Diverse and Extensive Alarm Management Platform}
-\author{\Large A Manifesto for Systems Architecture\\
-\large A. T. Parkinson}	
-\date{}						% Activate to display a given date or no date
+\usepackage[Sonny]{fncychap}
+\ChNameVar{\Large\fontfamily{cmr}}
+\ChNumVar{\Huge\fontfamily{cmr}}
+\ChTitleVar{\Large\fontfamily{cmr}}
 
 \begin{document}
 \pagenumbering{gobble}
 
 \begin{center}
 \vspace*{50mm}
-DEFINING ECOSYSTEM BOUNDARIES WITHIN A STABLE, DIVERSE AND EXTENSIVE ALARM MANAGEMENT PLATFORM
+ECOSYSTEM ALARM MANAGEMENT
 \end{center}
 
 \pagebreak
@@ -47,20 +46,31 @@ DEFINING ECOSYSTEM BOUNDARIES WITHIN A STABLE, DIVERSE AND EXTENSIVE ALARM MANAG
 	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\\
 	\\
 	First Edition 2023\\
-	ISBN: 978-1-7394554-0-8 (hardback)\\
+	ISBN: 978-1-7394554-1-5 (hardback)\\
 	\url{https://github.com/aidan-parkinson/digital-assurance}\\
-	\\
-	Visit the authors website at \url{https://aidanparkinson.xyz}\\
 	\\
 	Fringe Papers is a registered trademark of Realfeed Ltd.
 \end{small}
 
-\maketitle
-\vfill
-\begin{center}
-Fringe Papers\\
-Wedmore, UK.
-\end{center}
+\pagebreak
+
+\begin{titlepage}
+	\centering
+    \vspace*{20mm}
+	{\huge Ecosystem Alarm Management\par}
+    \vspace{0.5cm}
+    {\Large A Manifesto in Systems Architecture\par}
+    \vspace{0.5cm}
+	{\large A. T. Parkinson\par}
+	\vfill
+% Bottom of the page
+	{\large
+		\begin{center}
+		Fringe Papers\\
+		Wedmore, UK.
+		\end{center}
+	}
+\end{titlepage}
 
 \newpage
 \thispagestyle{empty}
@@ -77,7 +87,7 @@ For those passionate activists and disruptive technologists.
 \mbox{}
 \newpage
 
-\section*{Abstract}
+\chapter*{Abstract}
 It has been recognised the the prevailing discussion on the governance of platform ecosystems may have contributed to global ecosystem instability in alarming ways.
 The prioritisation of network effects to deliver a popular market share of consumers tends to be a common Feature.
 This investigation seeks to diagnose causes of instability and define new platform ecosystem boundaries for more stable outcomes.
@@ -85,13 +95,51 @@ It is understood that this has been achieved through an investigation of ethics,
 This investigation appreciates the differences between the \emph{states} of Locke and \emph{State} of Hobbes.
 The Sovereignty of states and their role in forming civil society are recognised and this platform submits to the necessary assurance regime of a state.
 However, a significant difference of this platform ecosystem to others is the acknowledgement that a society need also submit to a global Sovereign of State which accounts for the condition of the Earth's ecosystem.
-What follows is the use of a Hobbesian Commonwealth Cost of Carbon as an overall quality of life indicator and a Rawlsian process of alarm management.\
+What follows is the use of a Hobbesian Commonwealth Cost of Carbon as an overall quality of life indicator and a Rawlsian process of alarm management.
 The resulting \emph{Commonwealth of Peoples} could adopt traditional principles of justice amongst free and democratic peoples without conflict.
-Complimenters are encouraged to develop their own Features for integration with this ethical Framework.
-A minimal set of criteria has been identified for complimenters to develop new Features for end-consumers.
-Although these criteria are not nearly complete at this point of time, it is hoped that they prove a stable enough starting point to generate interest.\
+A minimal set of criteria has been identified for a publicly addressable alarm management system that may allow complimentors to develop new Features for end-consumers.
+Evaluations of practice have identified a prioritised agenda of platform alarms with universal relevance, each of which have associated recommendations for action.
 In operation the platform is to share knowledge in concert with other Professionals to develop mutually assured approaches in Good faith.
-Licensing of Property is highly permissive to support conditions of fair liberty and equality of opportunity.
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\newpage
+
+\chapter*{Abbreviations}
+\begin{table}[H]
+	\begin{center}
+	\begin{tabular}{ l  l }
+	API&Application Programming Interface\\
+	CCGT&Combined Cycle Gas Turbine\\
+	DAQ&Device Automated Qualification\\
+	DPCV&Differential Pressure Control Valve\\
+	FTP&File Transfer Protocol\\
+	GPL&General Public License\\
+	HTTP&Hypertext Transfer Protocol\\
+	IP&Internet Protocol\\
+	LTS&Long Term Support\\
+	MQTT&Message Queued Telemetry Transport\\
+	NAT&Network Address Translation\\
+	PAT&Port Address Translation\\
+	PITRV&Pressure Independent Thermostatic Radiator Valve\\
+	RADIUS&Remote Authentication Dial-In User Service\\
+	RDP&Remote Desktop Protocol\\
+	SCADA&Supervisory Control and Data Acquisition\\
+	SDN&Software Defined Networks\\
+	SSH&Secure Shell\\
+	TCP&Transmission Control Protocol\\
+	TRV&Thermostatic Radiator Valve\\
+	WAN&Wide Area Network\\
+	\end{tabular}
+	\end{center}
+	\label{Abbreviations}
+\end{table}
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\newpage
 
 \newpage
 
@@ -102,8 +150,13 @@ Licensing of Property is highly permissive to support conditions of fair liberty
 \mbox{}
 \newpage
 
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\newpage
+
 \pagenumbering{arabic}
-\section{Introduction}
+\chapter{Introduction}
 Digital platform governance involves thoughtful considerations towards the standardisation of interfaces to enable a diverse market of complimenters to find opportunity in developing Features for consumers.
 There has been much discussion about the creation of platforms that prioritise network effects to deliver a popular market share of consumers with compelling development opportunities for complimenters to offer proprietary tools to enhance personal utility.
 Such an approach has been very successful for exploiting new domains, such as the internet and personal client devices~\cite{bop1}.
@@ -121,7 +174,8 @@ It has been noted that in practice recognised standards are poorly enforced for 
 Lack of consumer confidence has contributed to sluggish market penetration of internet-of-things technologies to-date.\
 
 Further, it appears important to consider the management of Property and how governing agents may operate.
-Such thought needs to reflect on the ecosystems ethical priorities, competition and operational costs.\
+Such thought needs to reflect on the ecosystems ethical priorities, competition and operational costs.
+In operation, a prioritised agenda of alarms with recommendations for action shall be itemised\
 
 Therefore, this paper asks the question:\\
 
@@ -134,7 +188,13 @@ However, it is intended that this paper contributes common-sense that may inspir
 
 \pagebreak
 
-\section{Ethics}
+\chapter{Ethics}
+Taking weighty responsibility, as this paper does through asking its opening question, a critical ethics statement must form the core of any platform governance.
+The issue being explored has relevance to the stability of the social contract and perspectives on the State of nature itself.
+What follows is a summary discussion of an ethical basis to be committed to by an assurance regime.
+It is believed that this wide-ranging perspective constitutes a comprehensive philosophical doctrine for development.
+
+\section{State of Nature}
 It is acknowledged that any ecosystem may include agents with different interests and potentially competing principles of what is Good.
 However, it is extremely challenging to identify a global perspective of what a Good interest is.
 In an attempt to govern a natural ecosystem, one could understand that a process of identification involves considering prevailing representations of the State of Nature.
@@ -165,7 +225,7 @@ The injured party and his agents may then recover from the offender~\cite{jl1}.
 \end{quote}
 
 Nozick describes how such a view leads to the development of protective associations to enforce what an individual beliefs to be their rights, with others joining a call for defence.
-To avoid mutually harmful conflict between protective associations, a system of appeal courts and judgements are made on jurisdiction and the conflict of laws in favour of the dominant protective association.
+To avoid mutually harmful conflict between protective associations, a system of appeal courts and judgments are made on jurisdiction and the conflict of laws in favour of the dominant protective association.
 Protection and enforcement of people's rights is treated as an economic Good to be provided by the market, as are other important Goods such as food and clothing~\cite{rn1}.\
 
 Alternatively, Hobbes defines a \emph{State} of nature for civil society.
@@ -199,13 +259,14 @@ Through transferring ones personal freedoms to a trusted Sovereign one sets up t
 \begin{quote}
 "... one of the contractors, may deliver the thing contracted for on his part, and leave the other to perform his part at some determinate time after, and in the mean time be trusted: and then the contract on his part, is called PACT, or COVENANT: or both parts may contract now, to perform hereafter: in which cases, he that is to perform in time to come, being trusted, his performance is called \emph{keeping of promise}, or faith: and the failing of performance (if to be voluntary) \emph{violation of faith}."
 \end{quote}
+
+\pagebreak
+
 \begin{quote}
 "He that transferreth any right, transferreth the means of enjoying it, as far as leith in his power. As he that selleth land, is understood to transfer the herbage, and whatsoever grows upon it; nor can he that sells. mill turn away the stream that drives it. And they that give to a man the right of government in Sovereignty, are understood to give them the right of levying money to maintain soldiers; and of appointing magistrates for the administration of justice."
 \end{quote}
 
 Hobbes prescribes peace, promise and rule of laws as a Good for social benefit as far as there is hope to obtain it~\cite{th1}.
-
-\pagebreak
 
 \begin{quote}
 "... that every man, ought to endeavour peace, as far as he has hope of obtaining it; and when he cannot obtain it, that he may seek, and use, all helps, and advantages of war."
@@ -214,7 +275,7 @@ Through taking the Hobbesian perspective into account, we may be led to the cont
 
 Through an exploration of conflicts between these two perspectives on the State of Nature, an Executive Function for Alarm Management proposition may be defined as follows.\
 
-\subsection{Sovereignty}
+\section{Sovereignty}
 Following our exploration of a State of Nature, we understand that identification of a Sovereign is a necessary requirement of any ecosystem to be governed.
 The initial priority here is to address root cause of \emph{uncaught promises} which may result from conflicts between the prevailing perspectives of Locke and Hobbes.
 It is suggested that an essential reliance on states to underwrite and re-negotiate the competing priorities of contractual obligations compromised through unexpected natural disasters entirely undermines justification of popular governance models grounded in Locke's state of nature.
@@ -223,7 +284,14 @@ It is unrealistic to claim freedom from having to submit to a common natural eco
 A society of peoples needs to submit to a Hobbesian perspective of a Sovereign ecosystem for all humanity called \emph{Earth}.
 The resulting \emph{Commonwealth of Peoples} could adopt traditional principles of justice amongst free and democratic peoples without conflict ~\cite{jr2}.\
 
-\subsection{Quality-of-life}
+\section{Quality of Life}
+Understanding what constitutes quality of life is an existential exploration of the human race.
+Today, we find leaders defining quality of life as anything from household income to curated human development indices.
+This exploration has focussed specifically on what quality of life means to the Peoples of the Global Commons.
+It is intended as an effort fit and equitable for all society.
+With such focus, both greenhouse gas emissions and state enforcement efforts are raised as pressing concerns.
+
+\subsubsection{Stewardship of the Global Commons}
 \emph{Carbon} is a name for a non-metallic element with atomic number 6 and symbol C.
 On Earth this element has a key role in a \emph{carbon cycle} that is essential for all forms of life on the planet.
 This cycle involves exchanges of carbon-based vapours with the Earth's atmosphere.
@@ -253,7 +321,7 @@ A society as diverse in its tastes and interests, as political organisation.
 Faced with fear for our future, even those of just intentions may be condemned to permanent hostility whilst public assurance is not forthcoming and apprehensions grow of the faithfulness of others.
 Under such circumstances, Rawls asserts that as a free and rational person one has a natural duty to comply with just institutions where they apply and assist in the establishment of just arrangements where they do not exist, at least when this might be achieved with little cost to ourselves.
 Along with such action comes a duty to show others mutual respect and a willingness to observe situations from their point-of-view, considering their perspective of the Good.
-Further, one should be prepared to give reasons for their judgements wherever the interests of others are materially affected. In this way any proposition can be offered in Good faith, enabling others to accept constraints on conduct~\cite{jr1}.\\
+Further, one should be prepared to give reasons for their judgments wherever the interests of others are materially affected. In this way any proposition can be offered in Good faith, enabling others to accept constraints on conduct~\cite{jr1}.\\
 \\
  \emph{How could one ensure their demands are of maximum social benefit?}\\
  \\
@@ -300,7 +368,7 @@ This complex process results in considerable disagreement amongst social cost of
 The assumptions for a global social discount rate used for three notable contributions are provided in Table 1. The global social discount rate for these three contributions ($\mu$) is similar. However Cline is outlying in estimation of the difference in utility the wealthy gain from a unit of consumption compared to the poor ($\sigma$). None of the three contributions agree on a long-term global growth rate ($g$). When considering impatience to consume in fear of extinction ($\delta$) it is Nordhaus that appears outlying. This yields very different values for the amount of surplus to be saved relative to that consumed amongst the three contributions ($S$). Clearly the worlds envisioned by just these three notable precedents are really quite different in nature and perhaps the reality is that the ethical positions of these contributors are in competition. Nobody has the power in reality to set a social discount rate in this way for all society. For most, the setting of these assumptions is of private preference only.
 
 \begin{table}[H]
-\caption{Notable precedents: assumptions in social discounting}
+\caption{Notable Precedents: Assumptions in Social Discounting}
 \begin{center}
 \begin{tabular}{| l | c | c | c | c | c |}
 \hline
@@ -315,16 +383,17 @@ Stern, 2006~\cite{ns1}&0.05&1&0.049&0.001&0.98 \\
 \label{Social contributions table}
 \end{table}
 
-Figure~\ref{USA SCC figure} is a graphical representation of social cost of carbon estimates by the Interagency Working Group on Social Cost of Carbon, United state's Government. This meta-analysis considers the results of three pioneer integrated assessment models developed in the 1990's. These are the DICE, PAGE and FUND models~\cite{wn1}~\cite{ch1}~\cite{rsjt1}. The modelling simulations considered by this study returned a social cost of carbon anywhere between $<$2007\$0tC\textsuperscript{-1} to a 95th percentile of 2007\$128tC\textsuperscript{-1} with $\mu$ set at 0.03~\cite{iwg1}. Based upon these results for a social cost of carbon, it is clear that utilitarians would find it difficult to significantly alter their actions and agree on options to be taken. 
+Figure~\ref{USA SCC figure} is a graphical representation of social cost of carbon estimates by the Interagency Working Group on Social Cost of Carbon, United state's Government.
+This meta-analysis considers the results of three pioneer integrated assessment models developed in the 1990's.
+These are the DICE, PAGE and FUND models~\cite{wn1}~\cite{ch1}~\cite{rsjt1}.
+The modelling simulations considered by this study returned a social cost of carbon anywhere between $<$2007\$0tC\textsuperscript{-1} to a 95th percentile of 2007\$128tC\textsuperscript{-1} with $\mu$ set at 0.03~\cite{iwg1}. Based upon these results for a social cost of carbon, it is clear that utilitarians would find it difficult to significantly alter their actions and agree on options to be taken. 
 
 \begin{figure}[H]
-\caption{Social Cost of Carbon in 2010 (in 2007 dollars per metric ton)}
 \centering
-\includegraphics[width=0.7\textwidth]{scc}
+\includegraphics[width=1\textwidth]{scc}
+\caption{Social Cost of Carbon in 2010 (in 2007 dollars per metric ton)}
 \label{USA SCC figure}
 \end{figure}
-
-\pagebreak
 
 \begin{quote}
 "Here there are a number of possibilities. A collective decision may determine the rate of saving while the direction of investment is left largely to individual firms competing for funds. In both a private Property as well as in a socialist society great concern may be expressed for preventing irreversible damages and for husbanding natural resources and preserving the environment. But again either one may do rather badly."~\cite{jr1}
@@ -390,17 +459,20 @@ Through reciprocal recognition and common knowledge such arrangements can be ena
 By choosing a higher and publicly auditable Commonwealth Cost of Carbon a broader range of interventions that lead to greenhouse gas abatement become viable, which may include: closer activity control to reduce waste; reduced development of excessive plant and infrastructure capacity; increased utilisation of productive assets; renewable energy sources; and active modes of transport, such as walking and cycling.
 The overall effect would be to promote a society that makes solemn recognition of the great sacrifices made to maintain the current global State of affairs, observing more diligent attention to their own impacts upon the commons.\
 
-\subsection{Minimum Decency}
+\section{Minimum Decency}
+Regardless of ones goals and either the welfare of an individual or society as a whole, there is a requirement for all humanity to be treated with minimum dignity and respect.
+Such perspectives of human dignity and respect need to relate to a common sense of justice and fair priority shared fairly by all.
+Rawls'~\cite{jr1} full statement of justice for institutions is a concise and widely recognised solution to the priority problem of justice as fairness.
+A sense of which could be shared and applied.
+An account, but not a defense, follows.
 
-Rawls'~\cite{jr1} full statement of justice for institutions is a concise and widely recognised solution to the priority problem of justice as fairness. A sense of which I wish to share and apply. An account, but not a defence, follows.
-
-\subsubsection{First principle}
+\subsubsection{First Principle}
 
 \begin{quote}
 "Each person is to have an equal right to the most extensive total system of equal basic liberties compatible with a similar system of liberty for all."
 \end{quote}
 
-\subsubsection{Second principle}
+\subsubsection{Second Principle}
 
 \begin{quote}
 "Social and economic inequalities are to be arranged so that they are both:
@@ -410,7 +482,7 @@ Rawls'~\cite{jr1} full statement of justice for institutions is a concise and wi
 \end{description}
 \end{quote}
 
-\subsubsection{First priority rule: the priority of liberty}
+\subsubsection{First Priority Rule: The Priority of Liberty}
 
 \begin{quote}
 "The principles of justice are to be ranked in lexical order and therefore liberty can be restricted only for the sake of liberty.
@@ -421,7 +493,7 @@ There are two cases:
 \end{description}
 \end{quote}
 
-\subsubsection{Second priority rule: the priority of justice over efficiency and welfare}
+\subsubsection{Second Priority Rule: The Priority of Justice over Efficiency and Welfare}
 
 \begin{quote}
 "The second principle of justice is lexically prior to the principle of efficiency and to that of maximising the sum of advantages; and fair opportunity is prior to the difference principle. There are two cases:
@@ -431,22 +503,26 @@ There are two cases:
 \end{description}
 \end{quote}
 
-\subsubsection{General conception}
+\subsubsection{General Conception}
 
 \begin{quote}
 "All social primary goods---liberty and opportunity, income and wealth, and the bases of self-respect---are to be distributed equally unless an unequal distribution of any or all of these goods is to the advantage of the least favoured."
 \end{quote}
 
-\subsection{Rate of saving}
+\section{Rate of Saving}
+Rates of saving typically relate to the percentage of disposable income saved, rather than spent, during a year.
+Equally the term also relates to the percentage of financial return an investment yields each year.
+By its very nature, considerations towards rates of saving have both implications for the balance of equity between generations and associations.
+As an aggregation of the well-being of individuals, calculations of rates of saving are often described as \emph{inter-generational well-being}.
+Rawls' second priority rule stipulates a requirement to control rates of saving, so that excessive rates on balance mitigate the burden of those bearing the hardship.
+Therefore, there is a requirement to estimate the present generations rate of saving.
 
-Rawls' second priority rule stipulates a requirement to control rates of saving, so that excessive rates on balance mitigate the burden of those bearing the hardship. Therefore, there is a requirement to estimate the present generations rate of saving. This returns an aggregation of the well-being of individuals, often described as \emph{intergenerational well-being}.
-
-\subsubsection{Cost-benefit analysis}
+\subsubsection{Cost-Benefit Analysis}
 
 Dasgupta~\cite{pd2} explains how we \emph{value} when comparing objects and we \emph{evaluate} when comparing the benefits of actions.
 Valuation and evaluation both involve comparisons between worlds with and without the course of action or object.
 This process is called social cost-benefit analysis and involves measuring consumer and producer \emph{surpluses}.
-Carrying out social cost-benefit analysis requires a quantitative formulation of intergenerational well-being, for which Ramsey's Mathematical Theory of Saving~\cite{fr1} is a well respected candidate.
+Carrying out social cost-benefit analysis requires a quantitative formulation of inter-generational well-being, for which Ramsey's Mathematical Theory of Saving~\cite{fr1} is a well respected candidate.
 
 \subsubsection{Accounting}
 
@@ -484,7 +560,7 @@ Cost-benefit analysis involves a number of personal assumptions that may not be 
 Cost-benefit analysis may be entirely inappropriate for decisions relating to \emph{Essential Goods}.
 Attention to distribution outliers and qualitative information is essential in assuring a just approach to personal savings goals.
 
-\subsection{A Note on Perfectionism}
+\section{A Note on Perfectionism}
 
 There is a body of thought that define the duty and obligations of individuals so as to maximise the achievement of human excellence in art, science and culture. Neitzsche~\cite{gam1} asserts:
 
@@ -497,7 +573,7 @@ The coercive apparatus of states would not be used to win greater liberty or lar
 The social resources necessary to support associations dedicated to advancing the arts, sciences and culture generally are to be won as a fair return for services rendered, or from such voluntary contributions as citizens wish to make.
 Governments might limit support to cases of overcoming isolation and assurance.
 
-\subsection{Demonstration, Assurance and Automation}
+\section{Demonstration, Assurance and Automation}
 It is believed that the arrangements explained pose fair arguments for an equal liberty of conscience in managing the global commons.
 Therefore, parties have Good grounds for adoption.
 These arguments allow the choice of a regime of moral liberty and freedom of thought and belief, and of religious practice, although these may be regulated as always by state interest in public order and security.
@@ -519,8 +595,8 @@ The consequences of failing to perform to shared understanding are simply increa
 
 \pagebreak
 
-\section{Continuous Integration}
-To support a diverse market of complimentors platform ecosystems define boundaries for developers to integrate and offer new Features to consumers.
+\chapter{Continuous Integration}
+To support a diverse market of complementors platform ecosystems define boundaries for developers to integrate and offer new Features to consumers.
 The Guidance and Standards that constitute these boundaries provide criteria for failure to any developer and sets a feedback-loop for learning.
 Whilst \emph{Guidance} criteria are suggested as Good practice for learning practitioners, \emph{Standards} represent mandatory criteria where it appears no other reasonable option is available.
 This process of development and learning to meet integration criteria is known as a process of continuous integration.
@@ -561,38 +637,51 @@ An outline matrix for designating test criteria is shown in Table 2.
 \end{sidewaystable}
 \FloatBarrier
 
-
 \pagebreak
 
 What follows is a brief summary of some key criteria that has been established for each system class.
 The intention is that these criteria represent a pragmatic minimum for ecosystem development.
 There is a reluctance to be over-prescriptive in order to maintain as extensive a system of liberty as possible.
 
-\subsection{Life}
+\section{Life}
 A life system maintains conditions of minimum decency.
 The risk of life systems failure may have direct impacts upon health.
 It may be perceived Professionally negligent to develop conditions that knowingly increase risk of failure in a life system without making best efforts of mitigation.\
 
 This investigation has identified that the platform ecosystem should comply with a Hobbesian Framework for life~\cite{th1}.
 Such a Hobbesian perspective leads towards a Commonwealth Cost of Carbon as an appropriate quality of life standard for this platform ecosystem at the market stage.
-A Sovereign of State has ultimate responsibility to review the market of life and apply enforcement however one wills.
-It is understood that no Sovereign of state has the power to enforce its rules over all life on Earth and no platform can exist without promises assured by at least one state.\
+The Earth itself, as a candidate Sovereign of State over the commons, has ultimate responsibility to apply enforcement however one wills.
+It is understood that no Sovereign of state, in the sense of any contracted protective association, has the power to enforce its rules over all life on Earth and no platform can exist without promises assured by at least one state.\
 
 Life systems tend to be most promising when relying on simple, clear common-sense processes with little in the way of conflicting interests.
 A defining feature of life systems is that integration with alarm managers is restricted to hard-wired digital inputs only.
 This is to assure no interference from less critical systems over more permissive networks.\
 
-\subsection{Public}
-System level protocols for many systems may be quite permissive to support an extensive range of options for development.
-Therefore, other private systems may allow for a diverse and risky mix of traffic that may include unencrypted broadcasts.
-In the interest of privacy, scalability and security public networks need only expose IPv6 protocols to the internet.
-IPv6 is a preferrable standard for exposure to the public and IPSec security may be employed to encrypt traffic between permanently allocated network addresses~\cite{ipv6}.
-Public networks may be fitted with internet gateways that firewall anything but specific IPv6 addresses.
-Edge devices deployed on private networks may connect securely to publicly exposed devices over a 1-n Network Address Translation (NAT) 64 gateway.
-In this configuration the NAT 64 gateway exposes a single IPv6 network address to the public network, with a dedicated port allocated to each network address within the private network.
-Network controllers can routinely test compliance of devices situated on public networks and manage network enrolment using a Framework such as FaucetSDN Device Automated Qualification~\cite{daq1}.\
+\section{Public}
 
-A typical network configuration for a private alarm management system bound to on premise communications is illustrated in Figure~\ref{Typical Network Configuration figure}.\\
+There are many reasons why it may be beneficial for an alarm management system to be exposed to public networks.
+These include:
+\begin{itemize}
+	\item inter-operability with web services; 
+	\item connection to remote workstations;
+	\item monitoring by system manufacturers;
+	\item monitoring by remote plant historian.
+\end{itemize}\
+
+System level protocols may be quite permissive to support an extensive range of options for development.
+Therefore, private systems may allow for a diverse and risky mix of traffic that include unencrypted broadcasts which have not sufficient security features for inter-networking.
+Network Address Translation (NAT) is a service that operates on a router to connect private networks to public networks like the internet.
+NAT is often implemented at the Wide Area Network (WAN) edge router to enable internet access in sites.
+With NAT, an organisation needs one Internet Protocol (IP) address to represent an entire group of devices as they connect outside their network.
+Port Address Translation (PAT) enables one single IP address to be shared by multiple hosts using IP and port address translation.
+NAT is a networking feature that can help reduce organisational security risk by hiding internal networks from public networks.
+By default, outside public IPs cannot communicate to internal private IP devices if there is no pre-existing NAT translation.
+Connections between internal private devices and outside public devices must be initiated by outbound communication.
+So, NAT separates public and private networks.
+Additionally, organisations that use NAT can implement and maintain multilayer security to block threats and protect malicious activity.
+
+A typical network configuration for an alarm management system bound to on-premise communications is illustrated in Figure~\ref{Typical Network Configuration figure}.\
+
 Following Guidance for public network criteria, an acceptable proposition for integration of this private network with remote clients is illustrated in Figure~\ref{Integrated Network Configuration figure}.
 
 \pagebreak
@@ -600,7 +689,7 @@ Following Guidance for public network criteria, an acceptable proposition for in
 \FloatBarrier
 \begin{sidewaysfigure}[h]
 \begin{center}
-\includegraphics[width=0.75\textwidth]{typicalPrivateNetwork.jpg}
+\includegraphics[width=1\textwidth]{typicalPrivateNetwork.jpg}
 \caption{Typical network configuration for on premise private alarm management system}
 \label{Typical Network Configuration figure}
 \end{center}
@@ -612,7 +701,7 @@ Following Guidance for public network criteria, an acceptable proposition for in
 \FloatBarrier
 \begin{sidewaysfigure}[h]
 \begin{center}
-\includegraphics[width=0.75\textwidth]{acceptablePublicNetwork.jpg}
+\includegraphics[width=1\textwidth]{acceptablePublicNetwork.jpg}
 \caption{Acceptable proposition for integration of private alarm management system with internet}
 \label{Integrated Network Configuration figure}
 \end{center}
@@ -621,7 +710,112 @@ Following Guidance for public network criteria, an acceptable proposition for in
 
 \pagebreak
 
-\subsection{Property}
+\subsubsection{Demilitarised Zone}
+IPv6 is the most recent version of IP designed to supply IP addressing and additional security to support expected growth in connected devices in IoT, manufacturing and emerging areas like autonomous driving.
+The primary reason to implement IPv6 is addressing. 
+IPv4 is based on 32-bit addressing, hence, limited to 4.3billion addresses.
+IPv6 is based on 128-bit addressing and can support 340trillion3 addresses.
+IPv6 provides more than enough globally unique IP addresses to network every device on the planet, helping ensure networks can keep pace with the expected proliferation of IP-based devices~\cite{ipv6}.\
+
+A feature of IPv6 is that the protocol optionally implements IPsec security in either transport or tunnel mode.
+IPsec in transport mode encrypts the transport layer of the IPv6 datagram, whilst IPsec in tunnel mode encrypts the entire IPv6 datagram.
+Therefore, use of IPv6 along with IPsec tunnel mode allows for a more secure implementation for public Demilitarised Zones (DMZs).\
+
+While IPv6 offers a large number of static IP address space to fulfil increasing host demands, chances are systems that include field layer devices will require IPv4 and IPv6 addresses to coexist.
+NAT allows organisations to connect IPv6 and IPv4 networks using NAT64 translations. Such translations may be:
+\begin{itemize}
+	\item 1-n, where a NAT Gateway exposes a single IPv6 address to the public and each IPv4 address within the private network is represented by a designated port; 
+	\item 1-1, where a NAT Gateway exposes one IPv6 address to the public for each IPv4 address within the private network.
+\end{itemize}\
+
+Remote Authentication Dial-In User Service (RADIUS) is an authentication protocol that grants or denies users access to a network’s services.
+When a user tries to access a protected source, the RADIUS confirms they should have access first, by checking their credentials or certificate, before rejecting or authenticating users accordingly.
+RADIUS requires the following components:
+\begin{itemize}
+	\item a RADIUS server; 
+	\item a directory of user/device information;
+	\item a RADIUS client.
+\end{itemize}	
+RADIUS employs user credentials or certificates for role-based access control, which involves the checking that a user is authorized and granting an appropriate level of privilege to the network.
+The use of digital certificates for IEEE 802.1X role-based authentication by RADIUS is considered more secure than user credentials (username and password)~\cite{8021X}.
+It is thought RADIUS is most successful when authenticating users with IEEE X.509 type digital certificates.~\cite{X509}\
+
+A bastion host is a server whose purpose is to provide access to a private network from an external network, such as the internet.
+Because of its exposure to potential attack, bastion hosts are designed to minimise chances of penetration.
+Bastion hosts are a critical point of network security, hence, it is best practice to harden such instances.
+Examples of hardening might be to disable unnecessary applications or services, tuning the network, regular monitoring with audit tools and multi-factor authentication of users (by RADIUS, for example).\
+
+Message Queued Telemetry Transport (MQTT) is the dominant standard used in Internet of Things (IoT) communications.
+Because of its simplicity, MQTT doesn’t require much processing or battery power from devices.
+With the ability to use very small message headers, MQTT doesn’t demand much bandwidth either.
+MQTT also make it possible to define different quality of service levels for messages that enable controls over how many times messages are sent and what handshakes are required to complete them.
+The core of the MQTT protocol are clients and servers that send many-to-many communications between multiple clients using the following:
+\begin{itemize}
+	\item Topics, which provide a way of categorising the messages sent; 
+	\item Publishers, include the devices configured to send out messages containing data with associated topics;
+	\item Subscribers, include the devices that receive data related to pre-defined topics;
+	\item Brokers, which receive published messages and distribute to clients subscribed to the specific topic. These brokers may store a work queue awaiting distribution to subscribed clients.
+\end{itemize}
+Message brokers may be deployed on virtual machines or containerised (Docker/Kubernetes) environments~\cite{mqtt}.\
+
+An internet gateway allows communication between devices and the internet, if provided with public IPv4 or IPv6 addresses.
+Similarly, devices on the internet can initiate a connection to resources with public IPv4 and IPv6 addresses over an internet gateway.
+An internet gateway may be used in conjunction with a firewall to restrict inbound and/or outbound connections from specific public IP address ranges.\
+
+\subsubsection{Network Control}
+Software Defined Networks (SDN) is a service that makes it possible to manage a network via software.
+SDN enables separation of a control plane for setting data processing rules and a data plane responsible for processing data carrying packets accordingly.
+This system architecture allows for automation and programmability of the network.
+It is a centralised system that permits management from a single network controller, for which the controllers security is absolutely critical to the performance of the entire local area network.
+There are various SDN protocols available.\
+
+OpenFlow allows switches from different vendors with proprietary interfaces to be managed remotely over a single, open protocol.
+The protocol allows remote and programmable administration of a layer 3 switches packet forwarding tables by adding, modifying and removing matching rules and actions.
+This allows routing decisions to be made periodically or at a necessary moment by the controller, which are then deployed to a switch's flow table.
+The actual forwarding of matched packets is then left to the switch.
+The OpenFlow protocol is layered on top of the Transmission Control Protocol (TCP), with controllers listening on port 6653 for switches Address Resolution Protocol (ARP) requests.\
+
+Open vSwitch is an open source implementation of a distributed virtual multilayer swtich.
+Its main purpose is to provide a switching stack for hardware virtualisation environment, whilst supporting multiple protocols and standards.
+The protocol is designed to support transparent distribution across multiple physical servers by enabling creation of cross-server switches in a way that abstracts out the underlying server architecture.
+The projects source code is distributed under the Apache-2.0 license.
+
+\subsubsection{Automated Testing}
+The use of SDN network controllers develops an opportunity to employ device, system and integrated system testing via automated tests administered over the network infrastructure.
+In doing so, the entire installation can be tested for compliance against specific criteria, from device on-boarding, through to full operation.
+
+Device Automated Qualification (DAQ) for IoT devices is a framework designed to test and operate IoT devices within an enterprise environment.
+Concerned with device testing and qualification, DAQ provides a means to automate many device enrollment testing requirements.
+This results in a more manageable, robust and secure platform.
+Distributed under the Apache-2.0 license, DAQ is based on the FAUCET OpenFlow network controller and has the following capabilities~\cite{daq1}:
+\begin{itemize}
+	\item Automated device qualification and testing, through standardised tests of device behaviour against established security and network standards; 
+	\item Use of the FAUCET OpenFlow controller to orchestrate \emph{micro-segmentation} of a network to improve security.
+\end{itemize}\
+
+Nmap is an open source utility for network discovery and auditing.
+Many systems and network administrators also find it useful for tasks such as network inventory, managing service upgrade schedules, and monitoring host or service up-time.
+Nmap uses raw IP packets in novel ways to determine what hosts are available on the network, what services those hosts are using, what operating system they are running, what type of filters/firewalls are in use and dozens of other characteristics.
+Designed to rapidly scan large networks, Nmap may also be used to scan a single host.
+Nmap is distributed on GNU GPLv2 license and runs on all major computer operating systems~\cite{nmap}.\
+
+Ncrack is a high-speed network authentication cracking tool.
+It has been built to help companies secure their networks by proactively testing all their hosts and networking devices for poor passwords.
+Ncrack's features include a very flexible interface granting the user full control of network operations, allowing for very sophisticated bruteforcing attackes, timing templates for ease of use and runtime interaction similar to Nmap.
+The software is distributed on GNU GPLv2 license and runs on all major computer operating systems.
+Ncrack supports many of the most widely used protocols, including~\cite{ncrack}:
+\begin{itemize}
+	\item Secure Shell (SSH);
+	\item Remote Desktop Protocol (RDP);
+	\item File Transfer Protocol (FTP);
+	\item Telnet;
+	\item Hypertext Transfer Protocol (HTTP);
+	\item MQTT;
+	\item MySQL;
+	\item MongoDB;
+\end{itemize}\
+
+\section{Property}
 A \emph{Property} constitutes an assured promise.
 Assurance of Property is enforced by states and is subject to a state's particular legal Framework.
 Unless some sort of agreement has been made between states, there is no guarantee that assured promises may be understood similarly across legal Frameworks.
@@ -629,22 +823,23 @@ It is understood that the promise of intellectual Property applied to this docum
 The present standard for the diligent management of Property are version control systems, for which Git is a popular case~\cite{git}.
 With any promise of Property at any development stage, it is essential for assurance purposes to define contractual terms for its proper use under a License.
 
-\subsection{Alarm Manager}
-An alarm manager system constitutes processes that effectively discharge demands on a governance regime.
+\section{Alarm}
+An alarm management system constitutes processes that effectively discharge demands on a governance regime.
 Alarm managers may take into account field observations and define procedures in order to take appropriate actions.
-Alarm managers may be situated in outstations within the field and procedures defined by scripts.
-This could result in alarm managers being constituted as operating computational controllers.\
+They may be situated in outstations within the field and procedures defined by scripts.
+This could result in alarm managers being constituted as operating computational controllers.
+More resilient and maintainable outcomes can be achieved by keeping supervisory control of a specific alarm management system of outstations within a single private network\
 
 Having adopted a Hobbesian perspective of the ecosystem, a Framework for alarm management defined by John Rawls, A Theory of Justice has been followed~\cite{jr1}.
 Alarm management functions need to be Professionally reviewed by domain experts following this platforms Rawlsian Executive Function as a reasonable minimum.
 Such alarm management reviews require understanding of market demands and demonstrations of different interests through the development of associations.
 Rulings that appropriately define alarm manager operations, in the interest of timely and consistent responses, would become a promise of Property.
 Promising rulings would require a system of Professional peer-reviews, with any proposed solution represented by a formal domain Ontology and compliance with the principles of this Executive Function as a minimum.
-Continuous integration products, such as Jenkins or Travis CI, may be used for automated testing of software and rapid development feedback in preparation for operational releases~\cite{jenkins}~\cite{travis}.\
+Continuous integration products, such as Jenkins or Travis CI, may be used for automated testing of software and rapid development feedback in preparation for operational releases~\cite{jenkins}~\cite{travis}.
+It is important to allow for full point-to-point testing of an alarm management system during an in-situ commissioning phase following full deployment.\
 
 Alarm managers in the field may use a diverse range of network and hard-wired interfaces.
 Alarms need be prioritised in a common-sense manner to direct attention:
-
 \begin{itemize}
 	\item P1, immediate action; 
 	\item P2, urgent action;
@@ -652,31 +847,35 @@ Alarms need be prioritised in a common-sense manner to direct attention:
 	\item P4, optimisation action.
 \end{itemize}
 
-\subsection{Sensitive}
+\section{Sensitive}
 Sensitive information may be subject to assured promises that require individuals or associations to retain information in private.
 Such information would likely be subject to a Framework defined by a state.
-Sensitive information should be encrypted with either RSA or AES data encryption Standards at rest~\cite{rsa}~\cite{aes}.
+Sensitive information should be encrypted with either RSA or AES data encryption Standards at rest and in transit~\cite{rsa}~\cite{aes}.
+Encryption in transit can be achieved over private IPv4 networks through implementing Transport Layer Security Protocol (TLS)~\cite{tlsp}.
+On public networks, encryption in transit may be provided by IPv6 tunnels.
 
-\subsection{Personal}
+\section{Personal}
 Any information that may be used by organisations to identify individuals has particular relevance to personal privacy and security.
 The collection, storage and use of personal information that may be used to identify individuals is often subject to a particular legal Framework enforced by a state.
 Unless some sort of agreement has been made between states, there is no confidence of common requirements across legal Frameworks.
 Any personal information contained within this document is subject to a Framework defined in English Law.
-Personal information that is to be assured for private use only should be encrypted with either RSA or AES data encryption Standards at rest~\cite{rsa}~\cite{aes}.
+Personal information that is to be assured for private use only should be encrypted with either RSA or AES data encryption Standards at rest and in transit~\cite{rsa}~\cite{aes}.
+Encryption in transit can be achieved over private IPv4 networks through implementing Transport Layer Security Protocol (TLS)~\cite{tlsp}.
+On public networks, encryption in transit may be provided by IPv6 tunnels.
 
-\subsection{Client}
+\section{Client}
 Client applications involve the release of consumer interfaces to remote devices.
 Development of releases require the adoption of a desirable Framework, such as Node.js, Flutter or Flask~\cite{node}~\cite{flutter}~\cite{flask}.
-The sources of software released to client devices may have a promise of Property.
+The sources of software released to client devices may be developed by agencies and have a promise of Property.
 Continuous integration products, such as Jenkins or Travis CI, may be used for automated testing of source code and rapid development feedback in preparation for operational releases~\cite{jenkins}~\cite{travis}.
 Client devices are typically networked over internet or serial protocols.\
 
 \pagebreak
 
-\section{Operation}
+\chapter{Operation}
 The potential market of the platform ecosystem outlined here could be global.
 At this time, few organisations meet the criteria that define the boundaries of the platform ecosystem defined.
-This means there is considerable work to be done to signal failure to potential complimentors and initiate feedback to support an integration process.
+This means there is considerable work to be done to signal failure to potential complementors and initiate feedback to support an integration process.
 It is also understood that the originators of this document are unlikely to be aware of all relevant information in this domain, which may result in some further change~\cite{ont1}.
 Therefore, an operational model is necessary.\
 
@@ -684,25 +883,272 @@ Within a particularly complex and generally disinterested political context, the
 Such a signal may become a reliable target for further development.
 The following arrangements have been made to support operation of this platform ecosystem.\
 
-\subsection{Association}
-This document constitutes a public commitment of the authors to the boundaries of a platform ecosystem which is the Property of REALFEED Ltd.
+\section{Agenda}
+A prioritised agenda for systems engineering within the domain of civil infrastructure follows.
+The agenda includes a set of alarms which are believed to be reasonably focussed and have some universal relevance.
+Investigations of each alarm are note nearly exhaustive.
+The intentions of recommended actions are to apply practical solutions that could quickly mitigate the most severe or prevalent symptoms.
+Failure to action initiatives to mitigate these risks will contribute to greater ecosystem instability.
+
+\subsubsection{P1: Technical Support for Supervisory Control and Data Acquisition}
+
+Infrastructure fulfilling critical roles in society often employ Supervisory Control and Data Acquisition (SCADA) tools to configure, monitor and analyse complex systems and processes.
+In many cases, a lack of technical support is making such systems very difficult to maintain.
+SCADA is more vulnerable when employing proprietary commmunications protocols and obselete operating systems.
+To access the broadest and most diverse business ecosystem possible for support, operators need migrate SCADA to current industry standard open communications protocols and operating systems with Long Term Support (LTS).\
+
+Further, systems manufacturers providing monitoring capability need to support good practice for public inter-networking.
+This can allow customers to have full visibility and assured compliance of all data acquiring devices on-site.\
+
+\subsubsection{P1: Social Media and Influencing the Averages}
+There is a widespread tendency to publicly report averages, totals and probability distributions in summary analysis of performance.
+Excessive use of social media to influence popular attitudes and preferences in public re-enforces these problems.
+Under such regimes, skill and care needs to be taken to promote correct responses, as opposed to what might actually lead to development of a confused herd.\
+
+To resolve any public appeal to ones satisfaction, evidence of qualified judgement is required.
+Most of the time there is more attractive opportunity for development in considering the outliers and the qualitative.
+Returning to more personal engagements can be beneficial, so that a diverse collection of backgrounds and perspectives may be considered.
+In doing so, constructive conversations can be maintained in private and more considerate outcomes put into practice.\
+
+\subsubsection{P1: Compressor Failures under Minimum Turndown}
+Hot and chilled water systems are a common means of distributing thermal energy to terminal devices that heat and/or cool occupied spaces.
+When considering larger buildings or heat networks it is popular to install equipment for evaporation and/or condensing of fluids that employ compressors to pressurise fluids.
+Heat pumps and air-cooled chillers are examples of such equipment.
+However, it is becoming common to witness such compressors failing within a few years due to frequent start/stop cycles during conditions of minimum turndown.
+This can be caused by temperature differentials between secondary flow and return temperatures narrowing under minimum turndown conditions if systems are poorly designed.\
+
+Figure~\ref{Common Header figure} illustrates an example poorly designed chilled water system where chiller compressors are vulnerable under minimum turndown.
+Here the chilled water system has a common header and constant temperature secondary loop, with circulation pumps enabled by a space cooling demand signal to operate at a constant speed.
+In this case, when only a small proportion of terminal unit cooling control valves open, return chilled water temperatures may remain only very slightly higher than flow temperatures.
+This can result in marginal loads on a single duty chiller, leading to problems of frequent cycling.
+Failure of the chiller compressors would result in interruption of the entire air-conditioning system.\
+
+Figure~\ref{Split Header figure} illustrates a well designed system that has not the same vulnerabilities.
+This chilled water system has a split header, with a flow-meter fitted to a secondary bypass.
+The secondary circulation pumps are variable flow and target a set-point pressure differential across the index secondary loop run by implementing proportional and integral control to modulate pump speed.
+Lead and lag chillers are staged on and off so that the flow of chilled water through the bypass flow-meter is always between 10 percent and 100 percent of one lag chillers capacity.
+There are a number of ways this configuration improves resilience:
+\begin{itemize}
+	\item Failure of one smaller unit does not necessarily interrupt air-conditioning, as some other units are available to at least meet part design load; 
+	\item Through staging a number of smaller units, minimum turndown of the primary system is lower and the lead unit can be sized specifically to comfortably meet minimum load;
+	\item Differential pressure control of the secondary pumps better maintains differences between flow and return temperatures.
+\end{itemize}
+When employing heat pumps for heat rejection/generation, it is often necessary for return temperatures to be closely controlled.
+This can be achieved by adding buffering to return pipework.\
+
+\pagebreak
+
+\FloatBarrier
+\begin{sidewaysfigure}[h]
+\begin{center}
+\includegraphics[width=1\textwidth]{commonHeader.PNG}
+\caption{Typical common header chiller configuration}
+\label{Common Header figure}
+\end{center}
+\end{sidewaysfigure}
+\FloatBarrier
+
+\pagebreak
+
+\FloatBarrier
+\begin{sidewaysfigure}[h]
+\begin{center}
+\includegraphics[width=1\textwidth]{splitHeader.PNG}
+\caption{Split header chiller configuration}
+\label{Split Header figure}
+\end{center}
+\end{sidewaysfigure}
+\FloatBarrier
+
+\pagebreak
+
+\subsubsection{P2: Summertime Domestic Overheating}
+Evidence suggests that temperature extremes can exacerbate chronic conditions, including: cardiovascular; respiratory; cerebrovascular diseases; and diabetes-related conditions.
+The summer of 2022 was the joint warmest summer on record for England according to mean temperature.
+Four of the last five warmest summers recorded in England have occured since 2003.
+Between June and August 2022, there were over 3,700 excess deaths, out of a total of 56,300 deaths in England and Wales.
+This number of excess deaths is 6.2\% above the 5-year average.\
+
+Across the world, the summer months of 2023 have also been unusually hot.
+By mid-July, temperatures in mainland Europe reached 46\textdegree C.
+The Sanbao township recorded a peak temperature of over 52\textdegree C and a peak temperature of over 54\textdegree C was recorded in Death Valley, California.\
+
+Therefore, it is becoming common for people to prioritise reducing exposure to heat stress during summer months.
+Air-conditioned workplaces and bathing in coastal areas may be a popular solution.
+However, people still tend to spend a large proportion of their time enjoying the privacy of their homes.
+This is particularly the case when remote or hybrid working.
+Therefore, there is a need to identify some practical solutions for widespread initiatives to mitigate domestic overheating.\
+
+Here, we can take some inspiration from the venacular architecture of the Mediterranean region.
+External shading devices are amongst the most effective tools for mitigating overheating, by blocking ingress of direct sunlight within a dwellings perimeter.
+Deeper window surrounds and external shutters can be particularly effective.\
+
+Where security and acoustics allow, opening of windows can also be a very effective solution.
+The internal surfaces of thermal mass within a dwelling can be cooled if windows are left open overnight.
+During the day the thermal mass can then keep occupied spaces cool by absorbing extra heat as it warms up during the day.
+Increasing air-velocity within dwellings can also be a very effective way to improve thermal comfort, even where indoor operating temperatures are not significantly changed.
+This is because occupant thermal comfort is the combined outcome of operating temperature, humidity, insulating layers, activity levels and air-velocity.
+There is usually a difference in static pressure across aspects of a property.
+In a residence of multiple aspects, doors and windows can be opened to set up an air path between aspects.
+This will then achieve higher air velocities within the dwelling through cross-ventilation.\
+
+\subsubsection{P2: Close Control of Domestic Heating}
+Economic activity has a strong causal relationship with energy consumption.
+Historically, energy prices are closely associated with overall consumer prices.
+Therefore, in times of inflation in consumer prices, domestic energy efficiency represents a particularly focussed investment to moderate demand.
+Such intervention can be beneficial to all society when applied equally to the wealthy or those in more marginal circumstances.
+Therefore, such an initiative may be a candidate for support by public policy.\
+
+Radiators are widespread terminal devices used for maintaining thermal comfort by heating spaces within homes.
+Typically, hot water is pumped through radiator circuits at a constant volume and temperature whenever a thermostat signals space temperatures below a set-point value.
+Radiators are fitted with Thermostatic Radiator Valves (TRVs) to adjust the volume flow rate of hot water through the radiator when heating spaces to desired temperatures.
+With this configuration, if hot water flow temperature set-points or a number of TRVs are adjusted, system pressures and balance can fluctuate leading to a situation where none of the radiators within a system have TRVs set up as needed.
+These problems can be overcome by introducing differential pressure control to balance the heating system.
+This can be in the form of adding a single Differential Pressure Control Valve (DPCV) between the common flow and return pipework of a two-pipe system.
+Alternatively, each radiator TRV could be replaced with a Pressure Independent Thermostatic Radiator Valve for a similar effect.
+Such adjustments allow radiator system to be controlled on the basis of a set-point space temperature, which may have advantages if opting for actuated TRVs and smart digital heating adjustment via client devices.
+The outcome would be a more energy efficient and comfortable property during winter.\
+
+\subsubsection{P2: Availability of Delivered Electricity}
+There are physical limits to the quantity and stability of renewable energy sources available for distribution to consumers.
+Such constraints have implications for any desired widespread transition towards electric powered vehicles, property and infrastructure.
+Whilst renewable generation tends to fluctuate with the weather, quick-response Combined Cycle Gas Turbines (CCGT) and constant nuclear power remain necessary options to meet essential demands.
+CCGT energy generation is particularly useful for meeting momentary differences between forecast demand for electricity and available supply, for instance during hot still summer working hours.
+In order for renewable energy to satisfy a larger proportion of overall end-uses, there is an urgent need to increase capacity of energy storage and manipulate energy demands.\
+
+National Grid have released delivered electricity carbon intensity factors through an Application Programming Interface (API) to support dynamic load manipulation by customers.
+The API provides regional forecasts of delivered electricity carbon intensity up to 24-hours in advance.
+Illustrations of temporal and regional variations in delivered electricity carbon intensity are shown in Figure~\ref{Carbon Intensity Forecast figure} and Figure~\ref{Regional Carbon Intensity figure}~\cite{ngrid1}.
+With such innovation, there is an opportunity for energy centres to charge or discharge thermal stores and/or batteries according to expected times when regional electricity distribution are most favourible.
+This requires system controls to be exposed publicly to the WAN, requiring skill and care.
+There is also an opportunity to procure transport and equipment according to regional characteristics of electricity distribution, rather than considering entire nation states as being similar.
+For example, at the time of writing there is a stronger business case for the installation of heat pumps to provide thermal comfort in Scotland than in Cornwall.\
+
+\pagebreak
+
+\FloatBarrier
+\begin{sidewaysfigure}[h]
+\begin{center}
+\includegraphics[width=1\textwidth]{carbonIntensityForecast.png}
+\caption{Carbon intensity forecast}
+\label{Carbon Intensity Forecast figure}
+\end{center}
+\end{sidewaysfigure}
+\FloatBarrier
+
+\pagebreak
+
+\FloatBarrier
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=1\textwidth]{regionalCarbonIntensity.png}
+\caption{Regional carbon intensity}
+\label{Regional Carbon Intensity figure}
+\end{center}
+\end{figure}
+\FloatBarrier
+
+\pagebreak
+
+\subsubsection{P2: Air Handling Unit Coil Failure During Frosts}
+Typically, larger buildings require air handling units to provide a minimum quantity of fresh air to occupied spaces to maintain indoor air quality.
+Such air handling units may have supply and extract ducts, each fitted with fans and heat recovery.
+Supply ducts are also often fitted with heating and cooling coils, filters, an array of instrumentation and dampers.
+Coils are susceptable to frost conditions during the winter season.
+Without appropriate control of equipment it is common for such coils to crack and fail when air handling units operate in cold conditions.\
+
+To mitigate such risks, it is important for air-handling units to be fitted with frost stats and operate frost routines.
+Off-coil capillary tube frost stats should be laced across the initial heating coil meeting incoming fresh air, whether that be a dedicated frost coil or heating coil.
+Frost stats should be set to trip when off-coil temperatures fall below 2\textdegree C, disabling the supply air fan.
+Additionally, when the outdoor air temperature falls below 2\textdegree C Stage 1 frost protection should start.
+This involves enabling all the heating system pumps and fully opening control valves on non-operating plant until outdoor temperatures rise above 2\textdegree C once again.\
+
+\subsubsection{P3: Dry Workplaces During Winter}
+Evidence from BUS Methodology occupant satisfaction surveys suggest that it is becoming more popular for occupants to perceive indoor air as dry~\cite{busM}.
+The thermodynamic properties of air are defined by the psychrometric chart, show in Figure~\ref{Psychrometric Chart figure}~\cite{cibse1}.
+When air undergoes a sensible heating process, it's dry bulb temperature increases whilst it's moisture content remains similar.
+As warmer air is capable of vapourising a greater quantity of water with higher enthalpy, sensible heating processes lower relative humidity.
+Within temperate regions, it is typical for cold air to undergo a sensible heating process before being circulated within a closed door environment.
+This can often result in indoor relative humidity levels falling to 20\%.
+Influenza virus transmission studies show that spreading of repiratory diseases is most efficient at relative humidiities between 20\% and 35\%.
+Therefore, this practice is contributing to a workplace health challenge.\
+
+\pagebreak
+
+\FloatBarrier
+\begin{sidewaysfigure}[h]
+\begin{center}
+\includegraphics[width=1\textwidth]{psychrometricChart.png}
+\caption{Psychrometric chart}
+\label{Psychrometric Chart figure}
+\end{center}
+\end{sidewaysfigure}
+\FloatBarrier
+
+\pagebreak
+
+It is recommended that indoor environments be maintained at 40\%-60\% relative humidity for optimal performance.
+To achieve this it may be necessary to introduce humidifiers to conditioned fresh air.
+However, there is a significant risk in using humidifiers which rely on aerosols.
+Legionnaires' disease is a type of pneumonia that relate to man-made water systems where water temperatures are warm and fairly static.
+The disease causing bacteria is also encouraged by nutrients in water, limescale and a biological sludge, biofilm.
+Any humidifier that produces an aerosol is a cause for concern.
+To address these risks supply chains need to:
+\begin{itemize}
+	\item avoid risk of stagnant water;
+	\item avoid allowing cold water temperatures to rise between 20\textdegree C and 45\textdegree C;
+	\item use stainless steel or food-grade plastic pipework and fittings;
+	\item use effective water treatment, including water softeners and reverse osmosis;
+	\item use the correct humidifier for the expected occupants, selecting less risky humidifiers for high-risk groups.
+\end{itemize}\
+
+\subsubsection{P3: Wayfinding within Workplaces}
+The commercial nature of property development means that indoor environments are becoming ever less distinguishable.
+It is now common to arrive on the floor of an office or block of flats and be entirely disorientated, even when visiting frequently.
+With the uniform aesthetic and equal treatment perhaps in favour, the role of signalling and signage is important.
+Evidence from BUS Methodology occupant satisfaction studies suggest that this issue may be most pressing with hall call lifts.
+Often, when entering lift halls, occupants frequently miss noting their designated lift when they have the opportunity.
+Just a casual conversation or glance at a phone at this touch point is an understandable reason to miss this information.
+A better service may be achieved by employing porters to assist occupants and visitors with hall call lift systems.\
+
+\subsubsection{P3: Skills Gaps}
+This universal agenda is a focussed response to issues where much demonstration has been observed.
+The actioning of these items constitutes a substantial inter-displinary effort that requires deep understanding of both the social and physical sciences, including how they interact.
+Further, it is understood that this agenda is incomplete and may be added to through further experience and perspective.
+To achieve any of the actions itemised here, there is a need to engage with an audience from what is admittedly a niche starting position.
+Through such engagement, it is hoped that an industry can be inspired to learn skills where there may be sustained demand.
+It is hoped that in publication of a positive dialogue anyone may constructively contribute and transform what they can.\
+
+\section{Association}
+This document constitutes a public commitment of the authors to governance of a platform ecosystem which is the Property of REALFEED Ltd.
 REALFEED is a company limited by shares registered with Companies House, a government agency of the United Kingdom.
 The purpose of REALFEED is to act as an agent for one person.
+REALFEED works within a Society of Peoples, committed to the following principles~\cite{jlb1}~\cite{tn1}:
+\begin{itemize}
+	\item Peoples are free and independent, and their freedom and independence are to be respected by other Peoples;
+	\item Peoples are to observe treaties and undertakings;
+	\item Peoples are equal and are parties to the agreements that bind them;
+	\item Peoples are to observe a duty of non-intervention;
+	\item Peoples have the right of self-defense but no right to instigate war for reasons other than self-defense;
+	\item Peoples are to honour human rights;
+	\item Peoples are to observe certain specified restrictions in the conduct of war;
+	\item Peoples have a duty to assist other Peoples living under unfavourable conditions that prevent their having a just or decent political and social regime.
+\end{itemize}\
 
-\subsection{Licensing}
+\section{Licensing}
 REALFEED has no interest in monopoly power over its markets and is keen to learn as much as possible from other agents and organisations.
 The agency is keen to stay agile whilst commanding a stable knowledge base, so that it can adapt whenever necessary.
 REALFEED tends to favour permissive licenses for its Property, such as the MIT license applied to this document.
 It is understood that these arrangements should support conditions of fair liberty and equality of opportunity. 
 
-\subsection{Contracts}
+\section{Contracts}
 REALFEED is not currently open for appointment of Professional services directly.
 It is an agency that intends to share knowledge in concert with other Professionals to develop mutual assured approaches for their clients.
 Any popular attention paid to REALFEED would be purely a result of the companies Good faith.
 
 \pagebreak
 
-\section{Conclusion}
+\chapter{Conclusion}
 It has been recognised the the prevailing discussion on the governance of platform ecosystems may have contributed to global ecosystem instability in alarming ways.
 The prioritisation of network effects to deliver a popular market share of consumers tends to be a common Feature.
 Therefore, this document has sought to diagnose causes of instability and define new platform ecosystem boundaries for more stable outcomes.
@@ -715,13 +1161,14 @@ What follows is the use of a Hobbesian Commonwealth Cost of Carbon as an overall
 The resulting \emph{Commonwealth of Peoples} could adopt traditional principles of justice amongst free and democratic peoples without conflict.\
 
 Complimentors are encouraged to develop their own Features for integration with this ethical Framework.
-A minimal set of criteria has been identified for complimentors to develop new Features for end-consumers.
-Although these criteria are not nearly complete at this point of time, it is hoped that they prove a stable enough starting point for generating interest.\
+A minimal set of criteria has been identified for a publicly addressable alarm management system that may allow complementors to develop new Features for end-consumers.
+It is hoped that these minimal criteria prove a stable enough starting point to generate interest and build a supporting community.\
 
 In operation, this platform ecosystem acts as an agent for one person.
 It's intentions are to share knowledge in concert with other Professionals to develop mutually assured approaches in Good faith.
+Evaluations of practice have identified a prioritised agenda of platform alarms with universal relevance, each of which have associated recommendations for action.
 Licensing of Property is highly permissive to support conditions of fair liberty and equality of opportunity.
-A public commitment by the authors to this document has now been justified, made public and is fully auditable.
+A public commitment by the authors to this platform has now been made public and is fully auditable.
 Our knowledge exchange and learning process through failure continues.\
 
 \pagebreak
@@ -905,24 +1352,64 @@ Cambridge, MA: Harvard University Press
 The Internet Society
 \url{https://datatracker.ietf.org/doc/html/rfc2460}
 
+\bibitem{8021X} IEEE Standards Association (2010)
+\emph{802.1X-2020 - IEEE Standard for Local and Metropolitan Area Networks--Port-Based Network Access Control}
+IEEE Standards Association
+\url{https://ieeexplore.ieee.org/document/9018454}
+
+\bibitem{X509} IEEE Standards Association (2015)
+\emph{X.509 Check: A Tool to Check the Safety and Security of Digital Certificates}
+IEEE Standards Association
+\url{https://ieeexplore.ieee.org/document/7428340}
+
+\bibitem{mqtt} OASIS Standard (2019)
+\emph{MQTT Version 5}
+OASIS Message Queuing Telemetry Transport 
+\url{https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.pdf}
+
+\bibitem{oflo} Open Networking Foundation (2014)
+\emph{OpenFlow}
+Open Networking Foundation
+\url{https://opennetworking.org/wp-content/uploads/2014/10/openflow-switch-v1.5.1.pdf}
+
+\bibitem{switch} Linux Foundation (2023)
+\emph{What is Open vSwitch}
+Linux Foundation 
+\url{https://docs.openvswitch.org/en/latest/intro/what-is-ovs/}
+
 \bibitem{daq1} FaucetSDN Device Automated Qualifaction Community (2022)
 \emph{faucetSDN/daq}
 faucetsdn
 \url{https://github.com/faucetsdn/daq}
 
+\bibitem{nmap} nmap.org (2023)
+\emph{Nmap Reference Guide}
+nmap.org
+\url{https://nmap.org/book/man.html}
+
+\bibitem{ncrack} Chatnzis~I (2023)
+\emph{Ncrack Reference Guide}
+nmap.org
+\url{https://nmap.org/ncrack/man.html}
+
 \bibitem{git} git-scm Community (2022)
-\emph{faucetSDN/daq}
+\emph{git}
 git
 \url{https://git-scm.com/}
 
 \bibitem{rsa} IEEE Standards Association (2000)
 \emph{IEEE 1363-2000 IEEE Standard Specifications for Public-Key Cryptography}
 IEEE Standards Association
-\url{https://github.com/faucetsdn/daq}
+\url{https://standards.ieee.org/ieee/1363/2049/}
 
 \bibitem{aes} International Standards Organisation (2020)
 \emph{ISO/IEC 18033-3:2010 Infomration technology - Security techniques - Encryption algorithms - Part 3: Block ciphers}
 Geneva: International Standards Organisation
+\url{https://www.iso.org/standard/54531.html}
+
+\bibitem{tlsp} Dierks~T. Rescorla~E. (2008)
+\emph{The Transport Layer Security (TLS) Protocol Version 1.2}
+Internet Engineering Taskforce: Network Working Group
 \url{https://www.iso.org/standard/54531.html}
 
 \bibitem{jenkins} Jenkins Infrastructure Community (2022)
@@ -951,10 +1438,31 @@ Mountain View, CA: Google
 palletsprojects
 \url{https://flask.palletsprojects.com}
 
-\bibitem{ont1} Parkinson A.T. (2023)
+\bibitem{ont1} Parkinson~A.T. (2023)
 \emph{Digital Assurance}
 Wedmore, Somerset: Realfeed Ltd.
 \url{https://github.com/aidan-parkinson/digital-assurance/blob/main/digitalAssurance.xml}
+
+\bibitem{ngrid1} National Grid (2023)
+\emph{Carbon Intensity API},
+National Grid.
+\url{https://www.carbonintensity.org.uk/}
+
+\bibitem{busM} Arup (2023)
+\emph{BUS Methodology},
+London: Arup.
+
+\bibitem{cibse1} Farrell~M. Race~G.L. (2012)
+\emph{Practical Psychrometry},
+London: CIBSE.
+
+\bibitem{jlb1} Brierly~J.L. (1963)
+\emph{The Law of Nations: An Introduction to the Law of Peace},
+Oxford: Clarendon Press.
+
+\bibitem{tn1} Nardin~T. (1983)
+\emph{Law, Morality, and the Relations of States},
+Princeton: Princeton University Press.
 
 \end{thebibliography}
 
