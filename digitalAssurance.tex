@@ -995,8 +995,8 @@ Such intervention can be beneficial to all society when applied equally to the w
 Therefore, such an initiative may be a candidate for support by public policy.\
 
 Radiators are widespread terminal devices used for maintaining thermal comfort by heating spaces within homes.
-In the majority of cases, hot water is pumped through radiator circuits at a constant volume and temperature whenever a thermostat signals space temperatures below a set-point value.
-Most radiators are fitted with Thermostatic Radiator Valves (TRVs) to adjust the volume flow rate of hot water through the radiator when heating spaces to desired temperatures.
+Typically, hot water is pumped through radiator circuits at a constant volume and temperature whenever a thermostat signals space temperatures below a set-point value.
+Radiators are fitted with Thermostatic Radiator Valves (TRVs) to adjust the volume flow rate of hot water through the radiator when heating spaces to desired temperatures.
 With this configuration, if hot water flow temperature set-points or a number of TRVs are adjusted, system pressures and balance can fluctuate leading to a situation where none of the radiators within a system have TRVs set up as needed.
 These problems can be overcome by introducing differential pressure control to balance the heating system.
 This can be in the form of adding a single Differential Pressure Control Valve (DPCV) between the common flow and return pipework of a two-pipe system.
@@ -1013,8 +1013,8 @@ In order for renewable energy to satisfy a larger proportion of overall end-uses
 
 National Grid have released delivered electricity carbon intensity factors through an Application Programming Interface (API) to support dynamic load manipulation by customers.
 The API provides regional forecasts of delivered electricity carbon intensity up to 24-hours in advance.
-Illustrations of temporal and regional variations in delivered electricity carbon intensity are shown in Figure~\ref{Carbon Intensity Forecast figure} and Figure~\ref{Regional Carbon Intensity figure}.
-With such innovation, there is an opportunity for energy centres to condition thermal stores or charge batteries according to expected times when regional distribution conditions are most favourible.
+Illustrations of temporal and regional variations in delivered electricity carbon intensity are shown in Figure~\ref{Carbon Intensity Forecast figure} and Figure~\ref{Regional Carbon Intensity figure}~\cite{ngrid1}.
+With such innovation, there is an opportunity for energy centres to charge or discharge thermal stores and/or batteries according to expected times when regional electricity distribution are most favourible.
 This requires system controls to be exposed publicly to the WAN, requiring skill and care.
 There is also an opportunity to procure transport and equipment according to regional characteristics of electricity distribution, rather than considering entire nation states as being similar.
 For example, at the time of writing there is a stronger business case for the installation of heat pumps to provide thermal comfort in Scotland than in Cornwall.\
@@ -1046,7 +1046,17 @@ For example, at the time of writing there is a stronger business case for the in
 \pagebreak
 
 \subsubsection{P2: Air Handling Unit Coil Failure During Frosts}
-Frost protection routines and off-coil capillary frost stats.
+Typically, larger buildings require air handling units to provide a minimum quantity of fresh air to occupied spaces to maintain indoor air quality.
+Such air handling units may have supply and extract ducts, each fitted with fans and heat recovery.
+Supply ducts are also often fitted with heating and cooling coils, filters, an array of instrumentation and dampers.
+Coils are susceptable to frost conditions during the winter season.
+Without appropriate control of equipment it is common for such coils to crack and fail when air handling units operate in cold conditions.\
+
+To mitigate such risks, it is important for air-handling units to be fitted with frost stats and operate frost routines.
+Off-coil capillary tube frost stats should be laced across the initial heating coil meeting incoming fresh air, whether that be a dedicated frost coil or heating coil.
+Frost stats should be set to trip when off-coil temperatures fall below 2\textdegree C, disabling the supply air fan.
+Additionally, when the outdoor air temperature falls below 2\textdegree C Stage 1 frost protection should start.
+This involves enabling all the heating system pumps and fully opening control valves on non-operating plant until outdoor temperatures rise above 2\textdegree C once again.\
 
 \subsubsection{P3: Dry Workplaces During Winter}
 Humidification (watch out for legionella).
@@ -1389,6 +1399,11 @@ Oxford: Clarendon Press.
 \bibitem{tn1} Nardin~T. (1983)
 \emph{Law, Morality, and the Relations of States},
 Princeton: Princeton University Press.
+
+\bibitem{ngrid1} National Grid (2023)
+\emph{Carbon Intensity API},
+National Grid.
+\url{https://www.carbonintensity.org.uk/}
 
 \end{thebibliography}
 
