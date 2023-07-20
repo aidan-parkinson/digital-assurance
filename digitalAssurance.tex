@@ -174,11 +174,10 @@ It has been noted that in practice recognised standards are poorly enforced for 
 Lack of consumer confidence has contributed to sluggish market penetration of internet-of-things technologies to-date.\
 
 Further, it appears important to consider the management of Property and how governing agents may operate.
-Such thought needs to reflect on the ecosystems ethical priorities, competition and operational costs.\
+Such thought needs to reflect on the ecosystems ethical priorities, competition and operational costs.
+In operation, a prioritised agenda of alarms with recommendations for action shall be itemised\
 
 Therefore, this paper asks the question:\\
-
-\pagebreak
 
 \emph{How could one govern an alarm management platform to support a stable and diverse natural ecosystem?}\\
 
@@ -669,8 +668,8 @@ These include:
 	\item monitoring by remote plant historian.
 \end{itemize}\
 
-System level protocols for many systems may be quite permissive to support an extensive range of options for development.
-Therefore, private systems may allow for a diverse and risky mix of traffic that may include unencrypted broadcasts which have not sufficient security features for inter-networking.
+System level protocols may be quite permissive to support an extensive range of options for development.
+Therefore, private systems may allow for a diverse and risky mix of traffic that include unencrypted broadcasts which have not sufficient security features for inter-networking.
 Network Address Translation (NAT) is a service that operates on a router to connect private networks to public networks like the internet.
 NAT is often implemented at the Wide Area Network (WAN) edge router to enable internet access in sites.
 With NAT, an organisation needs one Internet Protocol (IP) address to represent an entire group of devices as they connect outside their network.
@@ -681,7 +680,8 @@ Connections between internal private devices and outside public devices must be 
 So, NAT separates public and private networks.
 Additionally, organisations that use NAT can implement and maintain multilayer security to block threats and protect malicious activity.
 
-A typical network configuration for an alarm management system bound to on-premise communications is illustrated in Figure~\ref{Typical Network Configuration figure}.\\
+A typical network configuration for an alarm management system bound to on-premise communications is illustrated in Figure~\ref{Typical Network Configuration figure}.\
+
 Following Guidance for public network criteria, an acceptable proposition for integration of this private network with remote clients is illustrated in Figure~\ref{Integrated Network Configuration figure}.
 
 \pagebreak
@@ -745,7 +745,7 @@ Because of its exposure to potential attack, bastion hosts are designed to minim
 Bastion hosts are a critical point of network security, hence, it is best practice to harden such instances.
 Examples of hardening might be to disable unnecessary applications or services, tuning the network, regular monitoring with audit tools and multi-factor authentication of users (by RADIUS, for example).\
 
-Message Queued Telemetry Transport (MQTT) is the dominant standard used in IoT communications.
+Message Queued Telemetry Transport (MQTT) is the dominant standard used in Internet of Things (IoT) communications.
 Because of its simplicity, MQTT doesn’t require much processing or battery power from devices.
 With the ability to use very small message headers, MQTT doesn’t demand much bandwidth either.
 MQTT also make it possible to define different quality of service levels for messages that enable controls over how many times messages are sent and what handshakes are required to complete them.
@@ -784,7 +784,7 @@ The projects source code is distributed under the Apache-2.0 license.
 The use of SDN network controllers develops an opportunity to employ device, system and integrated system testing via automated tests administered over the network infrastructure.
 In doing so, the entire installation can be tested for compliance against specific criteria, from device on-boarding, through to full operation.
 
-Device Automated Qualification (DAQ) for Internet of Things (IoT) devices is a framework designed to test and operate IoT devices within an enterprise environment.
+Device Automated Qualification (DAQ) for IoT devices is a framework designed to test and operate IoT devices within an enterprise environment.
 Concerned with device testing and qualification, DAQ provides a means to automate many device enrollment testing requirements.
 This results in a more manageable, robust and secure platform.
 Distributed under the Apache-2.0 license, DAQ is based on the FAUCET OpenFlow network controller and has the following capabilities~\cite{daq1}:
@@ -823,10 +823,10 @@ It is understood that the promise of intellectual Property applied to this docum
 The present standard for the diligent management of Property are version control systems, for which Git is a popular case~\cite{git}.
 With any promise of Property at any development stage, it is essential for assurance purposes to define contractual terms for its proper use under a License.
 
-\section{Alarm Manager}
-An alarm manager system constitutes processes that effectively discharge demands on a governance regime.
+\section{Alarm}
+An alarm management system constitutes processes that effectively discharge demands on a governance regime.
 Alarm managers may take into account field observations and define procedures in order to take appropriate actions.
-Alarm managers may be situated in outstations within the field and procedures defined by scripts.
+They may be situated in outstations within the field and procedures defined by scripts.
 This could result in alarm managers being constituted as operating computational controllers.
 More resilient and maintainable outcomes can be achieved by keeping supervisory control of a specific alarm management system of outstations within a single private network\
 
