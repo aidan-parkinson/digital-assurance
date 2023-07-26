@@ -1,5 +1,5 @@
 # digital-assurance
-Ecosystem Alarm Management.
+Ecosystem Alarm Management, A Manifesto in Systems Architecture
 
 ## ontology
 Please refer to `digitalAssurance.xml` for a definition of terms.
