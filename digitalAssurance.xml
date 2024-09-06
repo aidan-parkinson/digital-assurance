@@ -998,18 +998,6 @@
       <owlx:Documentation xml:lang="en">Rivest-Shamir-Adleman encryption to standard IEEE P1363</owlx:Documentation>
     </owlx:Annotation>
       
-    <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#sensitive"/> 
-      <owlx:Individual owlx:name="#system"/>
-      <owlx:Individual owlx:name="#guidance"/>
-    </owlx:IntersectionOf>
-      
-    <owlx:IntersectionOf>
-      <owlx:Individual owlx:name="#personal"/> 
-      <owlx:Individual owlx:name="#system"/>
-      <owlx:Individual owlx:name="#guidance"/>
-    </owlx:IntersectionOf>
-      
     <hasValue>
       <xsd:documentation
         mlns:owlx="https://standards.ieee.org/ieee/1363/2049/">
